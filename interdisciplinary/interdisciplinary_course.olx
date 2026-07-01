@@ -1,0 +1,23 @@
+<!--
+---
+description: Interdisciplinary studies course analyzing high school dropout rates
+category: interdisciplinary
+index: 0
+lang: en-Latn-US
+authors:
+  - Omer Ari
+  - Jonathan David Cohen
+  - Paul Deane
+  - Lia Haddadian
+  - Joseph Paul Magliano
+  - Piotr Mitros
+  - Gertrude Tinker Sachs
+license: AGPL
+---
+-->
+
+<Course id="interdisciplinary_course" title="Interdisciplinary Studies" launchable="course">
+  <Use ref="interdisciplinary_sba_demo_part1" />
+  <Use ref="interdisciplinary_sba_demo_part2" />
+  <Use ref="interdisciplinary_sba_demo_part3" />
+</Course>

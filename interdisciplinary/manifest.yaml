@@ -1,0 +1,18 @@
+# manifest.yaml — GSU interdisciplinary studies content collection.
+#
+# Used by: scripts/build-static.ts --manifest <this file>
+
+title: Interdisciplinary Studies
+namespace: edu.gsu.interdisciplinary
+classes:
+  - no-translanguaging
+content_notice: >
+  TENTATIVE — this repo was extracted without involvement from the course
+  authors. Remove this notice once approved.
+  Course content Copyright &copy; 2026 by Omer Ari, Jonathan David Cohen,
+  Paul Deane, Lia Haddadian, Joseph Paul Magliano, Piotr Mitros, and
+  Gertrude Tinker Sachs. Licensed under
+  [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html). Source available on
+  [GitHub](https://github.com/olxhub/edu.gsu.interdisciplinary).
+routes:
+  /: edu.gsu.interdisciplinary/interdisciplinary_course
