@@ -9,7 +9,7 @@
 
 #### Abstract
 
-**This article surveys research examining how climate change affects real estate and housing markets. The review synthesizes findings on physical climate risks—including flooding, hurricanes, wildfires, and sea level rise—as well as transition risks associated with decarbonization and energy policy. **Across studies, climate-related environmental hazards were found to influence property values, insurance costs, mortgage lending, migration patterns, and housing affordability. The review highlights how climate-related disruptions may contribute to housing instability and disproportionate impacts on economically vulnerable communities.
+**This article surveys research examining how climate change affects real estate and housing markets. The review synthesizes findings on physical climate risks—including flooding, hurricanes, wildfires, and sea level rise—as well as transition risks associated with decarbonization and energy policy.** Across studies, climate-related environmental hazards were found to influence property values, insurance costs, mortgage lending, migration patterns, and housing affordability. The review highlights how climate-related disruptions may contribute to housing instability and disproportionate impacts on economically vulnerable communities.
 
 #### Introduction
 
@@ -17,7 +17,7 @@ Climate change is increasing the frequency, intensity, and geographic reach of e
 
 #### Background
 
-Previous research on housing instability and homelessness has often focused on poverty, unemployment, housing supply, and social policy. However, **growing research suggests that climate-related environmental hazards may also contribute to housing precarity by damaging housing infrastructure, increasing insurance costs, reducing property values in high-risk areas, and displacing residents following environmental disasters. **Researchers have increasingly examined how environmental risks become incorporated into real estate and housing markets.
+Previous research on housing instability and homelessness has often focused on poverty, unemployment, housing supply, and social policy. However, **growing research suggests that climate-related environmental hazards may also contribute to housing precarity by damaging housing infrastructure, increasing insurance costs, reducing property values in high-risk areas, and displacing residents following environmental disasters.** Researchers have increasingly examined how environmental risks become incorporated into real estate and housing markets.
 
 …
 

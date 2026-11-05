@@ -225,7 +225,7 @@ Why did you select these choices? Type your answer below.
 ]]></Markdown>
 <TabularMCQ id="hs_disc_matrix" popout="fullscreen">
 mode: checkbox
-cols: Biology, Psychology, Earth Science, Sociology, Economics, Political Science, Public Policy, Ethnography
+cols: Biology, Psychology, Earth Science, Sociology, Economics, Political Science, Public Policy, Social Work
 rows:
   - "1. Trauma|cause1"
   - "2. Limited economic opportunity|cause2"
@@ -248,7 +248,7 @@ Categories that got more than one vote:
 5. **Extreme heat or severe weather:** People who are unsheltered may face increased risks from extreme heat or severe weather, which can worsen health conditions and housing instability.
 ]]></Markdown>
 <Markdown id="hs_disc_team_md" popout="fullscreen"><![CDATA[
-| Causes | Biology | Psychology | Earth Science | Sociology | Economics | Political Science | Public Policy | Ethnography |
+| Causes | Biology | Psychology | Earth Science | Sociology | Economics | Political Science | Public Policy | Social Work |
 |---|---|---|---|---|---|---|---|---|
 | 1. Trauma |   | X |   |   |   |   |   |   |
 | 2. Limited economic opportunity |   |   |   |   | X |   |   |   |
@@ -711,11 +711,6 @@ Why did you select this choice? Type your answer below.
 | **Underlying Assumption** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. |
 | **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** |
 ]]></Markdown>
-</Vertical>
-
-<Vertical id="hs_policy_em_hl_screen" title="Evidence and methods">
-<TextSelectionInput id="hs_policy_em_hl" src="readings/policy_evidence.textSelectionpeg" />
-<Use ref="hs_policy_cite_md" />
 </Vertical>
 
 <Vertical id="hs_policy_crit1_q">
@@ -1213,22 +1208,6 @@ Why did you select this choice? Type your answer below.
 ]]></Markdown>
 </Vertical>
 
-<Vertical id="hs_estate_em_hl_screen" title="Evidence and methods">
-<TextSelectionInput id="hs_estate_em_hl" src="readings/estate_evidence.textSelectionpeg" />
-<Use ref="hs_estate_cite_md" />
-</Vertical>
-
-<Vertical id="hs_estate_em_why_q">
-<Markdown><![CDATA[
-**You highlighted the following:**
-]]></Markdown>
-<Markdown>{{toMarkdownBullets(@hs_estate_em_hl.selectedSegments)}}</Markdown>
-<Markdown><![CDATA[
-Can you explain why you highlighted these words? What clues do they offer about the evidence and methods researchers used in this study?
-]]></Markdown>
-<TextArea id="hs_estate_em_why" rows="4" placeholder="Type your answer here…" />
-</Vertical>
-
 <Vertical id="hs_estate_crit_q">
 <TabularMCQ id="hs_estate_crit">
 cols: Yes, No
@@ -1460,22 +1439,6 @@ Why did you select this choice? Type your answer below.
 ]]></Markdown>
 </Vertical>
 
-<Vertical id="hs_polisci_em_hl_screen" title="Evidence and methods">
-<TextSelectionInput id="hs_polisci_em_hl" src="readings/polisci_evidence.textSelectionpeg" />
-<Use ref="hs_polisci_cite_md" />
-</Vertical>
-
-<Vertical id="hs_polisci_em_why_q">
-<Markdown><![CDATA[
-**You highlighted the following:**
-]]></Markdown>
-<Markdown>{{toMarkdownBullets(@hs_polisci_em_hl.selectedSegments)}}</Markdown>
-<Markdown><![CDATA[
-Can you explain why you highlighted these words? What clues do they offer about the evidence and methods researchers used in this study?
-]]></Markdown>
-<TextArea id="hs_polisci_em_why" rows="4" placeholder="Type your answer here…" />
-</Vertical>
-
 <Vertical id="hs_polisci_crit_q">
 <TabularMCQ id="hs_polisci_crit">
 cols: Yes, No
@@ -1686,22 +1649,6 @@ Why did you select this choice? Type your answer below.
 | **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | Housing systems are shaped by interactions among market forces, the built environment, and the natural environment. | Social outcomes are shaped by systems of power, institutions, and historical inequalities | **People's lives and experiences are shaped by their relationships with others and the social structures in which they live.** |
 | **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** | **Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.** | **Homelessness often develops through multiple interacting personal, social, economic, health, and structural challenges that accumulate over time rather than through one isolated cause.** |
 ]]></Markdown>
-</Vertical>
-
-<Vertical id="hs_soc_em_hl_screen" title="Evidence and methods">
-<TextSelectionInput id="hs_soc_em_hl" src="readings/soc_evidence.textSelectionpeg" />
-<Use ref="hs_soc_cite_md" />
-</Vertical>
-
-<Vertical id="hs_soc_em_why_q">
-<Markdown><![CDATA[
-**You highlighted the following:**
-]]></Markdown>
-<Markdown>{{toMarkdownBullets(@hs_soc_em_hl.selectedSegments)}}</Markdown>
-<Markdown><![CDATA[
-Can you explain why you highlighted these words? What clues do they offer about the evidence and methods researchers used in this study?
-]]></Markdown>
-<TextArea id="hs_soc_em_why" rows="4" placeholder="Type your answer here…" />
 </Vertical>
 
 <Vertical id="hs_soc_crit_q">

@@ -154,6 +154,10 @@ Ty: What causes people to experience homelessness?
 
 --- wait @hs_cause_indiv.value && @hs_cause_struct.value ---
 
+hs_cause_indiv.readonly <- true
+
+hs_cause_struct.readonly <- true
+
 Lacy: Here are all of our reasons. Lianne, what do you think?
 
 ::hs_causes_list [display=target:hs_main label="Our reasons"]
@@ -198,6 +202,8 @@ Lianne: I agree with you on some of your choices. Why did you select that set?
 ::hs_reasons_why_q
 
 --- wait @hs_reasons_why.value ---
+
+hs_reasons_why.readonly <- true
 
 Task Set Three: Reflect [id=hs_ts3]
 -----------------------------------
@@ -304,6 +310,8 @@ Lianne: I agree with you on some of your choices. Why did you select that set?
 
 --- wait @hs_econ_sections_why.value ---
 
+hs_econ_sections_why.readonly <- true
+
 Ty: I think Results is important because that's where we'll see what the researchers found.
 
 Peggy: And I'd look closely at the Discussion and Conclusion; that's where authors explain what those findings mean.
@@ -318,11 +326,13 @@ Lianne: Great. Let's look at those sections. Highlight 2–3 sentences that give
 
 --- wait @hs_econ_ins_hl_why.value ---
 
+hs_econ_ins_hl_why.readonly <- true
+
+::hs_econ_ins_team [display=target:hs_main label="Ty's highlights"]
+
 Ty: These are my highlights. I think these provide clues we need for this study’s main insight.
 
 Peggy: I highlighted these too. They tell us the study’s main findings, explain what those findings mean, and point to the larger conclusion the researchers draw from them. Those are exactly the kinds of clues we should look for when identifying a study’s main insight.
-
-::hs_econ_ins_team [display=target:hs_main label="Ty's highlights"]
 
 Lianne: These look great, everyone! Now look across the sentences you highlighted.
 
@@ -333,6 +343,8 @@ Lianne: These look great, everyone! Now look across the sentences you highlighte
 ::hs_econ_ins_write_q
 
 --- wait @hs_econ_ins_write.value ---
+
+hs_econ_ins_write.readonly <- true
 
 Lianne: Good work. Here are the sentences you all suggested. Which one should we go with?
 
@@ -347,6 +359,8 @@ Lianne: You chose the following sentence. Why did you select that one?
 ::hs_econ_ins_choice_why_q
 
 --- wait @hs_econ_ins_choice_why.value ---
+
+hs_econ_ins_choice_why.readonly <- true
 
 Lianne: I agree with those of you who selected this sentence as the study's main insight.
 
@@ -370,11 +384,15 @@ Peggy: I glanced through those sections and came up with a few options for us to
 
 --- wait @hs_econ_q_choice.value && (@hs_econ_q_choice.value !== 'other' || @hs_econ_q_choice_other.value) ---
 
+hs_econ_q_choice_other.readonly <- true
+
 Lianne: You chose the following option. Why did you select that one?
 
 ::hs_econ_q_why_q
 
 --- wait @hs_econ_q_why.value ---
+
+hs_econ_q_why.readonly <- true
 
 Peggy: I am leaning towards **"How do economic conditions influence housing insecurity?"** The authors repeatedly emphasized economic conditions, introduced two economic hypotheses, and examined whether changes in those conditions were associated with changes in homelessness.
 
@@ -397,6 +415,8 @@ Lianne: Yes, that is right. Go ahead and highlight text for Evidence Used and Me
 ::hs_econ_em_why_q
 
 --- wait @hs_econ_em_why.value ---
+
+hs_econ_em_why.readonly <- true
 
 Ty: I highlighted **state-level panel data** which probably includes homelessness rates and data around entrepreneurial activity and labor market freedom indicators.
 
@@ -439,6 +459,8 @@ Lianne: Let’s test these criteria with the study main insight: **Higher levels
 
 --- wait @hs_econ_crit_why.value ---
 
+hs_econ_crit_why.readonly <- true
+
 Lacy: I marked **No** for all the criteria. I don’t think our main insight passes the test. It tells us what this particular study found about entrepreneurial activity, labor market freedom, and homelessness. It doesn't describe a broad way that Economics understands the world, nor does it apply across many Economics studies.
 
   | **Does the study's main insight...** | **Yes** | **No** |
@@ -462,6 +484,8 @@ Lianne: Exactly! We need to step back from the particular findings and think abo
 
 --- wait @hs_econ_assume_why.value ---
 
+hs_econ_assume_why.readonly <- true
+
 Ty: I like **“Economic systems, incentives, and institutional conditions influence human behavior and social outcomes**.” Unlike the other options, this sentence describes a broad assumption of the Economics discipline, not the findings of this particular study. It explains how economists generally understand the world—that economic systems, incentives, and institutions influence human behavior and social outcomes.
 
 Peggy: Exactly! Notice also that this idea could guide many different economics studies and could easily appear in the opening chapter of an Economics textbook. The Cebula and Saunoris study is one example of researchers applying this broader disciplinary assumption to investigate homelessness.
@@ -480,6 +504,12 @@ Lianne: Before we move on to our next disciplinary source, let's pause for a mom
 ::hs_econ_bb_q
 
 --- wait @hs_econ_bb1.value && @hs_econ_bb2.value && @hs_econ_bb3.value ---
+
+hs_econ_bb1.readonly <- true
+
+hs_econ_bb2.readonly <- true
+
+hs_econ_bb3.readonly <- true
 
 Source 2: Parolin (2021) [id=hs_src_policy]
 -------------------------------------------
@@ -508,6 +538,8 @@ Lianne: Can you show us why? Highlight at least 5 keywords that link this study 
 
 --- wait @hs_policy_kw_why.value ---
 
+hs_policy_kw_why.readonly <- true
+
 Peggy: I chose **Public Policy**. The most important clue for me was the phenomena they studied: **income support policies, public assistance programs, and their relation to housing stability.**
 
 Lianne: Exactly! These are all phenomena Public Policy researchers study to understand how government programs and policy choices affect people’s lives. Nicely done.
@@ -530,11 +562,13 @@ Lianne: Let’s do it. Highlight 2–3 sentences that give us the strongest clue
 
 --- wait @hs_policy_ins_hl_why.value ---
 
+hs_policy_ins_hl_why.readonly <- true
+
+::hs_policy_ins_team [display=target:hs_main label="Teammates' highlights"]
+
 Ty: These are the sentences I highlighted. They tell us what the study found about TANF and what that finding means: greater access to direct cash assistance may reduce family homelessness, showing that income support policy can influence housing stability.
 
 Lacy: Thanks Ty. These are very similar to what I highlighted.
-
-::hs_policy_ins_team [display=target:hs_main label="Teammates' highlights"]
 
 Lianne: Yeah, thanks, Ty. I think there are great clues in your highlights.
 
@@ -547,6 +581,8 @@ Lianne: Yeah, thanks, Ty. I think there are great clues in your highlights.
 ::hs_policy_ins_write_q
 
 --- wait @hs_policy_ins_write.value ---
+
+hs_policy_ins_write.readonly <- true
 
 Lianne: Good work. Here are the sentences you all suggested. Which one should we go with?
 
@@ -561,6 +597,8 @@ Lianne: You chose the following sentence. Why did you select that one?
 ::hs_policy_ins_choice_why_q
 
 --- wait @hs_policy_ins_choice_why.value ---
+
+hs_policy_ins_choice_why.readonly <- true
 
 Peggy: I picked “**Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.”**
 
@@ -584,11 +622,15 @@ Peggy: Here are some suggestions. Which of these should we go with?
 
 --- wait @hs_policy_q_choice.value && (@hs_policy_q_choice.value !== 'other' || @hs_policy_q_choice_other.value) ---
 
+hs_policy_q_choice_other.readonly <- true
+
 Lianne: You chose the following option. Why did you select that one?
 
 ::hs_policy_q_why_q
 
 --- wait @hs_policy_q_why.value ---
+
+hs_policy_q_why.readonly <- true
 
 ::hs_policy_q_excerpt [display=target:hs_main label="Abstract, Introduction, Background"]
 
@@ -603,12 +645,6 @@ Lianne: I agree. I added it to our table. Let’s work on filling out the rest o
 Ty: It looks like for evidence they used **administrative data on student homelessness from public school districts with measures of state-level income support policy generosity and accessibility.**
 
 Peggy: And they did an analysis of **cross-state and over-time differences in program access and generosity.**
-
-Lianne: Go ahead and highlight text for Evidence Used and Methods.
-
-::hs_policy_em_hl_screen [display=target:hs_main label="Evidence and methods"]
-
---- wait @hs_policy_em_hl.value.length > 0 ---
 
 Lianne: Great. I entered those in our table for evidence used and methods. That leaves us with the underlying assumption.
 
@@ -625,6 +661,8 @@ Lianne: That certainly fits this study. But is it broad enough to be an underlyi
 ::hs_policy_crit1_why_q
 
 --- wait @hs_policy_crit1_why.value ---
+
+hs_policy_crit1_why.readonly <- true
 
 Peggy: This is how I answered them. It tells us something important, but it stays too close to this particular study—cash assistance, housing stability, and low-income families. We need to move up a level and ask what broader belief about policy and society seems to guide the study.
 
@@ -646,6 +684,8 @@ Lacy: That seems different. It isn’t just about TANF or homelessness anymore. 
 ::hs_policy_crit2_why_q
 
 --- wait @hs_policy_crit2_why.value ---
+
+hs_policy_crit2_why.readonly <- true
 
 Peggy: I think this one meets all of our criteria. This statement grows out of what we saw in the Parolin study, but it is broader than the study itself. It describes a general way Public Policy researchers understand the world–that policies and institutions can shape the conditions and opportunities people experience.
 
@@ -675,6 +715,12 @@ Lianne: Before we move on to our next disciplinary source, let's pause for a mom
 
 --- wait @hs_policy_bb1.value && @hs_policy_bb2.value && @hs_policy_bb3.value ---
 
+hs_policy_bb1.readonly <- true
+
+hs_policy_bb2.readonly <- true
+
+hs_policy_bb3.readonly <- true
+
 Source 3: Barry et al. (2024) [id=hs_src_psych]
 -----------------------------------------------
 
@@ -700,6 +746,8 @@ Lianne: Can you show us why? Highlight at least 5 keywords that link this study 
 
 --- wait @hs_psych_kw_why.value ---
 
+hs_psych_kw_why.readonly <- true
+
 Peggy: I chose **Psychology**. The study focuses on **mental health disorders, substance use disorders, and psychiatric conditions among individuals experiencing homelessness**. Those are the major phenomena the researchers are trying to understand.
 
 Lianne: Exactly. Those phenomena reflect the Psychology perspective because the study seeks to understand homelessness by examining **mental health, psychological well-being, and behavioral health conditions**.
@@ -720,6 +768,8 @@ Lianne: Let’s do it. Highlight 2–3 sentences that give us the strongest clue
 
 --- wait @hs_psych_ins_hl_why.value ---
 
+hs_psych_ins_hl_why.readonly <- true
+
 Ty: I highlighted “**The findings demonstrate that mental health disorders are substantially more prevalent among homeless populations than in the general population”** in the Results section. Analyses clearly show homelessness and mental health disorders are connected.
 
 Lacy: I saw that Ty. I also highlighted that sentence and sentences in the Discussion and Conclusion sections calling for interventions that combine housing with mental health and substance use treatment services.
@@ -738,6 +788,8 @@ Lianne: I think these are great clues.
 
 --- wait @hs_psych_ins_write.value ---
 
+hs_psych_ins_write.readonly <- true
+
 Lianne: Good work. Here are the sentences you all suggested. Which one should we go with?
 
 ::hs_psych_ins_choice_q
@@ -749,6 +801,8 @@ Lianne: You chose the following sentence. Why did you select that one?
 ::hs_psych_ins_choice_why_q
 
 --- wait @hs_psych_ins_choice_why.value ---
+
+hs_psych_ins_choice_why.readonly <- true
 
 Peggy: I chose “**Mental health disorders are highly prevalent among individuals experiencing homelessness, suggesting that homelessness responses should integrate mental health, substance use, and social support services.”**
 
@@ -768,11 +822,15 @@ Peggy: Here are some suggestions. Which of these should we go with?
 
 --- wait @hs_psych_q_choice.value && (@hs_psych_q_choice.value !== 'other' || @hs_psych_q_choice_other.value) ---
 
+hs_psych_q_choice_other.readonly <- true
+
 Lianne: You chose the following option. Why did you select that one?
 
 ::hs_psych_q_why_q
 
 --- wait @hs_psych_q_why.value ---
+
+hs_psych_q_why.readonly <- true
 
 Ty: I chose "**What role do mental health disorders play in understanding homelessness?**" That question best captures what the researchers were trying to understand. Throughout the study, they examine how common mental health disorders are among people experiencing homelessness and what that tells us about homelessness as a social problem.
 
@@ -782,7 +840,7 @@ Lianne: Great. I added the researchers’ question to our table.
 
 ::hs_psych_table2 [display=target:hs_main label="Comparison table"]
 
-::hs_policy_read [display=target:hs_main label="Parolin (2021)"]
+::hs_psych_read [display=target:hs_main label="Barry et al. (2024)"]
 
 Peggy: They did **a systematic review and meta-analysis of previous research**.
 
@@ -810,6 +868,8 @@ Lianne: Good idea. Let’s check against our criteria and see if this sentence i
 
 --- wait @hs_psych_crit_why.value ---
 
+hs_psych_crit_why.readonly <- true
+
 Peggy: Good job, Lacy. This is how I answered the criteria. I think your sentence meets all of our criteria. It describes a broad way Psychology understands people—not just what Barry et al. found about homelessness. The idea that thoughts, emotions, behaviors, and mental processes shape people’s experiences could guide many different Psychology studies, and it sounds like something we could read in an introductory Psychology textbook. That broader perspective also helps explain why Barry et al. focused on mental health disorders and psychological well-being in their study.
 
   | **Criteria** | **Yes** | **No** |
@@ -836,6 +896,12 @@ Lianne: Before we move on to our next disciplinary source, let's pause for a mom
 
 --- wait @hs_psych_bb1.value && @hs_psych_bb2.value && @hs_psych_bb3.value ---
 
+hs_psych_bb1.readonly <- true
+
+hs_psych_bb2.readonly <- true
+
+hs_psych_bb3.readonly <- true
+
 Source 4: Contat et al. (2024) [id=hs_src_estate]
 -------------------------------------------------
 
@@ -861,6 +927,8 @@ Lianne: Can you show us why? Highlight at least 5 keywords that link this study 
 
 --- wait @hs_estate_kw_why.value ---
 
+hs_estate_kw_why.readonly <- true
+
 Peggy: I chose Economics. The study focuses on housing markets, housing affordability, displacement, and housing stability in relation to climate-related environmental hazards.
 
 Lianne: Those phenomena reflect an economics perspective because the study examines how environmental risks influence housing markets, housing affordability, insurance, lending, and other economic systems related to housing.
@@ -885,6 +953,8 @@ Lianne: Let’s do it. Highlight 2–3 sentences that give us the strongest clue
 
 --- wait @hs_estate_ins_hl_why.value ---
 
+hs_estate_ins_hl_why.readonly <- true
+
 Ty: I highlighted **"The literature reviewed identified consistent evidence that climate-related environmental hazards increasingly shape housing markets and housing stability"** in the Results section. That sentence captures the central finding, and the rest of the Results gives examples—like declining property values, higher insurance costs, displacement, and migration—that support it.
 
 Lacy: I highlighted the sentence that says **"Climate change affects housing systems not only through direct environmental destruction, but also through economic and market processes that shape housing stability."** That tells us what all of the evidence adds up to—it explains the broader insight, not just one individual finding.
@@ -903,6 +973,8 @@ Lianne: I think these are great clues.
 
 --- wait @hs_estate_ins_write.value ---
 
+hs_estate_ins_write.readonly <- true
+
 Lianne: Good work. Here are the sentences you all suggested. Which one should we go with?
 
 ::hs_estate_read [display=target:hs_main label="Contat et al. (2024)"]
@@ -916,6 +988,8 @@ Lianne: You chose the following sentence. Why did you select that one?
 ::hs_estate_ins_choice_why_q
 
 --- wait @hs_estate_ins_choice_why.value ---
+
+hs_estate_ins_choice_why.readonly <- true
 
 Peggy: I chose “**Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, with economically vulnerable populations often facing greater housing instability.”**
 
@@ -939,11 +1013,15 @@ Peggy: Here are some suggestions. Which of these should we go with?
 
 --- wait @hs_estate_q_choice.value && (@hs_estate_q_choice.value !== 'other' || @hs_estate_q_choice_other.value) ---
 
+hs_estate_q_choice_other.readonly <- true
+
 Lianne: You chose the following option. Why did you select that one?
 
 ::hs_estate_q_why_q
 
 --- wait @hs_estate_q_why.value ---
+
+hs_estate_q_why.readonly <- true
 
 Ty: I chose “**How do climate risks influence housing markets and housing stability?”** because it captures the broad question guiding the entire study. The researchers wanted to understand how climate risks affect housing markets and housing stability, while the other options focus on only one part of that bigger question.
 
@@ -952,16 +1030,6 @@ Lacy: That makes sense.
 Lianne: I went ahead and added this study to our table.
 
 ::hs_estate_table2 [display=target:hs_main label="Comparison table"]
-
-Ty: For Evidence Used and Methods, let’s each highlight clues in the Method section.
-
-::hs_estate_em_hl_screen [display=target:hs_main label="Evidence and methods"]
-
---- wait @hs_estate_em_hl.value.length > 0 ---
-
-::hs_estate_em_why_q
-
---- wait @hs_estate_em_why.value ---
 
 Peggy: They used all kinds of data through **a large-scale survey of academic literature:**
 
@@ -991,6 +1059,8 @@ Lianne: Good idea. Let’s check against our criteria and see if this sentence i
 
 --- wait @hs_estate_crit_why.value ---
 
+hs_estate_crit_why.readonly <- true
+
 Peggy: I think this one passes our test. It describes a broad way that Real Estate Economics understands the world by emphasizing how market forces, the built environment, and the natural environment interact to shape housing systems. It could guide many different studies in the discipline, not just this one about climate risk. It's broader than the findings of the Contat et al. study, and it sounds like something we might read in an introductory Real Estate Economics textbook.
 
   | **Criteria** | **Yes** | **No** |
@@ -1016,6 +1086,12 @@ Lianne: Before we move on to our next disciplinary source, let's pause for a mom
 ::hs_estate_bb_q
 
 --- wait @hs_estate_bb1.value && @hs_estate_bb2.value && @hs_estate_bb3.value ---
+
+hs_estate_bb1.readonly <- true
+
+hs_estate_bb2.readonly <- true
+
+hs_estate_bb3.readonly <- true
 
 Lianne: We’ve now explored several disciplinary explanations for homelessness, but one important cause area is still missing.
 
@@ -1048,6 +1124,8 @@ Lianne: Can you show us why? Highlight at least 5 keywords that link this study 
 
 --- wait @hs_polisci_kw_why.value ---
 
+hs_polisci_kw_why.readonly <- true
+
 Peggy: I chose **Political Science**. The study focuses on Structural racism, institutional inequality, housing systems, and homelessness. Those are the major phenomena the researchers are trying to understand.
 
 Lianne: Exactly. Those phenomena reflect a political science perspective because the study examines power dynamics and historical structural inequality as experienced by racialized and minoritized groups.
@@ -1065,6 +1143,8 @@ Lianne: Let’s do it. Highlight 2–3 sentences that give us the strongest clue
 ::hs_polisci_ins_hl_why_q
 
 --- wait @hs_polisci_ins_hl_why.value ---
+
+hs_polisci_ins_hl_why.readonly <- true
 
 Ty: I highlighted **"The reviewed research consistently found that homelessness disproportionately affects Black, Native American, and Latinx populations in the United States. "**
 
@@ -1086,6 +1166,8 @@ Lianne: I think these are great clues.
 
 --- wait @hs_polisci_ins_write.value ---
 
+hs_polisci_ins_write.readonly <- true
+
 Lianne: Good work. Here are the sentences you all suggested. Which one should we go with?
 
 ::hs_polisci_read [display=target:hs_main label="Fowle (2022)"]
@@ -1099,6 +1181,8 @@ Lianne: You chose the following sentence. Why did you select that one?
 ::hs_polisci_ins_choice_why_q
 
 --- wait @hs_polisci_ins_choice_why.value ---
+
+hs_polisci_ins_choice_why.readonly <- true
 
 Ty: I think the best insight sentence for this source is:
 
@@ -1122,11 +1206,15 @@ Peggy: Here are some suggestions for the research question pursued in this study
 
 --- wait @hs_polisci_q_choice.value && (@hs_polisci_q_choice.value !== 'other' || @hs_polisci_q_choice_other.value) ---
 
+hs_polisci_q_choice_other.readonly <- true
+
 Lianne: You chose the following option. Why did you select that one?
 
 ::hs_polisci_q_why_q
 
 --- wait @hs_polisci_q_why.value ---
+
+hs_polisci_q_why.readonly <- true
 
 Ty: I chose **“How do structural racism and public institutions shape racial disparities in homelessness?”** because it captures both the racial disparities the study is trying to explain and the larger systems and institutions it examines as explanations for those disparities.
 
@@ -1135,16 +1223,6 @@ Lacy: That makes sense.
 Lianne: Thanks, Ty! I added that question to our table.
 
 ::hs_polisci_table2 [display=target:hs_main label="Comparison table"]
-
-Ty: For Evidence Used and Methods, let’s each highlight clues in the Method section.
-
-::hs_polisci_em_hl_screen [display=target:hs_main label="Evidence and methods"]
-
---- wait @hs_polisci_em_hl.value.length > 0 ---
-
-::hs_polisci_em_why_q
-
---- wait @hs_polisci_em_why.value ---
 
 Peggy: For evidence, they used **demographic homelessness statistics, historical housing policy analyses, segregation research, eviction studies, housing discrimination research, and studies of homeless service systems**.
 
@@ -1171,6 +1249,8 @@ Lianne: Good idea. Let’s check against our criteria and see if this sentence i
 ::hs_polisci_crit_why_q
 
 --- wait @hs_polisci_crit_why.value ---
+
+hs_polisci_crit_why.readonly <- true
 
 Peggy: I think this passes our test. It describes a broad way the discipline understands social problems—through **power, institutions, and historical inequalities**. It could guide many different studies, not just this one about homelessness.
 
@@ -1199,6 +1279,12 @@ Lianne: Before we move on to our next disciplinary source, let's pause for a mom
 ::hs_polisci_bb_q
 
 --- wait @hs_polisci_bb1.value && @hs_polisci_bb2.value && @hs_polisci_bb3.value ---
+
+hs_polisci_bb1.readonly <- true
+
+hs_polisci_bb2.readonly <- true
+
+hs_polisci_bb3.readonly <- true
 
 Lianne: Now that we’ve reviewed all of our sources together, what patterns do you notice across the disciplines we selected and the kinds of evidence those researchers used?
 
@@ -1253,6 +1339,8 @@ Lianne: Can you show us why? Highlight at least 5 keywords that link this study 
 
 --- wait @hs_soc_kw_why.value ---
 
+hs_soc_kw_why.readonly <- true
+
 Peggy: I chose **Sociology**. The study focuses on social relationships, support systems, structural conditions, and pathways into homelessness. Those are the major phenomena the researchers are trying to understand.
 
 Lianne: Exactly. Those phenomena reflect a sociology perspective because the study examines how social relationships, support systems, and broader social structures interact to shape people’s experiences and pathways into homelessness.
@@ -1270,6 +1358,8 @@ Lianne: Let’s do it. Highlight 2–3 sentences that give us the strongest clue
 ::hs_soc_ins_hl_why_q
 
 --- wait @hs_soc_ins_hl_why.value ---
+
+hs_soc_ins_hl_why.readonly <- true
 
 Ty: I highlighted **“Participants consistently described homelessness as the result of interacting social, economic, health, and relational challenges rather than one isolated event.”** It tells us that homelessness usually develops from multiple problems working together, not a single cause.
 
@@ -1291,6 +1381,8 @@ Lianne: I think these are great clues.
 
 --- wait @hs_soc_ins_write.value ---
 
+hs_soc_ins_write.readonly <- true
+
 Lianne: Good work. Here are the sentences you all suggested. Which one should we go with?
 
 ::hs_soc_read [display=target:hs_main label="Doran et al. (2019)"]
@@ -1304,6 +1396,8 @@ Lianne: You chose the following sentence. Why did you select that one?
 ::hs_soc_ins_choice_why_q
 
 --- wait @hs_soc_ins_choice_why.value ---
+
+hs_soc_ins_choice_why.readonly <- true
 
 Ty: I chose “**Homelessness often develops through multiple interacting personal, social, economic, health, and structural challenges that accumulate over time rather than through one isolated cause.”**
 
@@ -1325,25 +1419,19 @@ Peggy: Here are some suggestions for the research question pursued in this study
 
 --- wait @hs_soc_q_choice.value && (@hs_soc_q_choice.value !== 'other' || @hs_soc_q_choice_other.value) ---
 
+hs_soc_q_choice_other.readonly <- true
+
 Lianne: You chose the following option. Why did you select that one?
 
 ::hs_soc_q_why_q
 
 --- wait @hs_soc_q_why.value ---
 
+hs_soc_q_why.readonly <- true
+
 Ty: I chose **“How do social relationships and structural conditions interact to shape pathways into homelessness?”** because it captures the study’s focus on how multiple social and structural factors work together over time, rather than looking for a single cause of homelessness.
 
 Lacy: That makes sense.
-
-Ty: For Evidence Used and Methods, let’s each highlight clues in the Method section.
-
-::hs_soc_em_hl_screen [display=target:hs_main label="Evidence and methods"]
-
---- wait @hs_soc_em_hl.value.length > 0 ---
-
-::hs_soc_em_why_q
-
---- wait @hs_soc_em_why.value ---
 
 Peggy: Evidence used included participants’ accounts of their employment, housing, relationships, health, financial stressors, and support systems.
 
@@ -1373,6 +1461,8 @@ Lianne: Good idea. Let’s check against our criteria and see if this sentence i
 
 --- wait @hs_soc_crit_why.value ---
 
+hs_soc_crit_why.readonly <- true
+
 Peggy: I think this passes our test. It describes a broad way sociology understands people’s lives—as shaped by both social relationships and larger social structures. It could guide many different studies, not just this one about homelessness.
 
   | **Criteria** | **Yes** | **No** |
@@ -1398,6 +1488,12 @@ Lianne: Before we move on, let's pause one last time to reflect.
 ::hs_soc_bb_q
 
 --- wait @hs_soc_bb1.value && @hs_soc_bb2.value && @hs_soc_bb3.value ---
+
+hs_soc_bb1.readonly <- true
+
+hs_soc_bb2.readonly <- true
+
+hs_soc_bb3.readonly <- true
 
 Wrap-Up: End of Part 1 [id=hs_wrapup]
 -------------------------------------

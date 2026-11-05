@@ -30,7 +30,7 @@ Specific disorder prevalence estimates included:
 
 #### Discussion
 
-**The findings suggest that mental health disorders represent a major concern among people experiencing homelessness. High prevalence rates across multiple psychiatric conditions indicate that homelessness and mental illness are deeply interconnected. **Substance use disorders and severe mental illnesses may contribute to housing instability, while homelessness itself may worsen psychiatric symptoms through chronic stress, trauma exposure, and social exclusion. **The authors argue that homelessness interventions should integrate housing support with mental health and substance use treatment services.**
+**The findings suggest that mental health disorders represent a major concern among people experiencing homelessness. High prevalence rates across multiple psychiatric conditions indicate that homelessness and mental illness are deeply interconnected.** Substance use disorders and severe mental illnesses may contribute to housing instability, while homelessness itself may worsen psychiatric symptoms through chronic stress, trauma exposure, and social exclusion. **The authors argue that homelessness interventions should integrate housing support with mental health and substance use treatment services.**
 
 #### Conclusion
 
