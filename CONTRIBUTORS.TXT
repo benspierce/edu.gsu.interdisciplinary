@@ -1,8 +1,3 @@
-TENTATIVE — this repo was extracted from lo-blocks without involvement
-from the course authors. Contents, licensing, and attribution are
-subject to review and approval by the team. Remove this notice once
-approved.
-
 Contributors
 ============
 
@@ -12,6 +7,8 @@ Course
 The course content was developed by Omer Ari, Jonathan David Cohen,
 Paul Deane, Lia Haddadian, Joseph Paul Magliano, Piotr Mitros, and
 Gertrude Tinker Sachs.
+
+The instructor of record for the fall 2026 launch is Omer Ari.
 
 Platform
 ========

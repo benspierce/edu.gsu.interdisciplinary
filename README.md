@@ -1,9 +1,5 @@
 # GSU Interdisciplinary Studies
 
-**TENTATIVE** — this repo was extracted from lo-blocks without involvement
-from the course authors. Contents, licensing, and attribution are subject to
-review and approval by the team. Remove this notice once approved.
-
 A scenario-based interdisciplinary studies course developed at Georgia State
 University. Students analyze the high school dropout crisis through multiple
 disciplinary lenses — education, sociology, economics, public health — using
@@ -20,6 +16,21 @@ The course is a three-part scenario-based learning activity (SBLA):
 
 Each part combines a ChatPEG dialogue, an activities file, and supporting
 readings under `interdisciplinary/readings/`.
+
+All three parts are in the course (`interdisciplinary_course.olx`), but Parts
+2 and 3 are present and hidden until released: each carries `when="false"`,
+which keeps it out of the navigation. To release a part, delete its
+`when="false"` and redeploy the content.
+
+## Research study
+
+The deployment's route `/` (`interdisciplinary/manifest.yaml`) lands on the
+research-study gate (`interdisciplinary_study.olx`), which shows the
+informed-consent form first (`consent.olx`). Either answer, accepting or
+declining, leads into the course; the activities and credit are the same.
+Students can change their answer at any time from **Study Consent Form** at
+the bottom of the course navigation. For a deployment outside the study,
+point `/` at `interdisciplinary_course` instead.
 
 ---
 
