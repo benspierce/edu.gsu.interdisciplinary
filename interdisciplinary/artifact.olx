@@ -52,7 +52,7 @@ We've been asked to investigate the causes of high school dropout so Comm360 can
         <Markdown id="repko_criteria2" src="readings/repko_criteria.md" />
       </Vertical>
       <Vertical id="bm_step2_eval" title="My Initial Evaluation">
-        <Use id="initial_repko_evaluation2" ref="initial_repko_evaluation" />
+        <Use ref="initial_repko_evaluation" />
       </Vertical>
     </Tabs>
   </Collapsible>
@@ -71,28 +71,28 @@ the causes of high school dropout, this page will display a list of causes of hi
 school dropout and your personal list of potentially relevant disciplines.
             </Markdown>
             <Vertical id="brainstorming_responses">
-              <Use id="brainstorming_disciplines2" ref="brainstorming_disciplines" />
+              <Use ref="brainstorming_disciplines" />
               <Markdown>
 -----------------------------------
 &nbsp;
               </Markdown>
-              <Use id="reasons_shown3" ref="reasons_shown" />
+              <Use ref="reasons_shown" />
               <Markdown>
 -----------------------------------
 **Why you selected these causes:**
               </Markdown>
-              <Use id="reason_explanation2" ref="reason_explanation" />
+              <Use ref="reason_explanation" />
               <Markdown>
 -----------------------------------
 **The causes you suggested yourself:**
               </Markdown>
-              <Use id="cause_internal2" ref="cause_internal" />
-              <Use id="cause_structural2" ref="cause_structural" />
+              <Use ref="cause_internal" />
+              <Use ref="cause_structural" />
               <Markdown>
 ------------------------------------
 **My Notes on the Focus Group Transcript**
               </Markdown>
-              <Use id="" ref="focus_group" />
+              <Use ref="focus_group" />
             </Vertical>
           </IntakeGate>
         </Vertical>
@@ -103,7 +103,7 @@ When you have have finished thinking about which causes of high school dropout
 Comm360 should focus on, this page will display your judgments about which disciplines provide information
 about each cause.
               </Markdown>
-              <Use id="causes_by_disciplines_final" ref="causes_by_disciplines" />
+              <Use ref="causes_by_disciplines" />
             </IntakeGate>
         </Vertical>
         <Vertical id="mapping_of_causes" title="Final Mapping">
@@ -112,7 +112,7 @@ about each cause.
 When you have finished analyzing which disciplines study which causes of high school dropout,
 this page will display a diagram showing your group's final analysis.
               </Markdown>
-              <Use id="causes_by_disciplines_final" ref="causes_by_disciplines_answers" />
+              <Use ref="causes_by_disciplines_answers" />
             </IntakeGate>
         </Vertical>
     </Tabs>

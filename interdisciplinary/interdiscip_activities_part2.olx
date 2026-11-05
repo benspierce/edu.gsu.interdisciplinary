@@ -154,7 +154,7 @@ _Click on the correct answer._
       </IntakeGate>
      </LeftPane>
      <RightPane>
-       <Use id="cause_mapping2" ref="cause_mapping" />
+       <Use ref="cause_mapping" />
      </RightPane>
    </SplitPanel>
   <Vertical id="dropout_factor_combos">
@@ -341,7 +341,7 @@ These students are most likely trying to help their families financially.
       </Markdown>
      </LeftPane>
      <RightPane>
-       <Use id="cause_mapping_2b" ref="cause_mapping_2" />
+       <Use ref="cause_mapping_2" />
      </RightPane>
     </SplitPanel>
 
@@ -378,7 +378,7 @@ graph LR
   <SplitPanel id="factors_1_to_4">
    <LeftPane>
      <Markdown>## Mapping Causes of High School Dropout</Markdown>
-     <Use id="cause_connection_3b" ref="cause_connection_3" />
+     <Use ref="cause_connection_3" />
      <TextArea id="cause_connection_3_explanation"
               placeholder="How you think the two factors might interact, if they do..." />
     </LeftPane>
@@ -408,7 +408,7 @@ graph LR
   <Vertical id="cause_connection_3_explanation_choice">
     <SplitPanel id="cause_connection_3_explanation_choice_panel">
      <LeftPane>
-      <Use id="cause_connection_3c" ref="cause_connection_3" />
+      <Use ref="cause_connection_3" />
       <Markdown>
     **Select the best sentences to use in the summary.**</Markdown>
       <ChoiceInput id="cause_connection_3_explanation_choice_input">
@@ -438,13 +438,13 @@ research as key determinants.
       </IntakeGate>
      </LeftPane>
      <RightPane>
-       <Use id="cause_mapping3c" ref="cause_mapping_3" />
+       <Use ref="cause_mapping_3" />
      </RightPane>
     </SplitPanel>
   </Vertical>
   <SplitPanel id="factors_2_to_3">
    <LeftPane>
-    <Use id="cause_connection_4a" ref="cause_connection_4" />
+    <Use ref="cause_connection_4" />
     <Markdown>
     **Explain the connection between long working hours and equitable school funding**</Markdown>
     <TextArea id="cause_connection_4_explanation"
@@ -458,7 +458,7 @@ research as key determinants.
   <Vertical id="cause_connection_4_explanation_choice">
     <SplitPanel id="cause_connection_4_explanation_choice_panel">
      <LeftPane>
-       <Use id="cause_connection_4b" ref="cause_connection_4" />
+       <Use ref="cause_connection_4" />
       <Markdown>**Select the best sentences to use in the summary.**</Markdown>
       <ChoiceInput id="cause_connection_4_explanation_choice_input">
         <Distractor>
@@ -493,7 +493,7 @@ needed by students who must work long hours.
   </Vertical>
   <SplitPanel id="factors_3_to_4">
    <LeftPane>
-    <Use id="cause_connection_5a" ref="cause_connection_5" />
+    <Use ref="cause_connection_5" />
     <Markdown>
     **Explain how these two factors are related**</Markdown>
     <TextArea id="cause_connection_5_explanation"
@@ -507,7 +507,7 @@ needed by students who must work long hours.
   <Vertical id="cause_connection_5_explanation_choice">
     <SplitPanel id="cause_connection_5_explanation_choice_panel">
      <LeftPane>
-      <Use id="cause_connection_5b" ref="cause_connection_5" />
+      <Use ref="cause_connection_5" />
       <Markdown>**Select the best sentences to use in the summary.**</Markdown>
       <ChoiceInput id="cause_connection_5_explanation_choice_input">
         <Distractor>
@@ -546,26 +546,26 @@ without adequate resources.
     <Vertical id="overview_of_connections">
       <SplitPanel id="comparison_1">
         <LeftPane>
-          <Use id="cause_connection_3b" ref="cause_connection_3" />
+          <Use ref="cause_connection_3" />
         </LeftPane>
         <RightPane>
-          <Use id="factor_connection_1_key_b" ref="factor_connection_1_key" />
+          <Use ref="factor_connection_1_key" />
         </RightPane>
       </SplitPanel>
       <SplitPanel id="comparison_2">
         <LeftPane>
-          <Use id="cause_connection_4b" ref="cause_connection_4" />
+          <Use ref="cause_connection_4" />
         </LeftPane>
         <RightPane>
-          <Use id="factor_connection_2_key_b" ref="factor_connection_2_key" />
+          <Use ref="factor_connection_2_key" />
         </RightPane>
       </SplitPanel>
       <SplitPanel id="comparison_3">
         <LeftPane>
-          <Use id="cause_connection_5b" ref="cause_connection_5" />
+          <Use ref="cause_connection_5" />
         </LeftPane>
         <RightPane>
-          <Use id="factor_connection_3_key_b" ref="factor_connection_3_key" />
+          <Use ref="factor_connection_3_key" />
         </RightPane>
       </SplitPanel>
     </Vertical>
@@ -661,7 +661,7 @@ Sociology
          </CheckboxInput>
       </Vertical>
       <Vertical id="reading_funding_t2" title="School Funding Study">
-          <Use id="reading_funding_text_b" ref="reading_funding_text" />
+          <Use ref="reading_funding_text" />
       </Vertical>
     </Tabs>
 

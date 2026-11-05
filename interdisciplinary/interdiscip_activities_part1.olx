@@ -246,7 +246,7 @@ _Select the causes you think are most important to research._
 
     <!-- Explanation input -->
     <Vertical id="reason_explanation_input">
-      <Use id="reasons_shown2" ref="reasons_shown" />
+      <Use ref="reasons_shown" />
       <Markdown>**Explain why you selected these causes:**</Markdown>
       <TextArea id="reason_explanation" placeholder="I selected these causes because..." />
     </Vertical>
@@ -280,7 +280,7 @@ _Select the causes you think are most important to research._
         <TextArea id="initial_repko_evaluation" placeholder="Your initial evaluation of how well this problem fits Repko's criteria for an interdisciplinary study will go here ..." />
       </Vertical>
       <Vertical id="first_pass_t2" title="Repko's Criteria">
-        <Use id="broad_model_display2" ref="repko_criteria" />
+        <Use ref="repko_criteria" />
       </Vertical>
     </Tabs>
 
@@ -636,7 +636,7 @@ click on the "Annotate" button and explain what discipline this clue suggests, a
       </CheckboxInput>
     </Vertical>
     <Vertical id="funding_discipline_t2" title="Funding Study">
-      <Use id="funding_study_text_md2" ref="funding_study_text_md" />
+      <Use ref="funding_study_text_md" />
     </Vertical>
   </Tabs>
 
@@ -649,7 +649,7 @@ click on the "Annotate" button and explain what discipline this clue suggests, a
         <TextArea id="source_4_classification_explanation" placeholder="The terms I highlighted indicate these disciplines because..." />
       </Vertical>
       <Vertical id="funding_study_t2" title="Funding Study">
-        <Use id="funding_study_text_md3" ref="funding_study_text_md" />
+        <Use ref="funding_study_text_md" />
       </Vertical>
     </Tabs>
 
@@ -662,7 +662,7 @@ click on the "Annotate" button and explain what discipline this clue suggests, a
         <TextArea id="source_4_insight_sentence" placeholder="..." />
       </Vertical>
       <Vertical id="funding_study_insight_t2" title="Funding Study">
-        <Use id="funding_study_text_md4" ref="funding_study_text_md" />
+        <Use ref="funding_study_text_md" />
       </Vertical>
     </Tabs>
 
@@ -681,7 +681,7 @@ click on the "Annotate" button and explain what discipline this clue suggests, a
       </ChoiceInput>
     </Vertical>
     <Vertical id="funding_study_insight_selection_t2" title="Funding Study">
-      <Use id="funding_study_text_md5" ref="funding_study_text_md" />
+      <Use ref="funding_study_text_md" />
     </Vertical>
   </Tabs>
 
@@ -698,7 +698,7 @@ click on the "Annotate" button and explain what discipline this clue suggests, a
       <TextArea id="source_4_insight_sentence_explanation" placeholder="..." />
     </Vertical>
     <Vertical id="funding_study_insight_selection_explanation_t2" title="Funding Study">
-      <Use id="funding_study_text_md6" ref="funding_study_text_md" />
+      <Use ref="funding_study_text_md" />
     </Vertical>
   </Tabs>
  </Vertical>

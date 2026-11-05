@@ -261,7 +261,7 @@ lang: en-Latn-US
 <TeamDirectory id="interdisciplinary_team_members" title="Comm360 Team"/>
 
 <!-- Include the library structure -->
-<Use id="interdisciplinary_library2" ref="interdisciplinary_library" />
+<Use ref="interdisciplinary_library" />
 
 <!-- Include the artifact structure -->
 <Use ref="interdisciplinary_artifact" src="artifact.olx"/>
