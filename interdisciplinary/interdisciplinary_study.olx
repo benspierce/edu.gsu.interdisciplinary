@@ -1,0 +1,71 @@
+<!--
+---
+description: "Research-study version of the GSU Interdisciplinary Studies course: the course, preceded by the University of Memphis informed-consent form. Students may take part in the study or not; the course is identical either way, and the answer can be changed at any time from Study Consent Form at the bottom of the navigation. For the course without the study, launch interdisciplinary_course."
+category: interdisciplinary
+index: 1
+lang: en-Latn-US
+---
+-->
+
+<!--
+  RESEARCH CONSENT GATE
+
+  The research deployment's route "/" lands here, not on the course. Three
+  states:
+  * unanswered -> the IRB form
+  * answered but not acknowledged -> a short, neutral acknowledgment
+  * acknowledged -> the course itself
+
+  The gates test ANSWERED, never the value: declining changes nothing about
+  what the student does, and the activity carries the same credit. The
+  acknowledgment reads differently for the two answers only in its heading.
+
+  The same form block is also the last child of the Course (one block, one
+  state), so a student can revisit it and change their answer. The course
+  itself stays launchable, so the same content serves outside a study with
+  no wrapper at all.
+-->
+
+<Vertical id="interdisciplinary_study" title="Interdisciplinary Studies (Research Study)" launchable="true">
+
+<Use ref="interdisciplinary_irb_consent_form" when="!@interdisciplinary_irb_consent.value" />
+
+<Vertical id="interdisciplinary_irb_ack" when="@interdisciplinary_irb_consent.value && !@interdisciplinary_irb_ack_done.value">
+<Markdown when="@interdisciplinary_irb_consent.value === 'consented'">
+## Thank you
+
+Your course work may be included in the research, always de-identified. You
+can change your answer at any time under **Study Consent Form** at the bottom
+of the navigation.
+</Markdown>
+<Markdown when="@interdisciplinary_irb_consent.value === 'declined'">
+## No problem
+
+Your course work stays out of the research. Nothing about the course changes:
+same activities, same credit. You can change your answer at any time under
+**Study Consent Form** at the bottom of the navigation.
+</Markdown>
+<Markdown>
+This activity is a requirement for your course, and you receive credit for
+completing it whether or not you consent to having your work included in
+the research.
+
+A few practical notes: we recommend Firefox, Edge, or Google Chrome (Safari
+is unsupported); work on one device at a time; and if you run into any
+issue, even a minor one, please tell your instructor.
+</Markdown>
+<ActionButton id="interdisciplinary_irb_ack_btn" label="Continue to the course">
+<SetFieldAction id="interdisciplinary_irb_ack_set" target="interdisciplinary_irb_ack_done" field="value" value="acknowledged" />
+</ActionButton>
+</Vertical>
+
+<Use ref="interdisciplinary_course" when="@interdisciplinary_irb_consent.value && @interdisciplinary_irb_ack_done.value" />
+
+<!-- Flag holder for the acknowledgment, parked unrendered. A LineInput, not
+     a Done: SetFieldAction validates against the target field's schema, and
+     a plain string can say what happened. -->
+<Hidden id="interdisciplinary_consent_defs">
+<LineInput id="interdisciplinary_irb_ack_done" />
+</Hidden>
+
+</Vertical> <!-- interdisciplinary_study -->

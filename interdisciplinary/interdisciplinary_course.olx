@@ -18,6 +18,15 @@ license: AGPL
 
 <Course id="interdisciplinary_course" title="Interdisciplinary Studies" launchable="course">
   <Use ref="interdisciplinary_sba_demo_part1" />
-  <Use ref="interdisciplinary_sba_demo_part2" />
-  <Use ref="interdisciplinary_sba_demo_part3" />
+
+  <!-- Parts 2 and 3 are HIDDEN until the course team releases them. Course
+       honours when= on its children and drops a child from the navigation
+       while the condition is false. To release a part, delete its
+       when="false" (one line each) and redeploy the content. -->
+  <Use ref="interdisciplinary_sba_demo_part2" when="false" />
+  <Use ref="interdisciplinary_sba_demo_part3" when="false" />
+
+  <!-- Same block the consent gate shows; same state. Here so a student can
+       revisit and change their answer at any time (consent.olx). -->
+  <Use ref="interdisciplinary_irb_consent_form" />
 </Course>
