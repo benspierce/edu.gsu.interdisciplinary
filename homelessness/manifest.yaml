@@ -1,22 +1,29 @@
-# Homelessness SBA, Part 1 (Comm360 internship). Self-contained: this folder
-# holds everything Part 1 needs (Part 2 lives in ../homelessness-pt2).
+# manifest.yaml — Homelessness SBA (Comm360 internship), GSU interdisciplinary
+# studies. The deployed SBA of this repository.
 #
-# Namespace `homelessness` is shared with Part 2 on purpose: their block ids
-# never overlap (hs_* here, hs2_* there), and keeping the namespace unchanged
-# keeps students' saved progress on the published sites valid across rebuilds.
-# It also stays distinct from the older June build in ../homelessness-old
-# (namespace: sba). Preview in the dev server at
-#   http://localhost:8888/preview/homelessness/hs_sba_part1
+# Used by: scripts/build-static.ts --manifest <this file>
 #
-# Static site (no server), published at https://benspierce.github.io/homelessness/:
-#   NO_SANDBOX=1 STATIC_BASE_PATH=/homelessness ./node_modules/.bin/tsx \
-#     scripts/build-static.ts --manifest content/sba/homelessness-pt1/manifest.yaml
-title: "Homelessness SBA — Part 1 (SBA preview)"
+# Layout: the files shared by all parts sit here (this manifest, the course
+# wrapper hs_course.olx, the consent gate hs_study.olx and consent.olx); each
+# part's own files live in its folder: part1/ now, part2/ and part3/ as they
+# arrive. The loader scans content_root recursively.
+#
+# Namespace `homelessness` is shared by all three parts: their block ids never
+# overlap (hs_* for Part 1, hs2_* for Part 2), and keeping the namespace
+# unchanged keeps students' saved progress valid across rebuilds.
+
+title: Homelessness SBA
 namespace: homelessness
 content_root: .
-output: dist/homelessness
-eventServerUrl: false        # client-side only; no data captured
 classes:
-  - no-translanguaging       # disables JIT translanguaging (needs a server)
+  - no-translanguaging       # disables JIT translanguaging
+content_notice: >
+  Course content Copyright &copy; 2026 by Omer Ari, Ben Pierce,
+  Lia Haddadian, and Piotr Mitros. Licensed under
+  [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html). Source available on
+  [GitHub](https://github.com/olxhub/edu.gsu.interdisciplinary).
 routes:
-  "/": homelessness/hs_sba_part1
+  # "/" lands on the consent gate (hs_study.olx); the course renders inside it
+  # once the consent question is answered, either way. A deployment outside a
+  # study points "/" at homelessness/hs_course instead.
+  /: homelessness/hs_study

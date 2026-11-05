@@ -1,0 +1,63 @@
+<!--
+---
+description: "Research consent form for the Homelessness SBA: the University of Memphis informed-consent text, and the one question that records the answer. Shown by the study gate (hs_study.olx) and again as the last item of the course so the answer can be changed."
+category: homelessness
+index: 97
+lang: en-Latn-US
+---
+-->
+
+<!-- The formal consent text is the protocol's approved wording; edit only
+     with the protocol. -->
+
+<Vertical id="hs_irb_consent_form" title="Study Consent Form">
+
+<Markdown>
+# University of Memphis
+
+## Informed Consent
+
+**Title:** Scenario-Based Assessment in the age of generative AI: Making space in the education market for alternative assessment paradigms
+
+**Principal Investigator:** Dr. John Sabatini
+
+**Sponsor:** Institute for Intelligent Systems (IIS)
+
+## Procedures
+
+You are being asked to take part in a research study. If you decide to
+take part, you will agree to share some of your course work with the
+researchers. This work includes writing assignments, online
+discussions, and assessments you produce for the course. These
+materials will be obtained after grades are submitted and
+will be accessed only by the researchers.
+
+No work beyond that which you would normally do as part of this course
+will be required. The research will require no more time than you
+would normally spend on the course. The decision to participate, or
+not to take part, will have no effect on your grade or standing in
+this class.
+
+Your instructor will not know whether you consented to this research
+until after they submit the grades for the course. You will not
+interact with any of the other researchers.
+
+## Voluntary Participation and Withdrawal
+
+You do not have to be in this study, and you may choose to leave the study at any time.
+
+## Contact Information
+
+Contact Professor Omer Ari, the course instructor.
+
+## Consent
+
+Please choose one. Either answer takes you into the course.
+</Markdown>
+
+<ChoiceInput id="hs_irb_consent">
+  <Key id="hs_irb_consent_consented" value="consented"> I accept. </Key>
+  <Key id="hs_irb_consent_declined"  value="declined" > I do not want to participate in this study. </Key>
+</ChoiceInput>
+
+</Vertical> <!-- hs_irb_consent_form -->

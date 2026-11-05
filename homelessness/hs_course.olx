@@ -1,0 +1,32 @@
+<!--
+---
+description: Homelessness SBA (Comm360 internship), GSU interdisciplinary studies course
+category: homelessness
+index: 0
+lang: en-Latn-US
+authors:
+  - Omer Ari
+  - Ben Pierce
+  - Lia Haddadian
+  - Piotr Mitros
+license: AGPL
+---
+-->
+
+<!-- Parts live in their own folders: part1/ now; part2/ and part3/ are
+     added as they arrive. -->
+
+<Course id="hs_course" title="Homelessness SBA" launchable="course">
+  <Use ref="hs_sba_part1" />
+
+  <!-- Parts 2 and 3 are not here yet. When they arrive (part2/, part3/),
+       add them HIDDEN until the course team releases them, e.g.
+         <Use ref="hs2_sba_part2" when="false" />
+       Course honours when= on its children and drops a child from the
+       navigation while the condition is false. To release a part, delete its
+       when="false" (one line each) and redeploy the content. -->
+
+  <!-- Same block the consent gate shows; same state. Here so a student can
+       revisit and change their answer at any time (consent.olx). -->
+  <Use ref="hs_irb_consent_form" />
+</Course>

@@ -25,9 +25,8 @@ lang: en-Latn-US
   in hs_activities_part1.olx; the cast (with the storyboard's avatar images) is
   characters.cast.
 
-  Namespace `homelessness` (manifest.yaml), shared with Part 2 in
-  ../homelessness-pt2 (ids hs2_*, so no collisions); also distinct from the
-  older June build in ../homelessness-old.
+  Namespace `homelessness` (../manifest.yaml), shared with Parts 2 and 3
+  (Part 2 ids hs2_*, so no collisions).
 -->
 
 <Tabs id="hs_sba_part1" title="Homelessness SBA, Part 1 — Causes of Homelessness" launchable="true">

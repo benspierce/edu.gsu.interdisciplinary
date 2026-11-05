@@ -59,7 +59,7 @@ The mission of Comm360 is to address **community-based needs and issues** throug
 
 Your intern teammates are **Ty, Peggy**, and **Lacy**. **Lianne Park** is your Supervisor / Mentor, and **Anne Hastings** is the CEO of Comm360. Click a person to read more about them.
 ]]></Markdown>
-<TeamDirectory id="hs_team_directory" title="Comm360 Team" />
+<TeamDirectory id="hs_team_directory" cast="characters.cast" title="Comm360 Team" />
 </Vertical>
 
 <!-- ===== Task Set One: Brainstorm (slides 5-10) ===== -->
