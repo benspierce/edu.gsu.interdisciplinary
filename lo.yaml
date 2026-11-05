@@ -4,7 +4,7 @@
 # and licensing/attribution from LICENSE.TXT / CONTRIBUTORS.TXT. This file is
 # ONLY for fields those conventions don't cover.
 #
-# NOT a deployment manifest — routes/namespace live in interdisciplinary/manifest.yaml.
+# NOT a deployment manifest — routes/namespace live in high-school-dropout/manifest.yaml.
 
 title: GSU Interdisciplinary Studies
 discipline: Interdisciplinary Studies

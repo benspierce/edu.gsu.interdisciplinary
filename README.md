@@ -15,7 +15,7 @@ The course is a three-part scenario-based learning activity (SBLA):
 3. **Part 3** — synthesis and interdisciplinary integration
 
 Each part combines a ChatPEG dialogue, an activities file, and supporting
-readings under `interdisciplinary/readings/`.
+readings under `high-school-dropout/readings/`.
 
 The readings are short course summaries of published research. Each one names
 the original and links to it, so you can read the whole thing. The focus-group
@@ -29,7 +29,7 @@ which keeps it out of the navigation. To release a part, delete its
 
 ## Research study
 
-The deployment's route `/` (`interdisciplinary/manifest.yaml`) lands on the
+The deployment's route `/` (`high-school-dropout/manifest.yaml`) lands on the
 research-study gate (`interdisciplinary_study.olx`), which shows the
 informed-consent form first (`consent.olx`). Either answer, accepting or
 declining, leads into the course; the activities and credit are the same.
@@ -42,4 +42,5 @@ point `/` at `interdisciplinary_course` instead.
 The author catalog reads this README for the repository description (git
 conventions first; `lo.yaml` covers only beyond-git fields like discipline).
 Licensing and attribution live in `LICENSE.TXT`, `NOTICE.TXT`, and
-`CONTRIBUTORS.TXT`. The courseware itself is under `interdisciplinary/`.
+`CONTRIBUTORS.TXT`. The courseware itself is under `high-school-dropout/`
+(not currently deployed).

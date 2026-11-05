@@ -1,4 +1,8 @@
-# manifest.yaml — GSU interdisciplinary studies content collection.
+# manifest.yaml — the high-school-dropout SBA (GSU interdisciplinary studies).
+#
+# Kept in the repository but NOT currently deployed; the deployed SBA is
+# homelessness/. The namespace stays edu.gsu.interdisciplinary so saved
+# progress from earlier deployments remains valid.
 #
 # Used by: scripts/build-static.ts --manifest <this file>
 
