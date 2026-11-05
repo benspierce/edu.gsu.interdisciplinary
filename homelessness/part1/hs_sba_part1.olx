@@ -1,0 +1,55 @@
+<!--
+---
+description: "Homelessness SBA, Part 1 — Causes of Homelessness. The student interns at Comm360 (Community 360), a local nonprofit, with fellow interns Ty, Peggy, and Lacy under their supervisor Lianne Park. Together they brainstorm causes of homelessness, highlight causes in a community focus group transcript, choose causes to research, decide the problem calls for interdisciplinary research, and then review six sources (economics, public policy, psychology, real estate economics, political science, sociology), identifying each one's discipline, keywords, main insight, research question, evidence and methods, and underlying assumption, and building a Disciplinary Perspective Comparison Table. Built from the Sept 16 storyboard, slides 1-202."
+category: homelessness
+index: 80
+lang: en-Latn-US
+---
+-->
+
+<!--
+  Homelessness SBA, Part 1 (slides 1-202 of "Homelessness SBA Storyboard_2
+  (v Sept 16).pptx").
+
+  Layout: the tab strip is the top level.
+    Discussion   the session — the scripted conversation on the left
+                 (hs_dialogue_part1.chatpeg) and the activity pane on the right,
+                 a UseHistory (hs_main) that the conversation drives with TARGET
+                 EMBEDS (`::screen [display=target:hs_main label="..."]`). Each
+                 one leaves a labelled button in the transcript, so a student can
+                 reopen an earlier reading or table.
+    Team         the Comm360 team directory (the cast's profiles).
+
+  Questions are embedded IN the chat (bare `::id_q` embeds) so the reading stays
+  visible in the pane while the student answers. Every screen and question is
+  in hs_activities_part1.olx; the cast (with the storyboard's avatar images) is
+  characters.cast.
+
+  Namespace `homelessness` (manifest.yaml), shared with Part 2 in
+  ../homelessness-pt2 (ids hs2_*, so no collisions); also distinct from the
+  older June build in ../homelessness-old.
+-->
+
+<Tabs id="hs_sba_part1" title="Homelessness SBA, Part 1 — Causes of Homelessness" launchable="true">
+
+  <Vertical id="hs_tab_main" title="Discussion">
+    <SplitPanel id="hs_split" sizes="40, 60">
+      <StartPane>
+        <!-- Fixed height, on the Chat itself: with the flex default a long
+             transcript grows the chat and pushes the pane off-screen. -->
+        <Chat id="hs_chat"
+              src="hs_dialogue_part1.chatpeg"
+              cast="characters.cast"
+              height="560px" />
+      </StartPane>
+      <EndPane>
+        <UseHistory id="hs_main" initial="hs_welcome" />
+      </EndPane>
+    </SplitPanel>
+  </Vertical>
+
+  <Vertical id="hs_tab_team" title="Team">
+    <TeamDirectory id="hs_team_tab_directory" cast="characters.cast" title="Comm360 Team" />
+  </Vertical>
+
+</Tabs>

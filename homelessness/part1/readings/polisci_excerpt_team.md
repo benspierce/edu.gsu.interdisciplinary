@@ -1,0 +1,26 @@
+*The sentences your teammates highlighted are shown in bold.*
+
+**Title:** Racialized Homelessness: A Review of Historical and Contemporary Causes of Racial Disparities in Homelessness  
+**Author:** Matthew Z. Fowle  
+**Journal:** Housing Policy Debate  
+**Publication Year:** 2022  
+**DOI:** 10.1080/10511482.2022.2026995  
+**Link:** https://www.tandfonline.com/doi/full/10.1080/10511482.2022.2026995  
+
+…
+
+#### Results / Findings
+
+**The reviewed research consistently found that homelessness disproportionately affects Black, Native American, and Latinx populations in the United States. **Several studies cited in the article reported that Black Americans make up approximately 13% of the U.S. population but nearly 40% of the homeless population nationally. Research reviewed in the article also found that Black individuals are more likely to experience unsheltered homelessness and longer durations of homelessness than White individuals.
+
+Across the reviewed scholarship, **racial disparities persisted even when controlling for poverty, suggesting that economic hardship alone does not fully explain homelessness disparities. The review repeatedly identified structural factors such as residential segregation, discriminatory lending and rental practices, eviction disparities, unequal access to housing wealth, and disproportionate criminal legal system involvement as major contributors to housing instability among communities of color.**
+
+Historical analyses reviewed in the article connected present-day homelessness disparities to long-term institutional processes such as redlining, racially restrictive covenants, urban renewal displacement, discriminatory welfare policies, and exclusion from wealth-building housing opportunities.
+
+#### Discussion
+
+The article argues that **homelessness cannot be fully understood through individual-level explanations alone because racial inequality is embedded across multiple institutional systems. **From a sociological perspective, **homelessness is viewed as a structural outcome shaped by historical and contemporary systems of power, inequality, and exclusion. **The review suggests that homelessness policies focused only on shelters or emergency services are unlikely to eliminate racial disparities unless broader inequalities in housing access, wealth accumulation, criminal legal exposure, and social policy are also addressed.
+
+#### Conclusion
+
+**The article concludes that homelessness in the United States is deeply shaped by structural racism operating across housing, economic, and political systems. **Reducing racial disparities in homelessness requires structural reforms such as enforcing fair housing protections, reducing discriminatory housing practices, expanding affordable housing access, addressing racial wealth gaps, and reforming institutional systems that contribute to unequal housing vulnerability.

@@ -1,0 +1,78 @@
+# Homelessness SBA (Comm360 internship) — Cast
+#
+# Built from "Homelessness SBA Storyboard_2 (v Sept 16).pptx". Every avatar is
+# the image the storyboard uses for that character (images/), not a generated
+# lo-blocks avatar: a `src:` image always wins over generated styles.
+#
+#   * Instructor — the course instructor who opens the module (slide 1)
+#   * Lianne     — Lianne Park, supervisor / mentor at Comm360
+#   * Anne       — Anne Hastings, CEO of Comm360 (introduced, not a speaker)
+#   * Ty, Peggy, Lacy — the student's fellow interns
+#   * You        — the student
+#
+# Used by Chat and TeamDirectory. Speaker keys contain no periods (chatpeg
+# parser limitation); display names are set with `name:`.
+
+Instructor:
+  name: Your Instructor
+  src: images/instructor.jpg
+  profile:
+    role: Course Instructor
+    bio: Your instructor for the interdisciplinary studies course, who introduces the simulated research project.
+
+Lianne:
+  name: Lianne Park
+  src: images/lianne.jpg
+  profile:
+    role: Supervisor / Mentor, Comm360
+    bio: Lianne has been at Comm360 for five years and directs multiple programs. She will present the team's findings and work to the Program Development & Evaluation (PDE) committee for review.
+    experience: Five years at Comm360
+    skills:
+      - Program Development
+      - Program Evaluation
+      - Mentoring
+  groups:
+    - comm360
+
+Anne:
+  name: Anne Hastings
+  src: images/anne.jpg
+  profile:
+    role: Chief Executive Officer (CEO), Comm360
+    bio: Ms. Hastings makes the ultimate decisions about Comm360's programs and resources. Lianne reports to her.
+  groups:
+    - comm360
+
+Ty:
+  name: Ty
+  src: images/ty.png
+  profile:
+    role: Intern, Comm360
+    bio: One of your fellow interns. Quick to run a keyword search and bring a new study to the team.
+  groups:
+    - comm360
+    - interns
+
+Peggy:
+  name: Peggy
+  src: images/peggy.png
+  profile:
+    role: Intern, Comm360
+    bio: One of your fellow interns. Her family experienced housing instability when she was in middle school, so this topic feels personal to her.
+  groups:
+    - comm360
+    - interns
+
+Lacy:
+  name: Lacy
+  src: images/lacy.png
+  profile:
+    role: Intern, Comm360
+    bio: One of your fellow interns. She studied focus groups in her research methods class and analyzed many transcripts.
+  groups:
+    - comm360
+    - interns
+
+You:
+  name: You
+  src: images/you.jpg

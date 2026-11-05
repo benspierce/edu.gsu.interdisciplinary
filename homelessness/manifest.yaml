@@ -1,0 +1,22 @@
+# Homelessness SBA, Part 1 (Comm360 internship). Self-contained: this folder
+# holds everything Part 1 needs (Part 2 lives in ../homelessness-pt2).
+#
+# Namespace `homelessness` is shared with Part 2 on purpose: their block ids
+# never overlap (hs_* here, hs2_* there), and keeping the namespace unchanged
+# keeps students' saved progress on the published sites valid across rebuilds.
+# It also stays distinct from the older June build in ../homelessness-old
+# (namespace: sba). Preview in the dev server at
+#   http://localhost:8888/preview/homelessness/hs_sba_part1
+#
+# Static site (no server), published at https://benspierce.github.io/homelessness/:
+#   NO_SANDBOX=1 STATIC_BASE_PATH=/homelessness ./node_modules/.bin/tsx \
+#     scripts/build-static.ts --manifest content/sba/homelessness-pt1/manifest.yaml
+title: "Homelessness SBA — Part 1 (SBA preview)"
+namespace: homelessness
+content_root: .
+output: dist/homelessness
+eventServerUrl: false        # client-side only; no data captured
+classes:
+  - no-translanguaging       # disables JIT translanguaging (needs a server)
+routes:
+  "/": homelessness/hs_sba_part1

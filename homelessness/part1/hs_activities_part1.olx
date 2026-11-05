@@ -1,0 +1,1732 @@
+<!--
+---
+description: "Activity bank for the Homelessness SBA, Part 1 (Comm360 internship): every screen the conversation parks in the right-hand pane (readings, highlighting tasks, the growing Disciplinary Perspective Comparison Table) and every question embedded in the chat. Launchable so it can be previewed on its own."
+category: homelessness
+index: 81
+lang: en-Latn-US
+---
+-->
+
+<!--
+  Homelessness SBA, Part 1 — activity bank. GENERATED from the storyboard
+  (slides 1-202) by a one-off script, then hand-maintained: edit freely.
+
+  Two kinds of block live here:
+    * PANE screens, opened in the right-hand UseHistory (hs_main) by target
+      embeds in the chatpeg: readings, highlighting passages, tables.
+    * CHAT embeds (ids ending in _q): the questions answered inside the
+      conversation, next to the reading they are about.
+
+  Readbacks ("You highlighted...", "Your choice...") are Markdown {{...}}
+  templates over the student's own answers; highlighted text comes from the
+  TextSelectionInput's `selectedText` value. Choice option values ARE the
+  option text, so a readback can print them; the student's own sentence is
+  the option valued "own", and a written-in question is "other".
+
+  Answer keys from the storyboard (its bold text) are kept for later scoring:
+  [bracketed] phrases in readings/*.textSelectionpeg and <Key> options. No
+  grader is shown to students, matching the storyboard.
+-->
+
+<Vertical id="hs_activities_part1" title="Homelessness SBA Part 1 — Activities" launchable="true">
+
+<!-- ===== Orientation and introduction (slides 1-4) ===== -->
+<Vertical id="hs_welcome" title="Welcome">
+<Markdown><![CDATA[
+## Interdisciplinary Reasoning
+### Part 1: Investigating the Causes of Homelessness
+]]></Markdown>
+<Image id="hs_welcome_img" src="images/nonprofit_sign.jpg" alt="A road sign reading Nonprofit" />
+</Vertical>
+
+<Vertical id="hs_intro_screen" title="Community 360">
+<Markdown><![CDATA[
+## Community 360 (Comm360)
+
+The mission of Comm360 is to address **community-based needs and issues** through responsive programming in multiple areas such as:
+
+- Education and Training
+- Health and Wellness
+- Family and Youth Services
+- Community Building and Advocacy
+]]></Markdown>
+<Image id="hs_intro_img" src="images/nonprofit_wordcloud.png" alt="Word cloud: helping, volunteer, community, donations, mission" />
+</Vertical>
+
+<Vertical id="hs_team_screen" title="Your team">
+<Markdown><![CDATA[
+## Intern Group Members
+
+Your intern teammates are **Ty, Peggy**, and **Lacy**. **Lianne Park** is your Supervisor / Mentor, and **Anne Hastings** is the CEO of Comm360. Click a person to read more about them.
+]]></Markdown>
+<TeamDirectory id="hs_team_directory" title="Comm360 Team" />
+</Vertical>
+
+<!-- ===== Task Set One: Brainstorm (slides 5-10) ===== -->
+<Vertical id="hs_ts1_screen" title="Task Set One: Brainstorm">
+<Markdown><![CDATA[
+## Task Set One: Brainstorm
+
+### What causes people to experience homelessness?
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_cause_indiv_q">
+<Markdown><![CDATA[
+**Type a cause that focuses on an individual-level factor:**
+]]></Markdown>
+<TextArea id="hs_cause_indiv" rows="3" placeholder="Cause 1…" />
+</Vertical>
+
+<Vertical id="hs_cause_struct_q">
+<Markdown><![CDATA[
+**Type a structural cause:**
+]]></Markdown>
+<TextArea id="hs_cause_struct" rows="3" placeholder="Cause 2…" />
+</Vertical>
+
+<Vertical id="hs_causes_list" title="Our reasons">
+<Markdown><![CDATA[
+## Why Do People Experience Homelessness?
+
+- In some cities, there is not enough affordable housing available for low- and middle-income residents, which increases the risk of housing loss.
+- When people lose their jobs or experience unstable employment and do not have financial savings, they may be unable to keep up with rent or mortgage payments.
+- Mental health conditions or substance use challenges can make it more difficult for individuals to maintain steady employment or manage housing responsibilities.
+- When wages remain low while rents continue to rise, even people who are working full time may struggle to afford stable housing.
+- People experiencing domestic violence may leave their homes quickly for safety reasons and have limited immediate housing options.
+- Racial discrimination in housing and lending markets can limit access to stable and affordable housing for some groups.
+- Limited access to cash assistance or income support programs may leave vulnerable individuals and families without a financial safety net during crises.
+- People who are unsheltered may face increased risks from extreme heat or severe weather, which can worsen health conditions and housing instability.
+]]></Markdown>
+<Markdown>- {{@hs_cause_indiv.value}}&#10;- {{@hs_cause_struct.value}}</Markdown>
+</Vertical>
+
+<!-- ===== Task Set Two: Review (slides 11-16) ===== -->
+<Vertical id="hs_fg_hl_screen" title="Focus group transcript">
+<Markdown><![CDATA[
+## Comm360 Community Focus Group: Transcript Excerpt
+]]></Markdown>
+<TextSelectionInput id="hs_fg_hl" src="readings/focus_group_highlight.textSelectionpeg" separatorRegexp="§" separatorHidden="true" />
+</Vertical>
+
+<Vertical id="hs_fg_ty" title="Ty's highlights">
+<Markdown id="hs_fg_ty_md" src="readings/focus_group_ty.md" />
+</Vertical>
+
+<Vertical id="hs_reasons_list" title="All the reasons">
+<Markdown><![CDATA[
+## Why Do People Experience Homelessness?
+
+- Trauma people experience — domestic violence, family conflict, untreated mental health conditions–can leave them with disrupted employment, relationships, and stability leading to housing insecurity.
+- Records such as eviction filing and other minor chargers often appear in tenant screening databases. Many landlords automatically deny applications with prior eviction history.
+- In some places, limited economic opportunity — such as fewer job opportunities or restrictive labor market conditions — can make it harder for people to find and maintain stable employment, increasing the risk of homelessness.
+- In some cities, there is not enough affordable housing available for low- and middle-income residents, which increases the risk of housing loss.
+- When people lose their jobs or experience unstable employment and do not have financial savings, they may be unable to keep up with rent or mortgage payments.
+- Substance use challenges can make it more difficult for individuals to maintain steady employment or manage housing responsibilities.
+- When wages remain low while rents continue to rise, even people who are working full time may struggle to afford stable housing.
+- Racial discrimination in housing and lending markets can limit access to stable and affordable housing for some groups.
+- Limited access to cash assistance or income support programs may leave vulnerable individuals and families without a financial safety net during crises.
+- People who are unsheltered may face increased risks from extreme heat or severe weather, which can worsen health conditions and housing instability.
+]]></Markdown>
+<Markdown>- {{@hs_cause_indiv.value}}&#10;- {{@hs_cause_struct.value}}</Markdown>
+</Vertical>
+
+<Vertical id="hs_reasons_pick_screen" title="Choose reasons to research">
+<Markdown><![CDATA[
+## Which reasons would you select to research?
+
+Pick **at least 3 but no more than 5**.
+]]></Markdown>
+<CheckboxInput id="hs_reasons">
+  <Distractor value="Trauma people experience — domestic violence, family conflict, untreated mental health conditions–can leave them with disrupted employment, relationships, and stability leading to housing insecurity.">Trauma people experience — domestic violence, family conflict, untreated mental health conditions–can leave them with disrupted employment, relationships, and stability leading to housing insecurity.</Distractor>
+  <Distractor value="Records such as eviction filing and other minor chargers often appear in tenant screening databases. Many landlords automatically deny applications with prior eviction history.">Records such as eviction filing and other minor chargers often appear in tenant screening databases. Many landlords automatically deny applications with prior eviction history.</Distractor>
+  <Distractor value="In some places, limited economic opportunity — such as fewer job opportunities or restrictive labor market conditions — can make it harder for people to find and maintain stable employment, increasing the risk of homelessness.">In some places, limited economic opportunity — such as fewer job opportunities or restrictive labor market conditions — can make it harder for people to find and maintain stable employment, increasing the risk of homelessness.</Distractor>
+  <Distractor value="In some cities, there is not enough affordable housing available for low- and middle-income residents, which increases the risk of housing loss.">In some cities, there is not enough affordable housing available for low- and middle-income residents, which increases the risk of housing loss.</Distractor>
+  <Distractor value="When people lose their jobs or experience unstable employment and do not have financial savings, they may be unable to keep up with rent or mortgage payments.">When people lose their jobs or experience unstable employment and do not have financial savings, they may be unable to keep up with rent or mortgage payments.</Distractor>
+  <Distractor value="Substance use challenges can make it more difficult for individuals to maintain steady employment or manage housing responsibilities.">Substance use challenges can make it more difficult for individuals to maintain steady employment or manage housing responsibilities.</Distractor>
+  <Distractor value="When wages remain low while rents continue to rise, even people who are working full time may struggle to afford stable housing.">When wages remain low while rents continue to rise, even people who are working full time may struggle to afford stable housing.</Distractor>
+  <Distractor value="Racial discrimination in housing and lending markets can limit access to stable and affordable housing for some groups.">Racial discrimination in housing and lending markets can limit access to stable and affordable housing for some groups.</Distractor>
+  <Distractor value="Limited access to cash assistance or income support programs may leave vulnerable individuals and families without a financial safety net during crises.">Limited access to cash assistance or income support programs may leave vulnerable individuals and families without a financial safety net during crises.</Distractor>
+  <Distractor value="People who are unsheltered may face increased risks from extreme heat or severe weather, which can worsen health conditions and housing instability.">People who are unsheltered may face increased risks from extreme heat or severe weather, which can worsen health conditions and housing instability.</Distractor>
+  <Distractor value="own_indiv"><Ref target="hs_cause_indiv" format="text" /></Distractor>
+  <Distractor value="own_struct"><Ref target="hs_cause_struct" format="text" /></Distractor>
+</CheckboxInput>
+<Markdown when="@hs_reasons.value.length &lt; 3">*You have selected {{@hs_reasons.value.length}}. Pick at least 3.*</Markdown>
+<Markdown when="@hs_reasons.value.length &gt; 5">*You have selected {{@hs_reasons.value.length}}, which is more than 5. Please uncheck some so you have no more than 5.*</Markdown>
+<Markdown when="@hs_reasons.value.length &gt;= 3 &amp;&amp; @hs_reasons.value.length &lt;= 5"><![CDATA[
+*✓ Go back to the conversation on the left and click Continue.*
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_reasons_why_q">
+<Markdown><![CDATA[
+**Your Choices:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_reasons.value.map(v =&gt; v === 'own_indiv' ? @hs_cause_indiv.value : (v === 'own_struct' ? @hs_cause_struct.value : v)).map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Why did you select these choices? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_reasons_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<!-- ===== Task Set Three: Reflect (slides 17-21) ===== -->
+<Vertical id="hs_agreed_screen" title="Causes to research">
+<Markdown><![CDATA[
+## Task Set Three: Reflect
+
+### The causes Comm360 will consider
+
+- Trauma people experience — domestic violence, family conflict, untreated mental health conditions–can leave them with disrupted employment, relationships, and stability leading to housing insecurity.
+- In some places, limited economic opportunity — such as fewer job opportunities or restrictive labor market conditions — can make it harder for people to find and maintain stable employment, increasing the risk of homelessness.
+- Racial discrimination in housing and lending markets can limit access to stable and affordable housing for some groups.
+- Limited access to cash assistance or income support programs may leave vulnerable individuals and families without a financial safety net during crises.
+- People who are unsheltered may face increased risks from extreme heat or severe weather, which can worsen health conditions and housing instability.
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_disc_matrix_screen" title="Which disciplines?">
+<Markdown><![CDATA[
+## Which disciplines apply?
+
+1. **Trauma:** Trauma people experience — domestic violence, family conflict, untreated mental health conditions–can leave them with disrupted employment, relationships, and stability leading to housing insecurity.
+2. **Limited economic opportunity:** In some places, limited economic opportunity — such as fewer job opportunities or restrictive labor market conditions — can make it harder for people to find and maintain stable employment, increasing the risk of homelessness.
+3. **Racial discrimination in housing and lending:** Racial discrimination in housing and lending markets can limit access to stable and affordable housing for some groups.
+4. **Limited cash assistance or income support:** Limited access to cash assistance or income support programs may leave vulnerable individuals and families without a financial safety net during crises.
+5. **Extreme heat or severe weather:** People who are unsheltered may face increased risks from extreme heat or severe weather, which can worsen health conditions and housing instability.
+
+**For each cause, check the box to indicate which discipline(s) is likely to give the most insights.** You can check as many boxes in a row as you think apply.
+]]></Markdown>
+<TabularMCQ id="hs_disc_matrix" popout="fullscreen">
+mode: checkbox
+cols: Biology, Psychology, Earth Science, Sociology, Economics, Political Science, Public Policy, Ethnography
+rows:
+  - "1. Trauma|cause1"
+  - "2. Limited economic opportunity|cause2"
+  - "3. Racial discrimination in housing and lending|cause3"
+  - "4. Limited cash assistance or income support|cause4"
+  - "5. Extreme heat or severe weather|cause5"
+</TabularMCQ>
+</Vertical>
+
+<Vertical id="hs_disc_team_screen" title="Team totals">
+<Markdown><![CDATA[
+## Team Responses
+
+Categories that got more than one vote:
+
+1. **Trauma:** Trauma people experience — domestic violence, family conflict, untreated mental health conditions–can leave them with disrupted employment, relationships, and stability leading to housing insecurity.
+2. **Limited economic opportunity:** In some places, limited economic opportunity — such as fewer job opportunities or restrictive labor market conditions — can make it harder for people to find and maintain stable employment, increasing the risk of homelessness.
+3. **Racial discrimination in housing and lending:** Racial discrimination in housing and lending markets can limit access to stable and affordable housing for some groups.
+4. **Limited cash assistance or income support:** Limited access to cash assistance or income support programs may leave vulnerable individuals and families without a financial safety net during crises.
+5. **Extreme heat or severe weather:** People who are unsheltered may face increased risks from extreme heat or severe weather, which can worsen health conditions and housing instability.
+]]></Markdown>
+<Markdown id="hs_disc_team_md" popout="fullscreen"><![CDATA[
+| Causes | Biology | Psychology | Earth Science | Sociology | Economics | Political Science | Public Policy | Ethnography |
+|---|---|---|---|---|---|---|---|---|
+| 1. Trauma |   | X |   |   |   |   |   |   |
+| 2. Limited economic opportunity |   |   |   |   | X |   |   |   |
+| 3. Racial discrimination in housing and lending |   |   |   | X |   | X |   |   |
+| 4. Limited cash assistance or income support |   |   |   |   |   |   | X |   |
+| 5. Extreme heat or severe weather |   |   | X |   |   |   |   |   |
+]]></Markdown>
+</Vertical>
+
+<!-- ===== Task Set Four: Review the Literature (slides 22-201) ===== -->
+<Vertical id="hs_ts4_screen" title="Task Set Four">
+<Markdown><![CDATA[
+## Task Set Four: Review the Literature
+
+The team will locate studies from different disciplines that address different parts of the problem, and compare the **disciplinary perspectives** they bring to homelessness.
+]]></Markdown>
+</Vertical>
+
+<!-- ----- Source 1: Cebula & Saunoris (2021) ----- -->
+<Vertical id="hs_econ_read" title="Cebula &amp; Saunoris (2021)">
+<Markdown id="hs_econ_read_md" src="readings/econ_full.md" />
+</Vertical>
+
+<Vertical id="hs_econ_peggy" title="Peggy's highlights">
+<Markdown id="hs_econ_peggy_md" src="readings/econ_peggy.md" />
+</Vertical>
+
+<Vertical id="hs_econ_sections_q">
+<CheckboxInput id="hs_econ_sections">
+<Markdown><![CDATA[
+**Which sections should we examine most closely?** (Check all that apply.)
+]]></Markdown>
+  <Distractor value="Abstract">Abstract</Distractor>
+  <Distractor value="Introduction">Introduction</Distractor>
+  <Distractor value="Background">Background</Distractor>
+  <Distractor value="Method">Method</Distractor>
+  <Key value="Results">Results</Key>
+  <Key value="Discussion">Discussion</Key>
+  <Key value="Conclusion">Conclusion</Key>
+</CheckboxInput>
+</Vertical>
+
+<Vertical id="hs_econ_sections_why_q">
+<Markdown>**Your Choices:** {{@hs_econ_sections.value.join(", ")}}</Markdown>
+<Markdown><![CDATA[
+Why did you select these choices? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_econ_sections_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_econ_ins_hl_screen" title="Find the main insight">
+<TextSelectionInput id="hs_econ_ins_hl" src="readings/econ_insight.textSelectionpeg" separatorRegexp="§" separatorHidden="true" />
+</Vertical>
+
+<Vertical id="hs_econ_ins_hl_why_q">
+<Markdown><![CDATA[
+**You highlighted the following:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_econ_ins_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Can you explain why you highlighted these sentences? What clues do they offer about the study insight?
+]]></Markdown>
+<TextArea id="hs_econ_ins_hl_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_econ_ins_team" title="Ty's highlights">
+<Markdown id="hs_econ_ins_team_md" src="readings/econ_excerpt_team.md" />
+</Vertical>
+
+<Vertical id="hs_econ_ins_write_q">
+<Markdown><![CDATA[
+**Write your sentence for the insight of this source.**
+]]></Markdown>
+<TextArea id="hs_econ_ins_write" rows="3" placeholder="The main insight of this study is…" />
+</Vertical>
+
+<Vertical id="hs_econ_ins_choice_q">
+<ChoiceInput id="hs_econ_ins_choice">
+<Markdown><![CDATA[
+**Which one should we go with?**
+]]></Markdown>
+  <Distractor value="Homelessness is strongly connected to housing affordability, poverty, and unemployment.">Homelessness is strongly connected to housing affordability, poverty, and unemployment.</Distractor>
+  <Distractor value="States with higher entrepreneurial activity and labor market freedom tend to have lower homelessness rates.">States with higher entrepreneurial activity and labor market freedom tend to have lower homelessness rates.</Distractor>
+  <Key value="Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.">Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.</Key>
+  <Distractor value="Institutional economic conditions play an important role in shaping homelessness rates across states.">Institutional economic conditions play an important role in shaping homelessness rates across states.</Distractor>
+  <Distractor value="own"><Ref target="hs_econ_ins_write" format="text" /></Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs_econ_ins_choice_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs_econ_ins_choice.value === 'own' ? @hs_econ_ins_write.value : @hs_econ_ins_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this sentence? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_econ_ins_choice_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_econ_table1" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_econ_table1_md" popout="fullscreen"><![CDATA[
+| **Elements of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** |
+|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment |
+| **Questions asked** | ??? |
+| **Evidence used** | ??? |
+| **Methods** | ??? |
+| **Underlying Assumption** | ??? |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_econ_table2" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_econ_table2_md" popout="fullscreen"><![CDATA[
+| **Elements of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** |
+|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment |
+| **Questions asked** | **How do economic conditions influence housing insecurity?** |
+| **Evidence used** | ??? |
+| **Methods** | ??? |
+| **Underlying Assumption** | ??? |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_econ_table3" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_econ_table3_md" popout="fullscreen"><![CDATA[
+| **Elements of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** |
+|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment |
+| **Questions asked** | **How do economic conditions influence housing insecurity?** |
+| **Evidence used** | state-level panel data and homelessness rates as well as labor market data, entrepreneurship measures |
+| **Methods** | **Dynamic econometric methods**, including **Panel Vector Autoregression (PVAR), Granger causality testing, and Cholesky forecast-error variance decomposition.** |
+| **Underlying Assumption** | ??? |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_econ_table4" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_econ_table4_md" popout="fullscreen"><![CDATA[
+| **Elements of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** |
+|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment |
+| **Questions asked** | How do economic conditions influence housing insecurity? |
+| **Evidence used** | state-level panel data and homelessness rates as well as labor market data, entrepreneurship measures |
+| **Methods** | Dynamic econometric methods, including Panel Vector Autoregression (PVAR), Granger causality testing, and Cholesky forecast-error variance decomposition. |
+| **Underlying Assumption** | **Economic systems, incentives, and institutional conditions strongly influence human behavior and social outcomes.** |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_econ_q_choice_q">
+<ChoiceInput id="hs_econ_q_choice">
+<Markdown><![CDATA[
+**Which research question should we go with?** If none of these fits, choose *Other* and write your own.
+]]></Markdown>
+  <Key value="How do economic conditions influence housing insecurity?">How do economic conditions influence housing insecurity?</Key>
+  <Distractor value="How do housing costs and poverty contribute to homelessness in the United States?">How do housing costs and poverty contribute to homelessness in the United States?</Distractor>
+  <Distractor value="How does entrepreneurship affect economic growth and employment across U.S. states?">How does entrepreneurship affect economic growth and employment across U.S. states?</Distractor>
+  <Distractor value="How can states increase entrepreneurial activity and labor market freedom?">How can states increase entrepreneurial activity and labor market freedom?</Distractor>
+  <Distractor value="How do government assistance programs reduce homelessness?">How do government assistance programs reduce homelessness?</Distractor>
+  <Distractor value="other">Other (write your own)</Distractor>
+</ChoiceInput>
+<TextArea id="hs_econ_q_choice_other" rows="2" placeholder="Write your own research question…" when="@hs_econ_q_choice.value === 'other'" />
+</Vertical>
+
+<Vertical id="hs_econ_q_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs_econ_q_choice.value === 'other' ? @hs_econ_q_choice_other.value : @hs_econ_q_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this choice? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_econ_q_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_econ_em_hl_screen" title="Evidence and methods">
+<TextSelectionInput id="hs_econ_em_hl" src="readings/econ_evidence.textSelectionpeg" />
+</Vertical>
+
+<Vertical id="hs_econ_em_why_q">
+<Markdown><![CDATA[
+**You highlighted the following:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_econ_em_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Can you explain why you highlighted these words? What clues do they offer about the evidence and methods researchers used in this study?
+]]></Markdown>
+<TextArea id="hs_econ_em_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_econ_crit_q">
+<TabularMCQ id="hs_econ_crit">
+cols: Yes, No
+rows:
+  - "Describe how Economics generally understands reality?|c1"
+  - "Apply broadly across many Economics studies?|c2"
+  - "Go beyond the findings of this particular study?|c3"
+  - "Sound like something we might read in an introductory Economics textbook?|c4"
+</TabularMCQ>
+</Vertical>
+
+<Vertical id="hs_econ_crit_why_q">
+<Markdown><![CDATA[
+**Here is how you answered:**
+]]></Markdown>
+<Markdown>
+| Does the study main insight... | Your answer |
+|---|---|
+| Describe how Economics generally understands reality? | {{@hs_econ_crit.value.c1 === 0 ? "Yes" : (@hs_econ_crit.value.c1 === 1 ? "No" : "—")}} |
+| Apply broadly across many Economics studies? | {{@hs_econ_crit.value.c2 === 0 ? "Yes" : (@hs_econ_crit.value.c2 === 1 ? "No" : "—")}} |
+| Go beyond the findings of this particular study? | {{@hs_econ_crit.value.c3 === 0 ? "Yes" : (@hs_econ_crit.value.c3 === 1 ? "No" : "—")}} |
+| Sound like something we might read in an introductory Economics textbook? | {{@hs_econ_crit.value.c4 === 0 ? "Yes" : (@hs_econ_crit.value.c4 === 1 ? "No" : "—")}} |
+</Markdown>
+<Markdown><![CDATA[
+Can you explain your answers for these criteria?
+]]></Markdown>
+<TextArea id="hs_econ_crit_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_econ_assume_q">
+<ChoiceInput id="hs_econ_assume">
+<Markdown><![CDATA[
+**Which statement turns those clues into a broader assumption of Economics?**
+]]></Markdown>
+  <Key value="Economic systems, incentives, and institutional conditions influence human behavior and social outcomes.">Economic systems, incentives, and institutional conditions influence human behavior and social outcomes.</Key>
+  <Distractor value="Economic conditions are one of many factors that can contribute to homelessness.">Economic conditions are one of many factors that can contribute to homelessness.</Distractor>
+  <Distractor value="People's economic outcomes are mainly determined by the personal choices they make.">People's economic outcomes are mainly determined by the personal choices they make.</Distractor>
+  <Distractor value="Government programs are the most important influence on people's economic well-being.">Government programs are the most important influence on people's economic well-being.</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs_econ_assume_why_q">
+<Markdown class="whitespace-pre-wrap">**You chose the following for this discipline's underlying assumption:**&#10;&#10;{{@hs_econ_assume.value}}</Markdown>
+<Markdown><![CDATA[
+Can you explain why you chose this?
+]]></Markdown>
+<TextArea id="hs_econ_assume_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_econ_bb_q">
+<Markdown><![CDATA[
+**Brain Break Reflection**
+]]></Markdown>
+<Markdown><![CDATA[
+**1. What does the Economics discipline seem to assume about why people experience housing insecurity?**
+]]></Markdown>
+<TextArea id="hs_econ_bb1" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**2. If another discipline studied this same problem, what might it focus on instead?**
+]]></Markdown>
+<TextArea id="hs_econ_bb2" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**3. What, if anything, is still unclear or confusing?**
+]]></Markdown>
+<TextArea id="hs_econ_bb3" rows="3" placeholder="Type your answer here…" />
+</Vertical>
+
+<!-- ----- Source 2: Parolin (2021) ----- -->
+<Vertical id="hs_policy_read" title="Parolin (2021)">
+<Markdown id="hs_policy_read_md" src="readings/policy_full.md" />
+</Vertical>
+
+<Vertical id="hs_policy_disc_q">
+<ChoiceInput id="hs_policy_disc">
+<Markdown><![CDATA[
+**Which discipline do you think is most representative of this study?**
+]]></Markdown>
+  <Distractor value="Biology">Biology</Distractor>
+  <Distractor value="Psychology">Psychology</Distractor>
+  <Distractor value="Earth science">Earth science</Distractor>
+  <Distractor value="Sociology">Sociology</Distractor>
+  <Distractor value="Economics">Economics</Distractor>
+  <Distractor value="Political science">Political science</Distractor>
+  <Key value="Public Policy">Public Policy</Key>
+  <Distractor value="Social Work">Social Work</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Markdown id="hs_policy_disc_echo">**You selected:** {{@hs_policy_disc.value}}</Markdown>
+<Vertical id="hs_policy_kw_screen" title="Highlight keywords">
+<TextSelectionInput id="hs_policy_kw" src="readings/policy_keywords.textSelectionpeg" />
+<Markdown when="@hs_policy_kw.value.length &lt; 5">*You have highlighted {{@hs_policy_kw.value.length}} word(s). Highlight at least 5 to continue.*</Markdown>
+<Markdown when="@hs_policy_kw.value.length &gt;= 5">*✓ You have highlighted at least 5 words. Go back to the conversation on the left and click Continue.*</Markdown>
+</Vertical>
+
+<Vertical id="hs_policy_kw_why_q">
+<Markdown><![CDATA[
+**You highlighted the following clues:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_policy_kw.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+How are these clues representative of the discipline you picked? Explain below.
+]]></Markdown>
+<TextArea id="hs_policy_kw_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_policy_ins_hl_screen" title="Find the main insight">
+<TextSelectionInput id="hs_policy_ins_hl" src="readings/policy_insight.textSelectionpeg" separatorRegexp="§" separatorHidden="true" />
+</Vertical>
+
+<Vertical id="hs_policy_ins_hl_why_q">
+<Markdown><![CDATA[
+**You highlighted the following:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_policy_ins_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Can you explain why you highlighted these sentences? What clues do they offer about the study insight?
+]]></Markdown>
+<TextArea id="hs_policy_ins_hl_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_policy_ins_team" title="Teammates' highlights">
+<Markdown id="hs_policy_ins_team_md" src="readings/policy_excerpt_team.md" />
+</Vertical>
+
+<Vertical id="hs_policy_ins_write_q">
+<Markdown><![CDATA[
+**Write your sentence for the insight of this source.**
+]]></Markdown>
+<TextArea id="hs_policy_ins_write" rows="3" placeholder="The main insight of this study is…" />
+</Vertical>
+
+<Vertical id="hs_policy_ins_choice_q">
+<ChoiceInput id="hs_policy_ins_choice">
+<Markdown><![CDATA[
+**Which one should we go with?**
+]]></Markdown>
+  <Distractor value="Greater access to TANF cash assistance is associated with lower family homelessness rates.">Greater access to TANF cash assistance is associated with lower family homelessness rates.</Distractor>
+  <Distractor value="Differences in income support policy accessibility and generosity may influence family homelessness rates.">Differences in income support policy accessibility and generosity may influence family homelessness rates.</Distractor>
+  <Distractor value="Greater access to TANF cash assistance is linked to lower family homelessness rates, especially in majority–Black and Native American school districts.">Greater access to TANF cash assistance is linked to lower family homelessness rates, especially in majority–Black and Native American school districts.</Distractor>
+  <Distractor value="SNAP and EITC programs were more effective than TANF cash assistance at reducing homelessness.">SNAP and EITC programs were more effective than TANF cash assistance at reducing homelessness.</Distractor>
+  <Key value="Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.">Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.</Key>
+  <Distractor value="own"><Ref target="hs_policy_ins_write" format="text" /></Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs_policy_ins_choice_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs_policy_ins_choice.value === 'own' ? @hs_policy_ins_write.value : @hs_policy_ins_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this sentence? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_policy_ins_choice_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_policy_q_choice_q">
+<ChoiceInput id="hs_policy_q_choice">
+<Markdown><![CDATA[
+**Which research question should we go with?** If none of these fits, choose *Other* and write your own.
+]]></Markdown>
+  <Key value="How do income support policies influence family homelessness?">How do income support policies influence family homelessness?</Key>
+  <Distractor value="How do rising housing costs influence family homelessness?">How do rising housing costs influence family homelessness?</Distractor>
+  <Distractor value="How does unemployment contribute to family homelessness?">How does unemployment contribute to family homelessness?</Distractor>
+  <Distractor value="How do different forms of public assistance affect family economic hardship?">How do different forms of public assistance affect family economic hardship?</Distractor>
+  <Distractor value="How do racial differences influence families’ access to public assistance?">How do racial differences influence families’ access to public assistance?</Distractor>
+  <Distractor value="other">Other (write your own)</Distractor>
+</ChoiceInput>
+<TextArea id="hs_policy_q_choice_other" rows="2" placeholder="Write your own research question…" when="@hs_policy_q_choice.value === 'other'" />
+</Vertical>
+
+<Vertical id="hs_policy_q_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs_policy_q_choice.value === 'other' ? @hs_policy_q_choice_other.value : @hs_policy_q_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this choice? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_policy_q_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_policy_q_excerpt" title="Abstract, Introduction, Background">
+<Markdown id="hs_policy_q_excerpt_md" src="readings/policy_questions_excerpt.md" />
+</Vertical>
+
+<Vertical id="hs_policy_table1" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_policy_table1_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** |
+|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability |
+| **Questions asked** | How do economic conditions influence housing insecurity? | ? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | ? |
+| **Methods** | Econometric analysis of state-level panel data | ? |
+| **Underlying Assumption** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | ? |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_policy_table2" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_policy_table2_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** |
+|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | ? |
+| **Methods** | Econometric analysis of state-level panel data | ? |
+| **Underlying Assumption** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | ? |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_policy_table3" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_policy_table3_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** |
+|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. |
+| **Underlying Assumption** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | ? |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_policy_table4" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_policy_table4_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** |
+|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. |
+| **Underlying Assumption** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_policy_em_hl_screen" title="Evidence and methods">
+<TextSelectionInput id="hs_policy_em_hl" src="readings/policy_evidence.textSelectionpeg" />
+</Vertical>
+
+<Vertical id="hs_policy_crit1_q">
+<TabularMCQ id="hs_policy_crit1">
+cols: Yes, No
+rows:
+  - "Describes how the discipline understands reality|c1"
+  - "Can guide many studies in the discipline|c2"
+  - "Is not the conclusion of this particular study|c3"
+  - "Could appear in an introductory Public Policy textbook|c4"
+</TabularMCQ>
+</Vertical>
+
+<Vertical id="hs_policy_crit1_why_q">
+<Markdown><![CDATA[
+**Here is how you answered:**
+]]></Markdown>
+<Markdown>
+| Criteria | Your answer |
+|---|---|
+| Describes how the discipline understands reality | {{@hs_policy_crit1.value.c1 === 0 ? "Yes" : (@hs_policy_crit1.value.c1 === 1 ? "No" : "—")}} |
+| Can guide many studies in the discipline | {{@hs_policy_crit1.value.c2 === 0 ? "Yes" : (@hs_policy_crit1.value.c2 === 1 ? "No" : "—")}} |
+| Is not the conclusion of this particular study | {{@hs_policy_crit1.value.c3 === 0 ? "Yes" : (@hs_policy_crit1.value.c3 === 1 ? "No" : "—")}} |
+| Could appear in an introductory Public Policy textbook | {{@hs_policy_crit1.value.c4 === 0 ? "Yes" : (@hs_policy_crit1.value.c4 === 1 ? "No" : "—")}} |
+</Markdown>
+<Markdown><![CDATA[
+Can you explain your answers?
+]]></Markdown>
+<TextArea id="hs_policy_crit1_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_policy_crit2_q">
+<TabularMCQ id="hs_policy_crit2">
+cols: Yes, No
+rows:
+  - "Describes how the discipline understands reality|c1"
+  - "Can guide many studies in the discipline|c2"
+  - "Is not the conclusion of this particular study|c3"
+  - "Could appear in an introductory Public Policy textbook|c4"
+</TabularMCQ>
+</Vertical>
+
+<Vertical id="hs_policy_crit2_why_q">
+<Markdown><![CDATA[
+**Here is how you answered:**
+]]></Markdown>
+<Markdown>
+| Criteria | Your answer |
+|---|---|
+| Describes how the discipline understands reality | {{@hs_policy_crit2.value.c1 === 0 ? "Yes" : (@hs_policy_crit2.value.c1 === 1 ? "No" : "—")}} |
+| Can guide many studies in the discipline | {{@hs_policy_crit2.value.c2 === 0 ? "Yes" : (@hs_policy_crit2.value.c2 === 1 ? "No" : "—")}} |
+| Is not the conclusion of this particular study | {{@hs_policy_crit2.value.c3 === 0 ? "Yes" : (@hs_policy_crit2.value.c3 === 1 ? "No" : "—")}} |
+| Could appear in an introductory Public Policy textbook | {{@hs_policy_crit2.value.c4 === 0 ? "Yes" : (@hs_policy_crit2.value.c4 === 1 ? "No" : "—")}} |
+</Markdown>
+<Markdown><![CDATA[
+Can you explain your answers?
+]]></Markdown>
+<TextArea id="hs_policy_crit2_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_policy_bb_q">
+<Markdown><![CDATA[
+**Brain Break Reflection**
+]]></Markdown>
+<Markdown><![CDATA[
+**1. Look at the Disciplinary Perspective Comparison table. Which two rows best illustrate the differences between the economics and public policy perspectives? Why?**
+]]></Markdown>
+<TextArea id="hs_policy_bb1" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**2. How do you think these two studies might complement each other?**
+]]></Markdown>
+<TextArea id="hs_policy_bb2" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**3. What, if anything, is still unclear or confusing?**
+]]></Markdown>
+<TextArea id="hs_policy_bb3" rows="3" placeholder="Type your answer here…" />
+</Vertical>
+
+<!-- ----- Source 3: Barry et al. (2024) ----- -->
+<Vertical id="hs_psych_read" title="Barry et al. (2024)">
+<Markdown id="hs_psych_read_md" src="readings/psych_full.md" />
+</Vertical>
+
+<Vertical id="hs_psych_disc_q">
+<ChoiceInput id="hs_psych_disc">
+<Markdown><![CDATA[
+**Which discipline do you think is most representative of this study?**
+]]></Markdown>
+  <Distractor value="Biology">Biology</Distractor>
+  <Key value="Psychology">Psychology</Key>
+  <Distractor value="Earth science">Earth science</Distractor>
+  <Distractor value="Sociology">Sociology</Distractor>
+  <Distractor value="Economics">Economics</Distractor>
+  <Distractor value="Political science">Political science</Distractor>
+  <Distractor value="Public Policy">Public Policy</Distractor>
+  <Distractor value="Social Work">Social Work</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Markdown id="hs_psych_disc_echo">**You selected:** {{@hs_psych_disc.value}}</Markdown>
+<Vertical id="hs_psych_kw_screen" title="Highlight keywords">
+<TextSelectionInput id="hs_psych_kw" src="readings/psych_keywords.textSelectionpeg" />
+<Markdown when="@hs_psych_kw.value.length &lt; 5">*You have highlighted {{@hs_psych_kw.value.length}} word(s). Highlight at least 5 to continue.*</Markdown>
+<Markdown when="@hs_psych_kw.value.length &gt;= 5">*✓ You have highlighted at least 5 words. Go back to the conversation on the left and click Continue.*</Markdown>
+</Vertical>
+
+<Vertical id="hs_psych_kw_why_q">
+<Markdown><![CDATA[
+**You highlighted the following clues:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_psych_kw.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+How are these clues representative of the discipline you picked? Explain below.
+]]></Markdown>
+<TextArea id="hs_psych_kw_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_psych_ins_hl_screen" title="Find the main insight">
+<TextSelectionInput id="hs_psych_ins_hl" src="readings/psych_insight.textSelectionpeg" separatorRegexp="§" separatorHidden="true" />
+</Vertical>
+
+<Vertical id="hs_psych_ins_hl_why_q">
+<Markdown><![CDATA[
+**You highlighted the following:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_psych_ins_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Can you explain why you highlighted these sentences? What clues do they offer about the study insight?
+]]></Markdown>
+<TextArea id="hs_psych_ins_hl_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_psych_ins_team" title="Teammates' highlights">
+<Markdown id="hs_psych_ins_team_md" src="readings/psych_excerpt_team.md" />
+</Vertical>
+
+<Vertical id="hs_psych_ins_write_q">
+<Markdown><![CDATA[
+**Write your sentence for the insight of this source.**
+]]></Markdown>
+<TextArea id="hs_psych_ins_write" rows="3" placeholder="The main insight of this study is…" />
+</Vertical>
+
+<Vertical id="hs_psych_ins_choice_q">
+<ChoiceInput id="hs_psych_ins_choice">
+<Markdown><![CDATA[
+**Which one should we go with?**
+]]></Markdown>
+  <Distractor value="Substance use disorders were more common among homeless populations than all other mental health conditions combined.">Substance use disorders were more common among homeless populations than all other mental health conditions combined.</Distractor>
+  <Key value="Mental health disorders are highly prevalent among individuals experiencing homelessness, suggesting that homelessness responses should integrate mental health, substance use, and social support services.">Mental health disorders are highly prevalent among individuals experiencing homelessness, suggesting that homelessness responses should integrate mental health, substance use, and social support services.</Key>
+  <Distractor value="Women experiencing homelessness were found to have substantially higher rates of lifetime mental health disorders than men.">Women experiencing homelessness were found to have substantially higher rates of lifetime mental health disorders than men.</Distractor>
+  <Distractor value="Homelessness is mainly caused by severe mental illnesses such as bipolar disorder and schizophrenia.">Homelessness is mainly caused by severe mental illnesses such as bipolar disorder and schizophrenia.</Distractor>
+  <Distractor value="Individuals experiencing homelessness are more likely than the general population to experience a wide range of mental health disorders, highlighting the close relationship between homelessness and mental illness.">Individuals experiencing homelessness are more likely than the general population to experience a wide range of mental health disorders, highlighting the close relationship between homelessness and mental illness.</Distractor>
+  <Distractor value="own"><Ref target="hs_psych_ins_write" format="text" /></Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs_psych_ins_choice_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs_psych_ins_choice.value === 'own' ? @hs_psych_ins_write.value : @hs_psych_ins_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this sentence? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_psych_ins_choice_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_psych_q_choice_q">
+<ChoiceInput id="hs_psych_q_choice">
+<Markdown><![CDATA[
+**Which research question should we go with?** If none of these fits, choose *Other* and write your own.
+]]></Markdown>
+  <Key value="What role do mental health disorders play in understanding homelessness?">What role do mental health disorders play in understanding homelessness?</Key>
+  <Distractor value="How can mental health treatment reduce homelessness?">How can mental health treatment reduce homelessness?</Distractor>
+  <Distractor value="What causes people experiencing homelessness to develop mental health disorders?">What causes people experiencing homelessness to develop mental health disorders?</Distractor>
+  <Distractor value="Which mental health disorders are the most difficult to treat?">Which mental health disorders are the most difficult to treat?</Distractor>
+  <Distractor value="How effective are housing programs for people with mental health disorders?">How effective are housing programs for people with mental health disorders?</Distractor>
+  <Distractor value="other">Other (write your own)</Distractor>
+</ChoiceInput>
+<TextArea id="hs_psych_q_choice_other" rows="2" placeholder="Write your own research question…" when="@hs_psych_q_choice.value === 'other'" />
+</Vertical>
+
+<Vertical id="hs_psych_q_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs_psych_q_choice.value === 'other' ? @hs_psych_q_choice_other.value : @hs_psych_q_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this choice? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_psych_q_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_psych_table1" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_psych_table1_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry Barry et al. (2024)** |
+|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | ??? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | ??? |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | ??? |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | ??? |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_psych_table2" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_psych_table2_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry Barry et al. (2024)** |
+|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | ??? |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | ??? |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | ??? |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_psych_table3" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_psych_table3_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry Barry et al. (2024)** |
+|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | **???** |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_psych_table4" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_psych_table4_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry Barry et al. (2024)** |
+|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_psych_crit_q">
+<TabularMCQ id="hs_psych_crit">
+cols: Yes, No
+rows:
+  - "Describes how the discipline understands reality|c1"
+  - "Can guide many studies in the discipline|c2"
+  - "Is not the conclusion of this particular study|c3"
+  - "Could appear in an introductory Public Policy textbook|c4"
+</TabularMCQ>
+</Vertical>
+
+<Vertical id="hs_psych_crit_why_q">
+<Markdown><![CDATA[
+**Here is how you answered:**
+]]></Markdown>
+<Markdown>
+| Criteria | Your answer |
+|---|---|
+| Describes how the discipline understands reality | {{@hs_psych_crit.value.c1 === 0 ? "Yes" : (@hs_psych_crit.value.c1 === 1 ? "No" : "—")}} |
+| Can guide many studies in the discipline | {{@hs_psych_crit.value.c2 === 0 ? "Yes" : (@hs_psych_crit.value.c2 === 1 ? "No" : "—")}} |
+| Is not the conclusion of this particular study | {{@hs_psych_crit.value.c3 === 0 ? "Yes" : (@hs_psych_crit.value.c3 === 1 ? "No" : "—")}} |
+| Could appear in an introductory Public Policy textbook | {{@hs_psych_crit.value.c4 === 0 ? "Yes" : (@hs_psych_crit.value.c4 === 1 ? "No" : "—")}} |
+</Markdown>
+<Markdown><![CDATA[
+Can you explain your answers for these criteria?
+]]></Markdown>
+<TextArea id="hs_psych_crit_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_psych_bb_q">
+<Markdown><![CDATA[
+**Brain Break Reflection**
+]]></Markdown>
+<Markdown><![CDATA[
+**1. Look at the Disciplinary Perspective Comparison table. Which two rows best illustrate the differences among the economics, public policy, and psychology perspectives? Why?**
+]]></Markdown>
+<TextArea id="hs_psych_bb1" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**2. How does the psychology perspective complement the economics and public policy perspectives? What does it add to our understanding of housing insecurity?**
+]]></Markdown>
+<TextArea id="hs_psych_bb2" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**3. What, if anything, is still unclear or confusing?**
+]]></Markdown>
+<TextArea id="hs_psych_bb3" rows="3" placeholder="Type your answer here…" />
+</Vertical>
+
+<!-- ----- Source 4: Contat et al. (2024) ----- -->
+<Vertical id="hs_estate_read" title="Contat et al. (2024)">
+<Markdown id="hs_estate_read_md" src="readings/estate_full.md" />
+</Vertical>
+
+<Vertical id="hs_estate_disc_q">
+<ChoiceInput id="hs_estate_disc">
+<Markdown><![CDATA[
+**Which discipline do you think is most representative of this study?**
+]]></Markdown>
+  <Distractor value="Biology">Biology</Distractor>
+  <Distractor value="Psychology">Psychology</Distractor>
+  <Distractor value="Earth science">Earth science</Distractor>
+  <Distractor value="Sociology">Sociology</Distractor>
+  <Key value="Economics">Economics</Key>
+  <Distractor value="Political science">Political science</Distractor>
+  <Distractor value="Public Policy">Public Policy</Distractor>
+  <Distractor value="Social Work">Social Work</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Markdown id="hs_estate_disc_echo">**You selected:** {{@hs_estate_disc.value}}</Markdown>
+<Vertical id="hs_estate_kw_screen" title="Highlight keywords">
+<TextSelectionInput id="hs_estate_kw" src="readings/estate_keywords.textSelectionpeg" />
+<Markdown when="@hs_estate_kw.value.length &lt; 5">*You have highlighted {{@hs_estate_kw.value.length}} word(s). Highlight at least 5 to continue.*</Markdown>
+<Markdown when="@hs_estate_kw.value.length &gt;= 5">*✓ You have highlighted at least 5 words. Go back to the conversation on the left and click Continue.*</Markdown>
+</Vertical>
+
+<Vertical id="hs_estate_kw_why_q">
+<Markdown><![CDATA[
+**You highlighted the following clues:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_estate_kw.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+How are these clues representative of the discipline you picked? Explain below.
+]]></Markdown>
+<TextArea id="hs_estate_kw_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_estate_ins_hl_screen" title="Find the main insight">
+<TextSelectionInput id="hs_estate_ins_hl" src="readings/estate_insight.textSelectionpeg" separatorRegexp="§" separatorHidden="true" />
+</Vertical>
+
+<Vertical id="hs_estate_ins_hl_why_q">
+<Markdown><![CDATA[
+**You highlighted the following:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_estate_ins_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Can you explain why you highlighted these sentences? What clues do they offer about the study insight?
+]]></Markdown>
+<TextArea id="hs_estate_ins_hl_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_estate_ins_team" title="Teammates' highlights">
+<Markdown id="hs_estate_ins_team_md" src="readings/estate_excerpt_team.md" />
+</Vertical>
+
+<Vertical id="hs_estate_ins_write_q">
+<Markdown><![CDATA[
+**Write your sentence for the insight of this source.**
+]]></Markdown>
+<TextArea id="hs_estate_ins_write" rows="3" placeholder="The main insight of this study is…" />
+</Vertical>
+
+<Vertical id="hs_estate_ins_choice_q">
+<ChoiceInput id="hs_estate_ins_choice">
+<Markdown><![CDATA[
+**Which one should we go with?**
+]]></Markdown>
+  <Distractor value="own"><Ref target="hs_estate_ins_write" format="text" /></Distractor>
+  <Distractor value="Climate-related environmental risks mainly influence homelessness by increasing mental health disorders and reducing access to psychiatric treatment services.">Climate-related environmental risks mainly influence homelessness by increasing mental health disorders and reducing access to psychiatric treatment services.</Distractor>
+  <Distractor value="Housing instability caused by climate change is mostly explained by failures in public assistance programs rather than by changes in housing markets, property values, or environmental risk exposure.">Housing instability caused by climate change is mostly explained by failures in public assistance programs rather than by changes in housing markets, property values, or environmental risk exposure.</Distractor>
+  <Key value="Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.">Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.</Key>
+  <Distractor value="The main impact of climate-related disasters on housing comes from temporary physical damage to homes, while long-term housing markets and affordability patterns remain mostly unchanged.">The main impact of climate-related disasters on housing comes from temporary physical damage to homes, while long-term housing markets and affordability patterns remain mostly unchanged.</Distractor>
+  <Distractor value="Climate change primarily affects homelessness because extreme weather events increase individual psychological stress and reduce people’s motivation to maintain stable housing.">Climate change primarily affects homelessness because extreme weather events increase individual psychological stress and reduce people’s motivation to maintain stable housing.</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs_estate_ins_choice_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs_estate_ins_choice.value === 'own' ? @hs_estate_ins_write.value : @hs_estate_ins_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this sentence? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_estate_ins_choice_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_estate_q_choice_q">
+<ChoiceInput id="hs_estate_q_choice">
+<Markdown><![CDATA[
+**Which research question should we go with?** If none of these fits, choose *Other* and write your own.
+]]></Markdown>
+  <Key value="How do climate risks influence housing markets and housing stability?">How do climate risks influence housing markets and housing stability?</Key>
+  <Distractor value="How do natural disasters affect emergency response and disaster recovery efforts?">How do natural disasters affect emergency response and disaster recovery efforts?</Distractor>
+  <Distractor value="How do housing prices influence where people choose to live?">How do housing prices influence where people choose to live?</Distractor>
+  <Distractor value="How can governments reduce the effects of climate change on vulnerable communities?">How can governments reduce the effects of climate change on vulnerable communities?</Distractor>
+  <Distractor value="How do environmental hazards affect property values and insurance costs?">How do environmental hazards affect property values and insurance costs?</Distractor>
+  <Distractor value="other">Other (write your own)</Distractor>
+</ChoiceInput>
+<TextArea id="hs_estate_q_choice_other" rows="2" placeholder="Write your own research question…" when="@hs_estate_q_choice.value === 'other'" />
+</Vertical>
+
+<Vertical id="hs_estate_q_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs_estate_q_choice.value === 'other' ? @hs_estate_q_choice_other.value : @hs_estate_q_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this choice? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_estate_q_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_estate_q_excerpt" title="Abstract, Introduction, Background">
+<Markdown id="hs_estate_q_excerpt_md" src="readings/estate_questions_excerpt.md" />
+</Vertical>
+
+<Vertical id="hs_estate_table1" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_estate_table1_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry Barry et al. (2024)** | **Real Estate Economics (Contat et al., 2024)** |
+|---|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | ??? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | ??? |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis | ??? |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | **???** |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_estate_table2" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_estate_table2_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology Barry et al. (2024)** | **Real Estate Economics (Contat et al., 2024)** |
+|---|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | How do climate risks influence housing markets and housing stability? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | ??? |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis | ??? |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | **???** |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_estate_table3" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_estate_table3_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry Barry et al. (2024)** | **Real Estate Economics (Contat et al., 2024)** |
+|---|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | How do climate risks influence housing markets and housing stability? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | Housing market data, climate-risk maps, insurance, mortgage, and migration data |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis | Literature review synthesizing quantitative and qualitative research |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | **???** |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_estate_table4" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_estate_table4_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry Barry et al. (2024)** | **Real Estate Economics (Contat et al., 2024)** |
+|---|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | How do climate risks influence housing markets and housing stability? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | Housing market data, climate-risk maps, insurance, mortgage, and migration data |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis | Literature review synthesizing quantitative and qualitative research |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | Housing systems are shaped by interactions among market forces, the built environment, and the natural environment. |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_estate_em_hl_screen" title="Evidence and methods">
+<TextSelectionInput id="hs_estate_em_hl" src="readings/estate_evidence.textSelectionpeg" />
+</Vertical>
+
+<Vertical id="hs_estate_em_why_q">
+<Markdown><![CDATA[
+**You highlighted the following:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_estate_em_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Can you explain why you highlighted these words? What clues do they offer about the evidence and methods researchers used in this study?
+]]></Markdown>
+<TextArea id="hs_estate_em_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_estate_crit_q">
+<TabularMCQ id="hs_estate_crit">
+cols: Yes, No
+rows:
+  - "Describes how the discipline understands reality|c1"
+  - "Can guide many studies in the discipline|c2"
+  - "Is not the conclusion of this particular study|c3"
+  - "Could appear in an introductory Public Policy textbook|c4"
+</TabularMCQ>
+</Vertical>
+
+<Vertical id="hs_estate_crit_why_q">
+<Markdown><![CDATA[
+**Here is how you answered:**
+]]></Markdown>
+<Markdown>
+| Criteria | Your answer |
+|---|---|
+| Describes how the discipline understands reality | {{@hs_estate_crit.value.c1 === 0 ? "Yes" : (@hs_estate_crit.value.c1 === 1 ? "No" : "—")}} |
+| Can guide many studies in the discipline | {{@hs_estate_crit.value.c2 === 0 ? "Yes" : (@hs_estate_crit.value.c2 === 1 ? "No" : "—")}} |
+| Is not the conclusion of this particular study | {{@hs_estate_crit.value.c3 === 0 ? "Yes" : (@hs_estate_crit.value.c3 === 1 ? "No" : "—")}} |
+| Could appear in an introductory Public Policy textbook | {{@hs_estate_crit.value.c4 === 0 ? "Yes" : (@hs_estate_crit.value.c4 === 1 ? "No" : "—")}} |
+</Markdown>
+<Markdown><![CDATA[
+Can you explain your answers for these criteria?
+]]></Markdown>
+<TextArea id="hs_estate_crit_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_estate_bb_q">
+<Markdown><![CDATA[
+**Brain Break Reflection**
+]]></Markdown>
+<Markdown><![CDATA[
+**1. Which row in the Disciplinary Perspective Comparison table best shows how Real Estate Economics differs from the other disciplines? Why?**
+]]></Markdown>
+<TextArea id="hs_estate_bb1" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**2. Looking across all four disciplines, what relationships or connections are beginning to emerge?**
+]]></Markdown>
+<TextArea id="hs_estate_bb2" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**3. What, if anything, is still unclear or confusing?**
+]]></Markdown>
+<TextArea id="hs_estate_bb3" rows="3" placeholder="Type your answer here…" />
+</Vertical>
+
+<!-- ----- Source 5: Fowle (2022) ----- -->
+<Vertical id="hs_polisci_read" title="Fowle (2022)">
+<Markdown id="hs_polisci_read_md" src="readings/polisci_full.md" />
+</Vertical>
+
+<Vertical id="hs_polisci_disc_q">
+<ChoiceInput id="hs_polisci_disc">
+<Markdown><![CDATA[
+**Which discipline do you think is most representative of this study?**
+]]></Markdown>
+  <Distractor value="Biology">Biology</Distractor>
+  <Distractor value="Psychology">Psychology</Distractor>
+  <Distractor value="Earth science">Earth science</Distractor>
+  <Distractor value="Sociology">Sociology</Distractor>
+  <Distractor value="Economics">Economics</Distractor>
+  <Key value="Political science">Political science</Key>
+  <Distractor value="Public Policy">Public Policy</Distractor>
+  <Distractor value="Social Work">Social Work</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Markdown id="hs_polisci_disc_echo">**You selected:** {{@hs_polisci_disc.value}}</Markdown>
+<Vertical id="hs_polisci_kw_screen" title="Highlight keywords">
+<TextSelectionInput id="hs_polisci_kw" src="readings/polisci_keywords.textSelectionpeg" />
+<Markdown when="@hs_polisci_kw.value.length &lt; 5">*You have highlighted {{@hs_polisci_kw.value.length}} word(s). Highlight at least 5 to continue.*</Markdown>
+<Markdown when="@hs_polisci_kw.value.length &gt;= 5">*✓ You have highlighted at least 5 words. Go back to the conversation on the left and click Continue.*</Markdown>
+</Vertical>
+
+<Vertical id="hs_polisci_kw_why_q">
+<Markdown><![CDATA[
+**You highlighted the following clues:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_polisci_kw.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+How are these clues representative of the discipline you picked? Explain below.
+]]></Markdown>
+<TextArea id="hs_polisci_kw_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_polisci_ins_hl_screen" title="Find the main insight">
+<TextSelectionInput id="hs_polisci_ins_hl" src="readings/polisci_insight.textSelectionpeg" separatorRegexp="§" separatorHidden="true" />
+</Vertical>
+
+<Vertical id="hs_polisci_ins_hl_why_q">
+<Markdown><![CDATA[
+**You highlighted the following:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_polisci_ins_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Can you explain why you highlighted these sentences? What clues do they offer about the study insight?
+]]></Markdown>
+<TextArea id="hs_polisci_ins_hl_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_polisci_ins_team" title="Teammates' highlights">
+<Markdown id="hs_polisci_ins_team_md" src="readings/polisci_excerpt_team.md" />
+</Vertical>
+
+<Vertical id="hs_polisci_ins_write_q">
+<Markdown><![CDATA[
+**Write your sentence for the insight of this source.**
+]]></Markdown>
+<TextArea id="hs_polisci_ins_write" rows="3" placeholder="The main insight of this study is…" />
+</Vertical>
+
+<Vertical id="hs_polisci_ins_choice_q">
+<ChoiceInput id="hs_polisci_ins_choice">
+<Markdown><![CDATA[
+**Which one should we go with?**
+]]></Markdown>
+  <Distractor value="Poverty and housing affordability challenges are the primary explanations for racial disparities in homelessness in the United States.">Poverty and housing affordability challenges are the primary explanations for racial disparities in homelessness in the United States.</Distractor>
+  <Distractor value="Historical housing discrimination and segregation have contributed to higher rates of homelessness among Black, Latinx, and Native American populations.">Historical housing discrimination and segregation have contributed to higher rates of homelessness among Black, Latinx, and Native American populations.</Distractor>
+  <Key value="Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.">Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.</Key>
+  <Distractor value="Expanding access to emergency shelters and homelessness services is the most effective way to reduce racial disparities in homelessness.">Expanding access to emergency shelters and homelessness services is the most effective way to reduce racial disparities in homelessness.</Distractor>
+  <Distractor value="Mental health conditions and substance use disorders are the major causes of racial disparities in homelessness across communities.">Mental health conditions and substance use disorders are the major causes of racial disparities in homelessness across communities.</Distractor>
+  <Distractor value="own"><Ref target="hs_polisci_ins_write" format="text" /></Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs_polisci_ins_choice_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs_polisci_ins_choice.value === 'own' ? @hs_polisci_ins_write.value : @hs_polisci_ins_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this sentence? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_polisci_ins_choice_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_polisci_q_choice_q">
+<ChoiceInput id="hs_polisci_q_choice">
+<Markdown><![CDATA[
+**Which research question should we go with?** If none of these fits, choose *Other* and write your own.
+]]></Markdown>
+  <Key value="How do structural racism and public institutions shape racial disparities in homelessness?">How do structural racism and public institutions shape racial disparities in homelessness?</Key>
+  <Distractor value="How have patterns of residential segregation changed in the United States over time?">How have patterns of residential segregation changed in the United States over time?</Distractor>
+  <Distractor value="Why do some racial and ethnic groups experience greater levels of economic inequality than others?">Why do some racial and ethnic groups experience greater levels of economic inequality than others?</Distractor>
+  <Distractor value="How do housing discrimination and eviction affect access to stable housing?">How do housing discrimination and eviction affect access to stable housing?</Distractor>
+  <Distractor value="How effective are homelessness programs at serving people from different racial and ethnic groups?">How effective are homelessness programs at serving people from different racial and ethnic groups?</Distractor>
+  <Distractor value="other">Other (write your own)</Distractor>
+</ChoiceInput>
+<TextArea id="hs_polisci_q_choice_other" rows="2" placeholder="Write your own research question…" when="@hs_polisci_q_choice.value === 'other'" />
+</Vertical>
+
+<Vertical id="hs_polisci_q_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs_polisci_q_choice.value === 'other' ? @hs_polisci_q_choice_other.value : @hs_polisci_q_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this choice? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_polisci_q_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_polisci_table1" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_polisci_table1_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry Barry et al. (2024)** | **Real Estate Economics (Contat et al., 2024)** | **Political Science (Fowle, 2022)** |
+|---|---|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement | Structural racism, institutional inequality, housing systems, and homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | How do climate risks influence housing markets and housing stability? | ??? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | Housing market data, climate-risk maps, insurance, mortgage, and migration data | ??? |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis | Literature review synthesizing quantitative and qualitative research | ??? |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | Housing systems are shaped by interactions among market forces, the built environment, and the natural environment. | ??? |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** | **Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_polisci_table2" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_polisci_table2_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry Barry et al. (2024)** | **Real Estate Economics (Contat et al., 2024)** | **Political Science (Fowle, 2022)** |
+|---|---|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement | Structural racism, institutional inequality, housing systems, and homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | How do climate risks influence housing markets and housing stability? | How do structural racism and public institutions shape racial disparities in homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | Housing market data, climate-risk maps, insurance, mortgage, and migration data | ??? |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis | Literature review synthesizing quantitative and qualitative research | ??? |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | Housing systems are shaped by interactions among market forces, the built environment, and the natural environment. | ??? |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** | **Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_polisci_table3" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_polisci_table3_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry Barry et al. (2024)** | **Real Estate Economics (Contat et al., 2024)** | **Political Science (Fowle, 2022)** |
+|---|---|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement | Structural racism, institutional inequality, housing systems, and homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | How do climate risks influence housing markets and housing stability? | How do structural racism and public institutions shape racial disparities in homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | Housing market data, climate-risk maps, insurance, mortgage, and migration data | Historical housing policies, demographic data, segregation, discrimination, and homelessness research |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis | Literature review synthesizing quantitative and qualitative research | Literature review synthesizing historical and contemporary research |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | Housing systems are shaped by interactions among market forces, the built environment, and the natural environment. | ??? |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** | **Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_polisci_table4" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_polisci_table4_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry Barry et al. (2024)** | **Real Estate Economics (Contat et al., 2024)** | **Political Science (Fowle, 2022)** |
+|---|---|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement | Structural racism, institutional inequality, housing systems, and homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | How do climate risks influence housing markets and housing stability? | How do structural racism and public institutions shape racial disparities in homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | Housing market data, climate-risk maps, insurance, mortgage, and migration data | Historical housing policies, demographic data, segregation, discrimination, and homelessness research |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis | Literature review synthesizing quantitative and qualitative research | Literature review synthesizing historical and contemporary research |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | Housing systems are shaped by interactions among market forces, the built environment, and the natural environment. | **Social outcomes are shaped by systems of power, institutions, and historical inequalities.** |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** | **Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_polisci_em_hl_screen" title="Evidence and methods">
+<TextSelectionInput id="hs_polisci_em_hl" src="readings/polisci_evidence.textSelectionpeg" />
+</Vertical>
+
+<Vertical id="hs_polisci_em_why_q">
+<Markdown><![CDATA[
+**You highlighted the following:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_polisci_em_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Can you explain why you highlighted these words? What clues do they offer about the evidence and methods researchers used in this study?
+]]></Markdown>
+<TextArea id="hs_polisci_em_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_polisci_crit_q">
+<TabularMCQ id="hs_polisci_crit">
+cols: Yes, No
+rows:
+  - "Describes how the discipline understands reality|c1"
+  - "Can guide many studies in the discipline|c2"
+  - "Is not the conclusion of this particular study|c3"
+  - "Could appear in an introductory Public Policy textbook|c4"
+</TabularMCQ>
+</Vertical>
+
+<Vertical id="hs_polisci_crit_why_q">
+<Markdown><![CDATA[
+**Here is how you answered:**
+]]></Markdown>
+<Markdown>
+| Criteria | Your answer |
+|---|---|
+| Describes how the discipline understands reality | {{@hs_polisci_crit.value.c1 === 0 ? "Yes" : (@hs_polisci_crit.value.c1 === 1 ? "No" : "—")}} |
+| Can guide many studies in the discipline | {{@hs_polisci_crit.value.c2 === 0 ? "Yes" : (@hs_polisci_crit.value.c2 === 1 ? "No" : "—")}} |
+| Is not the conclusion of this particular study | {{@hs_polisci_crit.value.c3 === 0 ? "Yes" : (@hs_polisci_crit.value.c3 === 1 ? "No" : "—")}} |
+| Could appear in an introductory Public Policy textbook | {{@hs_polisci_crit.value.c4 === 0 ? "Yes" : (@hs_polisci_crit.value.c4 === 1 ? "No" : "—")}} |
+</Markdown>
+<Markdown><![CDATA[
+Can you explain your answers for these criteria?
+]]></Markdown>
+<TextArea id="hs_polisci_crit_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_polisci_bb_q">
+<Markdown><![CDATA[
+**Brain Break Reflection**
+]]></Markdown>
+<Markdown><![CDATA[
+**1. Which row in the Disciplinary Perspective Comparison table best highlights how the Political Science perspective differs from the other four disciplines? Why?**
+]]></Markdown>
+<TextArea id="hs_polisci_bb1" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**2. Looking across the five disciplinary perspectives, which two do you think complement each other the most? Explain why.**
+]]></Markdown>
+<TextArea id="hs_polisci_bb2" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**3. What, if anything, is still unclear or confusing?**
+]]></Markdown>
+<TextArea id="hs_polisci_bb3" rows="3" placeholder="Type your answer here…" />
+</Vertical>
+
+<!-- ----- Source 6: Doran et al. (2019) ----- -->
+<Vertical id="hs_soc_read" title="Doran et al. (2019)">
+<Markdown id="hs_soc_read_md" src="readings/soc_full.md" />
+</Vertical>
+
+<Vertical id="hs_soc_disc_q">
+<ChoiceInput id="hs_soc_disc">
+<Markdown><![CDATA[
+**Which discipline do you think is most representative of this study?**
+]]></Markdown>
+  <Distractor value="Biology">Biology</Distractor>
+  <Distractor value="Psychology">Psychology</Distractor>
+  <Distractor value="Earth science">Earth science</Distractor>
+  <Key value="Sociology">Sociology</Key>
+  <Distractor value="Economics">Economics</Distractor>
+  <Distractor value="Political science">Political science</Distractor>
+  <Distractor value="Public Policy">Public Policy</Distractor>
+  <Distractor value="Social Work">Social Work</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Markdown id="hs_soc_disc_echo">**You selected:** {{@hs_soc_disc.value}}</Markdown>
+<Vertical id="hs_soc_kw_screen" title="Highlight keywords">
+<TextSelectionInput id="hs_soc_kw" src="readings/soc_keywords.textSelectionpeg" />
+<Markdown when="@hs_soc_kw.value.length &lt; 5">*You have highlighted {{@hs_soc_kw.value.length}} word(s). Highlight at least 5 to continue.*</Markdown>
+<Markdown when="@hs_soc_kw.value.length &gt;= 5">*✓ You have highlighted at least 5 words. Go back to the conversation on the left and click Continue.*</Markdown>
+</Vertical>
+
+<Vertical id="hs_soc_kw_why_q">
+<Markdown><![CDATA[
+**You highlighted the following clues:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_soc_kw.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+How are these clues representative of the discipline you picked? Explain below.
+]]></Markdown>
+<TextArea id="hs_soc_kw_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_soc_ins_hl_screen" title="Find the main insight">
+<TextSelectionInput id="hs_soc_ins_hl" src="readings/soc_insight.textSelectionpeg" separatorRegexp="§" separatorHidden="true" />
+</Vertical>
+
+<Vertical id="hs_soc_ins_hl_why_q">
+<Markdown><![CDATA[
+**You highlighted the following:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_soc_ins_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Can you explain why you highlighted these sentences? What clues do they offer about the study insight?
+]]></Markdown>
+<TextArea id="hs_soc_ins_hl_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_soc_ins_team" title="Teammates' highlights">
+<Markdown id="hs_soc_ins_team_md" src="readings/soc_excerpt_team.md" />
+</Vertical>
+
+<Vertical id="hs_soc_ins_write_q">
+<Markdown><![CDATA[
+**Write your sentence for the insight of this source.**
+]]></Markdown>
+<TextArea id="hs_soc_ins_write" rows="3" placeholder="The main insight of this study is…" />
+</Vertical>
+
+<Vertical id="hs_soc_ins_choice_q">
+<ChoiceInput id="hs_soc_ins_choice">
+<Markdown><![CDATA[
+**Which one should we go with?**
+]]></Markdown>
+  <Distractor value="own"><Ref target="hs_soc_ins_write" format="text" /></Distractor>
+  <Distractor value="Homelessness is primarily caused by mental illness and substance use problems that prevent people from maintaining stable housing.">Homelessness is primarily caused by mental illness and substance use problems that prevent people from maintaining stable housing.</Distractor>
+  <Distractor value="Public assistance programs and emergency shelters are the most important factors preventing homelessness among vulnerable populations.">Public assistance programs and emergency shelters are the most important factors preventing homelessness among vulnerable populations.</Distractor>
+  <Key value="Homelessness often develops through multiple interacting personal, social, economic, health, and structural challenges that accumulate over time rather than through one isolated cause.">Homelessness often develops through multiple interacting personal, social, economic, health, and structural challenges that accumulate over time rather than through one isolated cause.</Key>
+  <Distractor value="Most people experiencing homelessness become unhoused suddenly after unexpected financial emergencies or individual life decisions.">Most people experiencing homelessness become unhoused suddenly after unexpected financial emergencies or individual life decisions.</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs_soc_ins_choice_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs_soc_ins_choice.value === 'own' ? @hs_soc_ins_write.value : @hs_soc_ins_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this sentence? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_soc_ins_choice_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_soc_q_choice_q">
+<ChoiceInput id="hs_soc_q_choice">
+<Markdown><![CDATA[
+**Which research question should we go with?** If none of these fits, choose *Other* and write your own.
+]]></Markdown>
+  <Key value="How do social relationships and structural conditions interact to shape pathways into homelessness?">How do social relationships and structural conditions interact to shape pathways into homelessness?</Key>
+  <Distractor value="How do unemployment and financial stress affect people’s ability to maintain stable housing?">How do unemployment and financial stress affect people’s ability to maintain stable housing?</Distractor>
+  <Distractor value="How do family relationships and social support change after people become homeless?">How do family relationships and social support change after people become homeless?</Distractor>
+  <Distractor value="Why do people experiencing health and mental health challenges have difficulty finding stable housing?">Why do people experiencing health and mental health challenges have difficulty finding stable housing?</Distractor>
+  <Distractor value="How do individuals experiencing homelessness understand personal responsibility for their housing situations?">How do individuals experiencing homelessness understand personal responsibility for their housing situations?</Distractor>
+  <Distractor value="other">Other (write your own)</Distractor>
+</ChoiceInput>
+<TextArea id="hs_soc_q_choice_other" rows="2" placeholder="Write your own research question…" when="@hs_soc_q_choice.value === 'other'" />
+</Vertical>
+
+<Vertical id="hs_soc_q_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs_soc_q_choice.value === 'other' ? @hs_soc_q_choice_other.value : @hs_soc_q_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this choice? Type your answer below.
+]]></Markdown>
+<TextArea id="hs_soc_q_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_soc_table1" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_soc_table1_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry (Barry et al., 2024)** | **Real Estate Economics (Contat et al., 2024)** | **Political Science (Fowle, 2022)** | **Sociology (Doran et al., 2019)** |
+|---|---|---|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement | Structural racism, institutional inequality, housing systems, and homelessness | Social relationships, support systems, structural conditions, and pathways into homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | How do climate risks influence housing markets and housing stability? | How do structural racism and public institutions shape racial disparities in homelessness? | ??? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | Housing market data, climate-risk maps, insurance, mortgage, and migration data | Historical housing policies, demographic data, segregation, discrimination, and homelessness research | ??? |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis | Literature review synthesizing quantitative and qualitative research | Literature review synthesizing historical and contemporary research | ??? |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | Housing systems are shaped by interactions among market forces, the built environment, and the natural environment. | Social outcomes are shaped by systems of power, institutions, and historical inequalities | ??? |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** | **Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.** | **Homelessness often develops through multiple interacting personal, social, economic, health, and structural challenges that accumulate over time rather than through one isolated cause.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_soc_table3" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_soc_table3_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry (Barry et al., 2024)** | **Real Estate Economics (Contat et al., 2024)** | **Political Science (Fowle, 2022)** | **Sociology (Doran et al., 2019)** |
+|---|---|---|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement | Structural racism, institutional inequality, housing systems, and homelessness | Social relationships, support systems, structural conditions, and pathways into homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | How do climate risks influence housing markets and housing stability? | How do structural racism and public institutions shape racial disparities in homelessness? | How do social relationships and structural conditions interact to shape pathways into homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | Housing market data, climate-risk maps, insurance, mortgage, and migration data | Historical housing policies, demographic data, segregation, discrimination, and homelessness research | Qualitative interviews and participants' lived experiences |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis | Literature review synthesizing quantitative and qualitative research | Literature review synthesizing historical and contemporary research | Semi-structured interviews and thematic qualitative analysis |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | Housing systems are shaped by interactions among market forces, the built environment, and the natural environment. | Social outcomes are shaped by systems of power, institutions, and historical inequalities | ??? |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** | **Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.** | **Homelessness often develops through multiple interacting personal, social, economic, health, and structural challenges that accumulate over time rather than through one isolated cause.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_soc_table4" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_soc_table4_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry (Barry et al., 2024)** | **Real Estate Economics (Contat et al., 2024)** | **Political Science (Fowle, 2022)** | **Sociology (Doran et al., 2019)** |
+|---|---|---|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement | Structural racism, institutional inequality, housing systems, and homelessness | Social relationships, support systems, structural conditions, and pathways into homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | How do climate risks influence housing markets and housing stability? | How do structural racism and public institutions shape racial disparities in homelessness? | How do social relationships and structural conditions interact to shape pathways into homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | Housing market data, climate-risk maps, insurance, mortgage, and migration data | Historical housing policies, demographic data, segregation, discrimination, and homelessness research | Qualitative interviews and participants' lived experiences |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis | Literature review synthesizing quantitative and qualitative research | Literature review synthesizing historical and contemporary research | Semi-structured interviews and thematic qualitative analysis |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | Housing systems are shaped by interactions among market forces, the built environment, and the natural environment. | Social outcomes are shaped by systems of power, institutions, and historical inequalities | **People's lives and experiences are shaped by their relationships with others and the social structures in which they live.** |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** | **Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.** | **Homelessness often develops through multiple interacting personal, social, economic, health, and structural challenges that accumulate over time rather than through one isolated cause.** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs_soc_em_hl_screen" title="Evidence and methods">
+<TextSelectionInput id="hs_soc_em_hl" src="readings/soc_evidence.textSelectionpeg" />
+</Vertical>
+
+<Vertical id="hs_soc_em_why_q">
+<Markdown><![CDATA[
+**You highlighted the following:**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs_soc_em_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Can you explain why you highlighted these words? What clues do they offer about the evidence and methods researchers used in this study?
+]]></Markdown>
+<TextArea id="hs_soc_em_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_soc_crit_q">
+<TabularMCQ id="hs_soc_crit">
+cols: Yes, No
+rows:
+  - "Describes how the discipline understands reality|c1"
+  - "Can guide many studies in the discipline|c2"
+  - "Is not the conclusion of this particular study|c3"
+  - "Could appear in an introductory Public Policy textbook|c4"
+</TabularMCQ>
+</Vertical>
+
+<Vertical id="hs_soc_crit_why_q">
+<Markdown><![CDATA[
+**Here is how you answered:**
+]]></Markdown>
+<Markdown>
+| Criteria | Your answer |
+|---|---|
+| Describes how the discipline understands reality | {{@hs_soc_crit.value.c1 === 0 ? "Yes" : (@hs_soc_crit.value.c1 === 1 ? "No" : "—")}} |
+| Can guide many studies in the discipline | {{@hs_soc_crit.value.c2 === 0 ? "Yes" : (@hs_soc_crit.value.c2 === 1 ? "No" : "—")}} |
+| Is not the conclusion of this particular study | {{@hs_soc_crit.value.c3 === 0 ? "Yes" : (@hs_soc_crit.value.c3 === 1 ? "No" : "—")}} |
+| Could appear in an introductory Public Policy textbook | {{@hs_soc_crit.value.c4 === 0 ? "Yes" : (@hs_soc_crit.value.c4 === 1 ? "No" : "—")}} |
+</Markdown>
+<Markdown><![CDATA[
+Can you explain your answers for these criteria?
+]]></Markdown>
+<TextArea id="hs_soc_crit_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs_soc_bb_q">
+<Markdown><![CDATA[
+**Brain Break Reflection**
+]]></Markdown>
+<Markdown><![CDATA[
+**1. Looking across all six disciplinary perspectives, which two seem most closely connected? Which two seem the most different? Explain your thinking.**
+]]></Markdown>
+<TextArea id="hs_soc_bb1" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**2. If you had to explain homelessness using only one disciplinary perspective, what important parts of the problem would be missing?**
+]]></Markdown>
+<TextArea id="hs_soc_bb2" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**3. What questions or ideas are you still thinking about as we prepare to bring these disciplinary perspectives together?**
+]]></Markdown>
+<TextArea id="hs_soc_bb3" rows="3" placeholder="Type your answer here…" />
+</Vertical>
+
+<!-- ===== Part 1 wrap-up (slide 202) ===== -->
+<Vertical id="hs_part1_end" title="End of Part 1">
+<Markdown><![CDATA[
+## End of Part 1
+
+Here is the team's completed **Disciplinary Perspective Comparison Table**.
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs_part1_end_table" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry (Barry et al., 2024)** | **Real Estate Economics (Contat et al., 2024)** | **Political Science (Fowle, 2022)** | **Sociology (Doran et al., 2019)** |
+|---|---|---|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement | Structural racism, institutional inequality, housing systems, and homelessness | Social relationships, support systems, structural conditions, and pathways into homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | How do climate risks influence housing markets and housing stability? | How do structural racism and public institutions shape racial disparities in homelessness? | How do social relationships and structural conditions interact to shape pathways into homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | Housing market data, climate-risk maps, insurance, mortgage, and migration data | Historical housing policies, demographic data, segregation, discrimination, and homelessness research | Qualitative interviews and participants' lived experiences |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis | Literature review synthesizing quantitative and qualitative research | Literature review synthesizing historical and contemporary research | Semi-structured interviews and thematic qualitative analysis |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | Housing systems are shaped by interactions among market forces, the built environment, and the natural environment. | Social outcomes are shaped by systems of power, institutions, and historical inequalities | **People's lives and experiences are shaped by their relationships with others and the social structures in which they live.** |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** | **Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.** | **Homelessness often develops through multiple interacting personal, social, economic, health, and structural challenges that accumulate over time rather than through one isolated cause.** |
+]]></Markdown>
+</Vertical>
+
+</Vertical>
