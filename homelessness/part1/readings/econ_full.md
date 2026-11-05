@@ -1,3 +1,9 @@
+This is a short summary of:
+
+Cebula, R. J., & Saunoris, J. W. (2021). Determinants of homelessness in the U.S.: New hypotheses and evidence. *Applied Economics, 53*(49), 5695–5709. https://doi.org/10.1080/00036846.2021.1927970
+
+Developed for this course. If you want to learn more, read the full article.
+
 **Title:** Determinants of Homelessness in the U.S.: New Hypotheses and Evidence  
 **Authors:** Richard J. Cebula and James W. Saunoris  
 **Journal:** Applied Economics  

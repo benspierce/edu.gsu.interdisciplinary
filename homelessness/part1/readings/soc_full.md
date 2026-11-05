@@ -1,3 +1,9 @@
+This is a short summary of:
+
+Doran, K. M., Ran, Z., Castelblanco, D., Shelley, D., & Padgett, D. K. (2019). "It wasn't just one thing": A qualitative study of newly homeless emergency department patients. *Academic Emergency Medicine, 26*(9), 982–993. https://doi.org/10.1111/acem.13677 (free copy: https://pmc.ncbi.nlm.nih.gov/articles/PMC6732033/)
+
+Developed for this course. If you want to learn more, read the full article.
+
 **Title:** “It Wasn’t Just One Thing”: A Qualitative Study of Newly Homeless Emergency Department Patients  
 **Authors:** Kelly M. Doran, Ziwei Ran, Donna Castelblanco, Donna Shelley, & Deborah K. Padgett  
 **Journal:** Academic Emergency Medicine  

@@ -1,3 +1,9 @@
+This is a short excerpt from a summary of:
+
+Contat, J., Hopkins, C., Mejia, L., & Suandi, M. (2024). When climate meets real estate: A survey of the literature. *Real Estate Economics, 52*(3), 618–659. https://doi.org/10.1111/1540-6229.12489 (free copy: https://fhfa.gov/document/wp2305.pdf)
+
+Developed for this course. If you want to learn more, read the full article.
+
 *The sentences that point to the researchers' question are shown in bold.*
 
 **Title:** When Climate Meets Real Estate: A Survey of the Literature  

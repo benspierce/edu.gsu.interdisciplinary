@@ -1,9 +1,16 @@
+This is a short excerpt from a summary of:
+
+Fowle, M. Z. (2022). Racialized homelessness: A review of historical and contemporary causes of racial disparities in homelessness. *Housing Policy Debate, 32*(6), 940–967. https://doi.org/10.1080/10511482.2022.2026995
+
+Developed for this course. If you want to learn more, read the full article.
+
 *The sentences your teammates highlighted are shown in bold.*
 
 **Title:** Racialized Homelessness: A Review of Historical and Contemporary Causes of Racial Disparities in Homelessness  
 **Author:** Matthew Z. Fowle  
 **Journal:** Housing Policy Debate  
 **Publication Year:** 2022  
+**Volume/Issue/Pages:** 32(6), 940–967  
 **DOI:** 10.1080/10511482.2022.2026995  
 **Link:** https://www.tandfonline.com/doi/full/10.1080/10511482.2022.2026995  
 

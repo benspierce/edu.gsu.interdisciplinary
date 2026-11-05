@@ -1,3 +1,9 @@
+This is a short summary of:
+
+Parolin, Z. (2021). Income support policies and the rise of student and family homelessness. *The ANNALS of the American Academy of Political and Social Science, 693*(1), 46–63. https://doi.org/10.1177/0002716220981847
+
+Developed for this course. If you want to learn more, read the full article.
+
 **Title:** Income Support Policies and the Rise of Student and Family Homelessness  
 **Author:** Zachary Parolin  
 **Journal:** The ANNALS of the American Academy of Political and Social Science  
