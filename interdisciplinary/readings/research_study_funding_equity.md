@@ -1,3 +1,9 @@
+This is a short summary of:
+
+Williams, M. J. (2023). *Examining school funding inequity and impact on African American high school dropouts* [Doctoral dissertation, Walden University]. Walden Dissertations and Doctoral Studies. https://scholarworks.waldenu.edu/dissertations/14618
+
+Developed for this course. If you want to learn more, read the full dissertation.
+
 ## METADATA
 **Title**: Examining  School  Funding  Inequity  and  Impact  on  African  American  High  School  Dropouts
 **Author**: Michelle  Janette  Williams

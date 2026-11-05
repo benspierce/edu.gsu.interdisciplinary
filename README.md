@@ -17,6 +17,11 @@ The course is a three-part scenario-based learning activity (SBLA):
 Each part combines a ChatPEG dialogue, an activities file, and supporting
 readings under `interdisciplinary/readings/`.
 
+The readings are short course summaries of published research. Each one names
+the original and links to it, so you can read the whole thing. The focus-group
+transcript and the policy brief are different: they were written for the
+scenario, and the people and numbers in them are made up.
+
 All three parts are in the course (`interdisciplinary_course.olx`), but Parts
 2 and 3 are present and hidden until released: each carries `when="false"`,
 which keeps it out of the navigation. To release a part, delete its

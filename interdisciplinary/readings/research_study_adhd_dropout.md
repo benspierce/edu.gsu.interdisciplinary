@@ -1,5 +1,11 @@
 # Is ADHD a Risk Factor for High School Dropout? A Controlled Study
 
+This is a short summary of:
+
+Fried, R., Petty, C., Faraone, S. V., Hyder, L. L., Day, H., & Biederman, J. (2016). Is ADHD a risk factor for high school dropout? A controlled study. *Journal of Attention Disorders, 20*(5), 383–389. https://doi.org/10.1177/1087054712473180
+
+Developed for this course. If you want to learn more, read the full article.
+
 ## Metadata
 
 **Authors:** Ronna Fried, Carter Petty, Stephen V. Faraone, Laran L. Hyder, Helen Day, and Joseph Biederman

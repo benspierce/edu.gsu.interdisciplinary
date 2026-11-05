@@ -1,5 +1,11 @@
 # Rural and Urban High School Dropout Rates: Are They Different?
 
+This is a short summary of:
+
+Jordan, J. L., Kostandini, G., & Mykerezi, E. (2012). Rural and urban high school dropout rates: Are they different? *Journal of Research in Rural Education, 27*(12), 1–21. https://doi.org/10.18113/P8JRRE2712 (free copy: https://journals.newprairiepress.org/jrre/article/id/20612/)
+
+Developed for this course. If you want to learn more, read the full article.
+
 ## Metadata
 
 **Authors:** Jeffrey L. Jordan, Genti Kostandini, Elton Mykerezi

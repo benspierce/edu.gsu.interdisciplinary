@@ -1,5 +1,11 @@
 ### Trends in High School Dropout and Completion Rates in the United States: 2019
 
+This is a short summary of:
+
+McFarland, J., Cui, J., Holmes, J., & Wang, X. (2020). *Trends in high school dropout and completion rates in the United States: 2019* (NCES 2020-117). National Center for Education Statistics, Institute of Education Sciences, U.S. Department of Education. https://nces.ed.gov/pubs2020/2020117.pdf
+
+Developed for this course. If you want to learn more, read the full report.
+
 ## Metadata
 
 **URL**: https://nces.ed.gov/pubsearch
@@ -10,7 +16,7 @@
 High school dropout remains a persistent issue with long-term consequences. According to the National Center for Education Statistics (NCES), in 2017, approximately 523,000 individuals aged 15 to 24 dropped out of high school, contributing to a national dropout rate of 4.7%. Despite improvements over the decades, disparities persist, particularly among certain demographic groups.
 
 ## The Ongoing Issue
-While dropout rates have declined significantly from 14.1% in 1977 to 5.4% in 2017, they continue to disproportionately impact historically underserved populations. The dropout rate for Hispanic students (6.5%) was higher than for White students (3.9%), reflecting ongoing disparities in educational attainment. Furthermore, students with disabilities and those from low-income backgrounds remain at higher risk of dropping out.
+While dropout rates have declined significantly from 14.1% in 1977 to 5.8% in 2017, they continue to disproportionately impact historically underserved populations. The dropout rate for Hispanic students (6.5%) was higher than for White students (3.9%), reflecting ongoing disparities in educational attainment. Furthermore, students with disabilities and those from low-income backgrounds remain at higher risk of dropping out.
 
 ## Impact of High School Dropout
 Dropping out of high school has significant repercussions for individuals, society, and the national economy. Dropouts earn considerably less over their lifetime, with median annual earnings of $26,000 compared to $32,000 for high school graduates. They also face higher unemployment rates and reduced access to stable employment opportunities. Dropouts are disproportionately represented in the criminal justice system, with higher incarceration rates and increased reliance on public assistance programs, placing financial strain on social services. A less-educated workforce weakens national economic growth and productivity. The cumulative loss of tax revenue and increased public spending on welfare and correctional facilities highlight the broader economic burden of high dropout rates.

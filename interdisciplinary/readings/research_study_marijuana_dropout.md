@@ -1,5 +1,11 @@
 # Marijuana Use and High School Dropout: The Influence of Unobservables
 
+This is a short summary of:
+
+McCaffrey, D. F., Pacula, R. L., Han, B., & Ellickson, P. (2010). Marijuana use and high school dropout: The influence of unobservables. *Health Economics, 19*(11), 1281–1299. https://doi.org/10.1002/hec.1561 (free copy: https://www.nber.org/papers/w14102)
+
+Developed for this course. If you want to learn more, read the full article.
+
 ## Metadata
 
 **Authors:** Daniel F. McCaffrey, Rosalie Liccardo Pacula, Bing Han, Phyllis Ellickson

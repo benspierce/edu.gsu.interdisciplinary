@@ -1,5 +1,11 @@
 # The Silent Epidemic: Perspectives of High School Dropouts
 
+This is a short summary of:
+
+Bridgeland, J. M., DiIulio, J. J., Jr., & Morison, K. B. (2006). *The silent epidemic: Perspectives of high school dropouts*. Civic Enterprises, in association with Peter D. Hart Research Associates, for the Bill & Melinda Gates Foundation. https://docs.gatesfoundation.org/documents/thesilentepidemic3-06final.pdf
+
+Developed for this course. If you want to learn more, read the full report.
+
 ## Metadata
 
 **Title:** The Silent Epidemic: Perspectives of High School Dropouts
@@ -7,8 +13,6 @@
 **Date:** March 2006
 
 **Source:** A report by Civic Enterprises in association with Peter D. Hart Research Associates for the Bill & Melinda Gates Foundation
-
-**Full Report URL:** https://docs.gatesfoundation.org/documents/thesilentepidemic3-06final.pdf
 
 **Document Type:** Primary Source - Student Perspectives and Focus Group Data
 
