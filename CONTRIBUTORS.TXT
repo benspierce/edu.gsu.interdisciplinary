@@ -1,14 +1,22 @@
 Contributors
 ============
 
-Course
-======
+Course: Homelessness SBA
+========================
 
-The course content was developed by Omer Ari, Jonathan David Cohen,
-Paul Deane, Lia Haddadian, Joseph Paul Magliano, Piotr Mitros, and
-Gertrude Tinker Sachs.
+The Homelessness SBA (homelessness/) was developed by Omer Ari,
+Ben Pierce, Lia Haddadian, and Piotr Mitros.
 
-The instructor of record for the fall 2026 launch is Omer Ari.
+The instructor of record is Omer Ari.
+
+Course: High-school-dropout SBA
+===============================
+
+The high-school-dropout SBA (high-school-dropout/) was developed by
+Omer Ari, Jonathan David Cohen, Paul Deane, Lia Haddadian, Joseph Paul
+Magliano, Piotr Mitros, and Gertrude Tinker Sachs.
+
+The instructor of record is Omer Ari.
 
 Platform
 ========
