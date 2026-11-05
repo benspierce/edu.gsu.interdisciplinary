@@ -18,8 +18,9 @@ lang: en-Latn-US
       conversation, next to the reading they are about.
 
   Readbacks ("You highlighted...", "Your choice...") are Markdown {{...}}
-  templates over the student's own answers; highlighted text comes from the
-  TextSelectionInput's `selectedText` value. Choice option values ARE the
+  templates over the student's own answers. Highlighted text is
+  toMarkdownBullets(@<input>.selectedSegments): one bullet per highlighted
+  sentence, or per run of highlighted words. Choice option values ARE the
   option text, so a readback can print them; the student's own sentence is
   the option valued "own", and a written-in question is "other".
 
@@ -307,7 +308,7 @@ Why did you select these choices? Type your answer below.
 <Markdown><![CDATA[
 **You highlighted the following:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_econ_ins_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_econ_ins_hl.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 Can you explain why you highlighted these sentences? What clues do they offer about the study insight?
 ]]></Markdown>
@@ -450,7 +451,7 @@ Why did you select this choice? Type your answer below.
 <Markdown><![CDATA[
 **You highlighted the following:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_econ_em_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_econ_em_hl.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 Can you explain why you highlighted these words? What clues do they offer about the evidence and methods researchers used in this study?
 ]]></Markdown>
@@ -557,7 +558,7 @@ Can you explain why you chose this?
 <Markdown><![CDATA[
 **You highlighted the following clues:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_policy_kw.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_policy_kw.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 How are these clues representative of the discipline you picked? Explain below.
 ]]></Markdown>
@@ -573,7 +574,7 @@ How are these clues representative of the discipline you picked? Explain below.
 <Markdown><![CDATA[
 **You highlighted the following:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_policy_ins_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_policy_ins_hl.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 Can you explain why you highlighted these sentences? What clues do they offer about the study insight?
 ]]></Markdown>
@@ -826,7 +827,7 @@ Can you explain your answers?
 <Markdown><![CDATA[
 **You highlighted the following clues:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_psych_kw.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_psych_kw.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 How are these clues representative of the discipline you picked? Explain below.
 ]]></Markdown>
@@ -842,7 +843,7 @@ How are these clues representative of the discipline you picked? Explain below.
 <Markdown><![CDATA[
 **You highlighted the following:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_psych_ins_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_psych_ins_hl.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 Can you explain why you highlighted these sentences? What clues do they offer about the study insight?
 ]]></Markdown>
@@ -1057,7 +1058,7 @@ Can you explain your answers for these criteria?
 <Markdown><![CDATA[
 **You highlighted the following clues:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_estate_kw.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_estate_kw.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 How are these clues representative of the discipline you picked? Explain below.
 ]]></Markdown>
@@ -1073,7 +1074,7 @@ How are these clues representative of the discipline you picked? Explain below.
 <Markdown><![CDATA[
 **You highlighted the following:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_estate_ins_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_estate_ins_hl.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 Can you explain why you highlighted these sentences? What clues do they offer about the study insight?
 ]]></Markdown>
@@ -1221,7 +1222,7 @@ Why did you select this choice? Type your answer below.
 <Markdown><![CDATA[
 **You highlighted the following:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_estate_em_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_estate_em_hl.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 Can you explain why you highlighted these words? What clues do they offer about the evidence and methods researchers used in this study?
 ]]></Markdown>
@@ -1308,7 +1309,7 @@ Can you explain your answers for these criteria?
 <Markdown><![CDATA[
 **You highlighted the following clues:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_polisci_kw.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_polisci_kw.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 How are these clues representative of the discipline you picked? Explain below.
 ]]></Markdown>
@@ -1324,7 +1325,7 @@ How are these clues representative of the discipline you picked? Explain below.
 <Markdown><![CDATA[
 **You highlighted the following:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_polisci_ins_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_polisci_ins_hl.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 Can you explain why you highlighted these sentences? What clues do they offer about the study insight?
 ]]></Markdown>
@@ -1468,7 +1469,7 @@ Why did you select this choice? Type your answer below.
 <Markdown><![CDATA[
 **You highlighted the following:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_polisci_em_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_polisci_em_hl.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 Can you explain why you highlighted these words? What clues do they offer about the evidence and methods researchers used in this study?
 ]]></Markdown>
@@ -1555,7 +1556,7 @@ Can you explain your answers for these criteria?
 <Markdown><![CDATA[
 **You highlighted the following clues:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_soc_kw.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_soc_kw.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 How are these clues representative of the discipline you picked? Explain below.
 ]]></Markdown>
@@ -1571,7 +1572,7 @@ How are these clues representative of the discipline you picked? Explain below.
 <Markdown><![CDATA[
 **You highlighted the following:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_soc_ins_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_soc_ins_hl.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 Can you explain why you highlighted these sentences? What clues do they offer about the study insight?
 ]]></Markdown>
@@ -1696,7 +1697,7 @@ Why did you select this choice? Type your answer below.
 <Markdown><![CDATA[
 **You highlighted the following:**
 ]]></Markdown>
-<Markdown class="whitespace-pre-wrap">{{@hs_soc_em_hl.selectedText.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown>{{toMarkdownBullets(@hs_soc_em_hl.selectedSegments)}}</Markdown>
 <Markdown><![CDATA[
 Can you explain why you highlighted these words? What clues do they offer about the evidence and methods researchers used in this study?
 ]]></Markdown>
