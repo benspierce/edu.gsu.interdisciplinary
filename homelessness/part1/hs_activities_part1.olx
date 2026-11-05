@@ -30,6 +30,56 @@ lang: en-Latn-US
 
 <Vertical id="hs_activities_part1" title="Homelessness SBA Part 1 — Activities" launchable="true">
 
+<!-- ===== Citation notes for the highlighting screens =====
+     The TextSelectionInput screens render their own copy of each reading
+     from readings/*.textSelectionpeg, so the source note the Markdown
+     readings carry is defined once per source here and placed under each
+     highlighting input with <Use ref="hs_<source>_cite_md" />. -->
+<Hidden id="hs_cite_defs">
+<Markdown id="hs_econ_cite_md"><![CDATA[
+This is a short excerpt from a summary of:
+
+Cebula, R. J., & Saunoris, J. W. (2021). Determinants of homelessness in the U.S.: New hypotheses and evidence. *Applied Economics, 53*(49), 5695–5709. https://doi.org/10.1080/00036846.2021.1927970
+
+Developed for this course. If you want to learn more, read the full article.
+]]></Markdown>
+<Markdown id="hs_estate_cite_md"><![CDATA[
+This is a short excerpt from a summary of:
+
+Contat, J., Hopkins, C., Mejia, L., & Suandi, M. (2024). When climate meets real estate: A survey of the literature. *Real Estate Economics, 52*(3), 618–659. https://doi.org/10.1111/1540-6229.12489 (free copy: https://fhfa.gov/document/wp2305.pdf)
+
+Developed for this course. If you want to learn more, read the full article.
+]]></Markdown>
+<Markdown id="hs_policy_cite_md"><![CDATA[
+This is a short excerpt from a summary of:
+
+Parolin, Z. (2021). Income support policies and the rise of student and family homelessness. *The ANNALS of the American Academy of Political and Social Science, 693*(1), 46–63. https://doi.org/10.1177/0002716220981847
+
+Developed for this course. If you want to learn more, read the full article.
+]]></Markdown>
+<Markdown id="hs_polisci_cite_md"><![CDATA[
+This is a short excerpt from a summary of:
+
+Fowle, M. Z. (2022). Racialized homelessness: A review of historical and contemporary causes of racial disparities in homelessness. *Housing Policy Debate, 32*(6), 940–967. https://doi.org/10.1080/10511482.2022.2026995
+
+Developed for this course. If you want to learn more, read the full article.
+]]></Markdown>
+<Markdown id="hs_psych_cite_md"><![CDATA[
+This is a short excerpt from a summary of:
+
+Barry, R., Anderson, J., Tran, L., Bahji, A., Dimitropoulos, G., Ghosh, S. M., Kirkham, J., Messier, G., Patten, S. B., Rittenbach, K., & Seitz, D. (2024). Prevalence of mental health disorders among individuals experiencing homelessness: A systematic review and meta-analysis. *JAMA Psychiatry, 81*(7), 691–699. https://doi.org/10.1001/jamapsychiatry.2024.0426 (free copy: https://pmc.ncbi.nlm.nih.gov/articles/PMC11024772/)
+
+Developed for this course. If you want to learn more, read the full article.
+]]></Markdown>
+<Markdown id="hs_soc_cite_md"><![CDATA[
+This is a short excerpt from a summary of:
+
+Doran, K. M., Ran, Z., Castelblanco, D., Shelley, D., & Padgett, D. K. (2019). "It wasn't just one thing": A qualitative study of newly homeless emergency department patients. *Academic Emergency Medicine, 26*(9), 982–993. https://doi.org/10.1111/acem.13677 (free copy: https://pmc.ncbi.nlm.nih.gov/articles/PMC6732033/)
+
+Developed for this course. If you want to learn more, read the full article.
+]]></Markdown>
+</Hidden>
+
 <!-- ===== Orientation and introduction (slides 1-4) ===== -->
 <Vertical id="hs_welcome" title="Welcome">
 <Markdown><![CDATA[
@@ -274,6 +324,7 @@ Why did you select these choices? Type your answer below.
 
 <Vertical id="hs_econ_ins_hl_screen" title="Find the main insight">
 <TextSelectionInput id="hs_econ_ins_hl" src="readings/econ_insight.textSelectionpeg" separatorRegexp="§" separatorHidden="true" />
+<Use ref="hs_econ_cite_md" />
 </Vertical>
 
 <Vertical id="hs_econ_ins_hl_why_q">
@@ -416,6 +467,7 @@ Why did you select this choice? Type your answer below.
 
 <Vertical id="hs_econ_em_hl_screen" title="Evidence and methods">
 <TextSelectionInput id="hs_econ_em_hl" src="readings/econ_evidence.textSelectionpeg" />
+<Use ref="hs_econ_cite_md" />
 </Vertical>
 
 <Vertical id="hs_econ_em_why_q">
@@ -520,6 +572,7 @@ Can you explain why you chose this?
 <Markdown id="hs_policy_disc_echo">**You selected:** {{@hs_policy_disc.value}}</Markdown>
 <Vertical id="hs_policy_kw_screen" title="Highlight keywords">
 <TextSelectionInput id="hs_policy_kw" src="readings/policy_keywords.textSelectionpeg" />
+<Use ref="hs_policy_cite_md" />
 <Markdown when="@hs_policy_kw.value.length &lt; 5">*You have highlighted {{@hs_policy_kw.value.length}} word(s). Highlight at least 5 to continue.*</Markdown>
 <Markdown when="@hs_policy_kw.value.length &gt;= 5">*✓ You have highlighted at least 5 words. Go back to the conversation on the left and click Continue.*</Markdown>
 </Vertical>
@@ -537,6 +590,7 @@ How are these clues representative of the discipline you picked? Explain below.
 
 <Vertical id="hs_policy_ins_hl_screen" title="Find the main insight">
 <TextSelectionInput id="hs_policy_ins_hl" src="readings/policy_insight.textSelectionpeg" separatorRegexp="§" separatorHidden="true" />
+<Use ref="hs_policy_cite_md" />
 </Vertical>
 
 <Vertical id="hs_policy_ins_hl_why_q">
@@ -684,6 +738,7 @@ Why did you select this choice? Type your answer below.
 
 <Vertical id="hs_policy_em_hl_screen" title="Evidence and methods">
 <TextSelectionInput id="hs_policy_em_hl" src="readings/policy_evidence.textSelectionpeg" />
+<Use ref="hs_policy_cite_md" />
 </Vertical>
 
 <Vertical id="hs_policy_crit1_q">
@@ -786,6 +841,7 @@ Can you explain your answers?
 <Markdown id="hs_psych_disc_echo">**You selected:** {{@hs_psych_disc.value}}</Markdown>
 <Vertical id="hs_psych_kw_screen" title="Highlight keywords">
 <TextSelectionInput id="hs_psych_kw" src="readings/psych_keywords.textSelectionpeg" />
+<Use ref="hs_psych_cite_md" />
 <Markdown when="@hs_psych_kw.value.length &lt; 5">*You have highlighted {{@hs_psych_kw.value.length}} word(s). Highlight at least 5 to continue.*</Markdown>
 <Markdown when="@hs_psych_kw.value.length &gt;= 5">*✓ You have highlighted at least 5 words. Go back to the conversation on the left and click Continue.*</Markdown>
 </Vertical>
@@ -803,6 +859,7 @@ How are these clues representative of the discipline you picked? Explain below.
 
 <Vertical id="hs_psych_ins_hl_screen" title="Find the main insight">
 <TextSelectionInput id="hs_psych_ins_hl" src="readings/psych_insight.textSelectionpeg" separatorRegexp="§" separatorHidden="true" />
+<Use ref="hs_psych_cite_md" />
 </Vertical>
 
 <Vertical id="hs_psych_ins_hl_why_q">
@@ -1015,6 +1072,7 @@ Can you explain your answers for these criteria?
 <Markdown id="hs_estate_disc_echo">**You selected:** {{@hs_estate_disc.value}}</Markdown>
 <Vertical id="hs_estate_kw_screen" title="Highlight keywords">
 <TextSelectionInput id="hs_estate_kw" src="readings/estate_keywords.textSelectionpeg" />
+<Use ref="hs_estate_cite_md" />
 <Markdown when="@hs_estate_kw.value.length &lt; 5">*You have highlighted {{@hs_estate_kw.value.length}} word(s). Highlight at least 5 to continue.*</Markdown>
 <Markdown when="@hs_estate_kw.value.length &gt;= 5">*✓ You have highlighted at least 5 words. Go back to the conversation on the left and click Continue.*</Markdown>
 </Vertical>
@@ -1032,6 +1090,7 @@ How are these clues representative of the discipline you picked? Explain below.
 
 <Vertical id="hs_estate_ins_hl_screen" title="Find the main insight">
 <TextSelectionInput id="hs_estate_ins_hl" src="readings/estate_insight.textSelectionpeg" separatorRegexp="§" separatorHidden="true" />
+<Use ref="hs_estate_cite_md" />
 </Vertical>
 
 <Vertical id="hs_estate_ins_hl_why_q">
@@ -1179,6 +1238,7 @@ Why did you select this choice? Type your answer below.
 
 <Vertical id="hs_estate_em_hl_screen" title="Evidence and methods">
 <TextSelectionInput id="hs_estate_em_hl" src="readings/estate_evidence.textSelectionpeg" />
+<Use ref="hs_estate_cite_md" />
 </Vertical>
 
 <Vertical id="hs_estate_em_why_q">
@@ -1263,6 +1323,7 @@ Can you explain your answers for these criteria?
 <Markdown id="hs_polisci_disc_echo">**You selected:** {{@hs_polisci_disc.value}}</Markdown>
 <Vertical id="hs_polisci_kw_screen" title="Highlight keywords">
 <TextSelectionInput id="hs_polisci_kw" src="readings/polisci_keywords.textSelectionpeg" />
+<Use ref="hs_polisci_cite_md" />
 <Markdown when="@hs_polisci_kw.value.length &lt; 5">*You have highlighted {{@hs_polisci_kw.value.length}} word(s). Highlight at least 5 to continue.*</Markdown>
 <Markdown when="@hs_polisci_kw.value.length &gt;= 5">*✓ You have highlighted at least 5 words. Go back to the conversation on the left and click Continue.*</Markdown>
 </Vertical>
@@ -1280,6 +1341,7 @@ How are these clues representative of the discipline you picked? Explain below.
 
 <Vertical id="hs_polisci_ins_hl_screen" title="Find the main insight">
 <TextSelectionInput id="hs_polisci_ins_hl" src="readings/polisci_insight.textSelectionpeg" separatorRegexp="§" separatorHidden="true" />
+<Use ref="hs_polisci_cite_md" />
 </Vertical>
 
 <Vertical id="hs_polisci_ins_hl_why_q">
@@ -1423,6 +1485,7 @@ Why did you select this choice? Type your answer below.
 
 <Vertical id="hs_polisci_em_hl_screen" title="Evidence and methods">
 <TextSelectionInput id="hs_polisci_em_hl" src="readings/polisci_evidence.textSelectionpeg" />
+<Use ref="hs_polisci_cite_md" />
 </Vertical>
 
 <Vertical id="hs_polisci_em_why_q">
@@ -1507,6 +1570,7 @@ Can you explain your answers for these criteria?
 <Markdown id="hs_soc_disc_echo">**You selected:** {{@hs_soc_disc.value}}</Markdown>
 <Vertical id="hs_soc_kw_screen" title="Highlight keywords">
 <TextSelectionInput id="hs_soc_kw" src="readings/soc_keywords.textSelectionpeg" />
+<Use ref="hs_soc_cite_md" />
 <Markdown when="@hs_soc_kw.value.length &lt; 5">*You have highlighted {{@hs_soc_kw.value.length}} word(s). Highlight at least 5 to continue.*</Markdown>
 <Markdown when="@hs_soc_kw.value.length &gt;= 5">*✓ You have highlighted at least 5 words. Go back to the conversation on the left and click Continue.*</Markdown>
 </Vertical>
@@ -1524,6 +1588,7 @@ How are these clues representative of the discipline you picked? Explain below.
 
 <Vertical id="hs_soc_ins_hl_screen" title="Find the main insight">
 <TextSelectionInput id="hs_soc_ins_hl" src="readings/soc_insight.textSelectionpeg" separatorRegexp="§" separatorHidden="true" />
+<Use ref="hs_soc_cite_md" />
 </Vertical>
 
 <Vertical id="hs_soc_ins_hl_why_q">
@@ -1648,6 +1713,7 @@ Why did you select this choice? Type your answer below.
 
 <Vertical id="hs_soc_em_hl_screen" title="Evidence and methods">
 <TextSelectionInput id="hs_soc_em_hl" src="readings/soc_evidence.textSelectionpeg" />
+<Use ref="hs_soc_cite_md" />
 </Vertical>
 
 <Vertical id="hs_soc_em_why_q">
