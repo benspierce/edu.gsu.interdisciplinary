@@ -1,9 +1,3 @@
-This is a short excerpt from a summary of:
-
-Barry, R., Anderson, J., Tran, L., Bahji, A., Dimitropoulos, G., Ghosh, S. M., Kirkham, J., Messier, G., Patten, S. B., Rittenbach, K., & Seitz, D. (2024). Prevalence of mental health disorders among individuals experiencing homelessness: A systematic review and meta-analysis. *JAMA Psychiatry, 81*(7), 691–699. https://doi.org/10.1001/jamapsychiatry.2024.0426 (free copy: https://pmc.ncbi.nlm.nih.gov/articles/PMC11024772/)
-
-Developed for this course. If you want to learn more, read the full article.
-
 *The sentences your teammates highlighted are shown in bold.*
 
 **Title:** Prevalence of Mental Health Disorders Among Individuals Experiencing Homelessness: A Systematic Review and Meta-Analysis  
@@ -41,3 +35,5 @@ Specific disorder prevalence estimates included:
 #### Conclusion
 
 **Mental health disorders are highly prevalent among individuals experiencing homelessness, particularly substance use disorders and severe psychiatric conditions. The strong association between homelessness and mental illness highlights the need for coordinated approaches that combine stable housing, psychiatric treatment, substance use services, and broader social supports.**
+
+(This is a short excerpt from a summary developed for this course. If you want to learn more, read the [full article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11024772/).)

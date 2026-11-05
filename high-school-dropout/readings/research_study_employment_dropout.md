@@ -1,11 +1,5 @@
 # Is Adolescent Employment Still a Risk Factor for High School Dropout?
 
-This is a short summary of:
-
-Staff, J., Yetter, A. M., Cundiff, K., Ramirez, N., Vuolo, M., & Mortimer, J. T. (2020). Is adolescent employment still a risk factor for high school dropout? *Journal of Research on Adolescence, 30*(2), 406–422. https://doi.org/10.1111/jora.12533 (free copy: https://pmc.ncbi.nlm.nih.gov/articles/PMC7822572)
-
-Developed for this course. If you want to learn more, read the full article.
-
 ## Metadata
 
 **Authors:** Jeremy Staff, Alyssa M. Yetter, Kelsey Cundiff, Nayan Ramirez, Mike Vuolo, Jeylan T. Mortimer
@@ -53,3 +47,5 @@ Intensive work during high school remains a risk factor for poor academic outcom
 ## Conclusion
 
 Despite changes in the labor market, working long hours during high school is still associated with higher dropout rates and lower academic performance. Policies should address the needs of working students to help them stay in school and succeed academically.
+
+(This is a short summary developed for this course. If you want to learn more, read the [full article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7822572).)

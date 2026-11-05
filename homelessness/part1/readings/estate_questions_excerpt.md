@@ -1,9 +1,3 @@
-This is a short excerpt from a summary of:
-
-Contat, J., Hopkins, C., Mejia, L., & Suandi, M. (2024). When climate meets real estate: A survey of the literature. *Real Estate Economics, 52*(3), 618–659. https://doi.org/10.1111/1540-6229.12489 (free copy: https://fhfa.gov/document/wp2305.pdf)
-
-Developed for this course. If you want to learn more, read the full article.
-
 *The sentences that point to the researchers' question are shown in bold.*
 
 **Title:** When Climate Meets Real Estate: A Survey of the Literature  
@@ -26,3 +20,5 @@ Climate change is increasing the frequency, intensity, and geographic reach of e
 Previous research on housing instability and homelessness has often focused on poverty, unemployment, housing supply, and social policy. However, **growing research suggests that climate-related environmental hazards may also contribute to housing precarity by damaging housing infrastructure, increasing insurance costs, reducing property values in high-risk areas, and displacing residents following environmental disasters. **Researchers have increasingly examined how environmental risks become incorporated into real estate and housing markets.
 
 …
+
+(This is a short excerpt from a summary developed for this course. If you want to learn more, read the [full article](https://fhfa.gov/document/wp2305.pdf).)

@@ -1,9 +1,3 @@
-This is a short excerpt from a summary of:
-
-Parolin, Z. (2021). Income support policies and the rise of student and family homelessness. *The ANNALS of the American Academy of Political and Social Science, 693*(1), 46–63. https://doi.org/10.1177/0002716220981847
-
-Developed for this course. If you want to learn more, read the full article.
-
 *The sentences your teammates highlighted are shown in bold.*
 
 **Title:** Income Support Policies and the Rise of Student and Family Homelessness  
@@ -26,3 +20,5 @@ Developed for this course. If you want to learn more, read the full article.
 #### Conclusion
 
 Family and student homelessness in the U.S. is associated with the accessibility of income support policies. **Greater access to cash assistance through TANF is linked to lower homelessness rates, suggesting that policy design within the welfare state influences housing stability. **SNAP and EITC do not show clear protective associations in this study. Integrating income support policy into homelessness research provides a broader understanding of structural determinants of housing insecurity.
+
+(This is a short excerpt from a summary developed for this course. If you want to learn more, read the [full article](https://doi.org/10.1177/0002716220981847).)

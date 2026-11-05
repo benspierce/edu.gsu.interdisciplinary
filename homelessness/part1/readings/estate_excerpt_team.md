@@ -1,9 +1,3 @@
-This is a short excerpt from a summary of:
-
-Contat, J., Hopkins, C., Mejia, L., & Suandi, M. (2024). When climate meets real estate: A survey of the literature. *Real Estate Economics, 52*(3), 618–659. https://doi.org/10.1111/1540-6229.12489 (free copy: https://fhfa.gov/document/wp2305.pdf)
-
-Developed for this course. If you want to learn more, read the full article.
-
 *The sentences your teammates highlighted are shown in bold.*
 
 **Title:** When Climate Meets Real Estate: A Survey of the Literature  
@@ -32,3 +26,5 @@ T**he findings suggest that climate change affects housing systems not only thro
 #### Conclusion
 
 **Climate-related environmental hazards such as flooding, hurricanes, wildfires, and sea level rise increasingly shape housing markets, affordability, displacement, and housing stability. The growing interaction between climate systems and housing markets highlights the importance of understanding homelessness and housing precarity not only as economic or social issues, but also as problems shaped by environmental risk and climate vulnerability.**
+
+(This is a short excerpt from a summary developed for this course. If you want to learn more, read the [full article](https://fhfa.gov/document/wp2305.pdf).)

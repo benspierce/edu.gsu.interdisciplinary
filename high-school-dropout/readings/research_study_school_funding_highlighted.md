@@ -1,11 +1,5 @@
 ## The Effects of School `Spending` on Educational and `Economic Outcomes`: Evidence from School `Finance` Reforms 
 
-This is a short summary of:
-
-Jackson, C. K., Johnson, R. C., & Persico, C. (2016). The effects of school spending on educational and economic outcomes: Evidence from school finance reforms. *The Quarterly Journal of Economics, 131*(1), 157–218. https://doi.org/10.1093/qje/qjv036 (free copy: https://www.nber.org/papers/w20847)
-
-Developed for this course. If you want to learn more, read the full article.
-
 ### Metadata
 
 **Authors**: C. Kirabo Jackson, Rucker C. Johnson, & Claudia Persico  **Journal:** Quarterly `Journal of Economics` **Publication Year**: 2016 
@@ -29,4 +23,6 @@ Mechanisms: `Spending`  increases  translated  into  smaller  class  sizes,  lon
 The  findings  provide  strong  causal  evidence  that  `money  matters`,  with  educational  and  life-course  benefits  comparable  to  or  greater  than  those  of  targeted  interventions  like  early  childhood  program  or  class  size  reductions. The  results  underscore  the  role  of  equitable  school  `finance`  as  a  central  policy  tool  for  reducing  inequality.  
 
 ### Conclusion
-Sustained  increases  in  school  `spending`  significantly  improve  high  school  graduation,  long-term  educational  attainment,  adult  `earnings`,  and  `poverty`  outcomes,  especially  for  disadvantaged  students. The  study  demonstrates  that  progressive  school  `finance`  reforms  are  effective  levers  for  both  educational  equity  and  `economic`  mobility.  
+Sustained  increases  in  school  `spending`  significantly  improve  high  school  graduation,  long-term  educational  attainment,  adult  `earnings`,  and  `poverty`  outcomes,  especially  for  disadvantaged  students. The  study  demonstrates  that  progressive  school  `finance`  reforms  are  effective  levers  for  both  educational  equity  and  `economic`  mobility.
+
+(This is a short summary developed for this course. If you want to learn more, read the [full article](https://www.nber.org/papers/w20847).)

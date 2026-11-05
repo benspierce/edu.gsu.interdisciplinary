@@ -1,11 +1,5 @@
 # The Silent Epidemic: Perspectives of High School Dropouts
 
-This is a short summary of:
-
-Bridgeland, J. M., DiIulio, J. J., Jr., & Morison, K. B. (2006). *The silent epidemic: Perspectives of high school dropouts*. Civic Enterprises, in association with Peter D. Hart Research Associates, for the Bill & Melinda Gates Foundation. https://docs.gatesfoundation.org/documents/thesilentepidemic3-06final.pdf
-
-Developed for this course. If you want to learn more, read the full report.
-
 ## Metadata
 
 **Title:** The Silent Epidemic: Perspectives of High School Dropouts
@@ -49,3 +43,5 @@ There is no single reason why students drop out of high school. Respondents repo
 - **Forty-five percent said they started high school poorly prepared by their earlier schooling.** Many of these students likely fell behind in elementary and middle school and could not make up the necessary ground. They reported that additional supports in high school that would have made a difference (such as tutoring or after school help) were not there.
 
 - **Thirty-two percent were required to repeat a grade before dropping out** and twenty-nine percent expressed significant doubts that they could have met their high school's requirements for graduation even if they had put in the necessary effort. The most academically challenged students were the most likely to report that their schools were not doing enough to help students when they had trouble learning and to express doubt about whether they would have worked harder if more had been expected of them.
+
+(This is a short summary developed for this course. If you want to learn more, read the [full report](https://docs.gatesfoundation.org/documents/thesilentepidemic3-06final.pdf).)

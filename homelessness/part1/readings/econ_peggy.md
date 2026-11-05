@@ -1,9 +1,3 @@
-This is a short excerpt from a summary of:
-
-Cebula, R. J., & Saunoris, J. W. (2021). Determinants of homelessness in the U.S.: New hypotheses and evidence. *Applied Economics, 53*(49), 5695–5709. https://doi.org/10.1080/00036846.2021.1927970
-
-Developed for this course. If you want to learn more, read the full article.
-
 *The clues and jargon Peggy highlighted are shown in bold.*
 
 **Title:** Determinants of Homelessness in the U.S.: New Hypotheses and Evidence  
@@ -46,3 +40,5 @@ The findings indicate that homelessness is associated not only with housing mark
 #### Conclusion
 
 Homelessness rates are negatively associated with **entrepreneurial activity **and **labor market freedom **at the state level. **Institutional economic design **appears to play a role in shaping homelessness outcomes. Policies that promote **entrepreneurship **and **labor market flexibility **may complement housing and welfare interventions in efforts to reduce homelessness.
+
+(This is a short excerpt from a summary developed for this course. If you want to learn more, read the [full article](https://doi.org/10.1080/00036846.2021.1927970).)

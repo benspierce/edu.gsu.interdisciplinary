@@ -1,9 +1,3 @@
-This is a short summary of:
-
-Fowle, M. Z. (2022). Racialized homelessness: A review of historical and contemporary causes of racial disparities in homelessness. *Housing Policy Debate, 32*(6), 940–967. https://doi.org/10.1080/10511482.2022.2026995
-
-Developed for this course. If you want to learn more, read the full article.
-
 **Title:** Racialized Homelessness: A Review of Historical and Contemporary Causes of Racial Disparities in Homelessness  
 **Author:** Matthew Z. Fowle  
 **Journal:** Housing Policy Debate  
@@ -43,3 +37,5 @@ The article argues that homelessness cannot be fully understood through individu
 #### Conclusion
 
 The article concludes that homelessness in the United States is deeply shaped by structural racism operating across housing, economic, and political systems. Reducing racial disparities in homelessness requires structural reforms such as enforcing fair housing protections, reducing discriminatory housing practices, expanding affordable housing access, addressing racial wealth gaps, and reforming institutional systems that contribute to unequal housing vulnerability.
+
+(This is a short summary developed for this course. If you want to learn more, read the [full article](https://doi.org/10.1080/10511482.2022.2026995).)

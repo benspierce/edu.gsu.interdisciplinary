@@ -37,46 +37,22 @@ lang: en-Latn-US
      highlighting input with <Use ref="hs_<source>_cite_md" />. -->
 <Hidden id="hs_cite_defs">
 <Markdown id="hs_econ_cite_md"><![CDATA[
-This is a short excerpt from a summary of:
-
-Cebula, R. J., & Saunoris, J. W. (2021). Determinants of homelessness in the U.S.: New hypotheses and evidence. *Applied Economics, 53*(49), 5695–5709. https://doi.org/10.1080/00036846.2021.1927970
-
-Developed for this course. If you want to learn more, read the full article.
+(This is a short excerpt from a summary developed for this course. If you want to learn more, read the [full article](https://doi.org/10.1080/00036846.2021.1927970).)
 ]]></Markdown>
 <Markdown id="hs_estate_cite_md"><![CDATA[
-This is a short excerpt from a summary of:
-
-Contat, J., Hopkins, C., Mejia, L., & Suandi, M. (2024). When climate meets real estate: A survey of the literature. *Real Estate Economics, 52*(3), 618–659. https://doi.org/10.1111/1540-6229.12489 (free copy: https://fhfa.gov/document/wp2305.pdf)
-
-Developed for this course. If you want to learn more, read the full article.
+(This is a short excerpt from a summary developed for this course. If you want to learn more, read the [full article](https://fhfa.gov/document/wp2305.pdf).)
 ]]></Markdown>
 <Markdown id="hs_policy_cite_md"><![CDATA[
-This is a short excerpt from a summary of:
-
-Parolin, Z. (2021). Income support policies and the rise of student and family homelessness. *The ANNALS of the American Academy of Political and Social Science, 693*(1), 46–63. https://doi.org/10.1177/0002716220981847
-
-Developed for this course. If you want to learn more, read the full article.
+(This is a short excerpt from a summary developed for this course. If you want to learn more, read the [full article](https://doi.org/10.1177/0002716220981847).)
 ]]></Markdown>
 <Markdown id="hs_polisci_cite_md"><![CDATA[
-This is a short excerpt from a summary of:
-
-Fowle, M. Z. (2022). Racialized homelessness: A review of historical and contemporary causes of racial disparities in homelessness. *Housing Policy Debate, 32*(6), 940–967. https://doi.org/10.1080/10511482.2022.2026995
-
-Developed for this course. If you want to learn more, read the full article.
+(This is a short excerpt from a summary developed for this course. If you want to learn more, read the [full article](https://doi.org/10.1080/10511482.2022.2026995).)
 ]]></Markdown>
 <Markdown id="hs_psych_cite_md"><![CDATA[
-This is a short excerpt from a summary of:
-
-Barry, R., Anderson, J., Tran, L., Bahji, A., Dimitropoulos, G., Ghosh, S. M., Kirkham, J., Messier, G., Patten, S. B., Rittenbach, K., & Seitz, D. (2024). Prevalence of mental health disorders among individuals experiencing homelessness: A systematic review and meta-analysis. *JAMA Psychiatry, 81*(7), 691–699. https://doi.org/10.1001/jamapsychiatry.2024.0426 (free copy: https://pmc.ncbi.nlm.nih.gov/articles/PMC11024772/)
-
-Developed for this course. If you want to learn more, read the full article.
+(This is a short excerpt from a summary developed for this course. If you want to learn more, read the [full article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11024772/).)
 ]]></Markdown>
 <Markdown id="hs_soc_cite_md"><![CDATA[
-This is a short excerpt from a summary of:
-
-Doran, K. M., Ran, Z., Castelblanco, D., Shelley, D., & Padgett, D. K. (2019). "It wasn't just one thing": A qualitative study of newly homeless emergency department patients. *Academic Emergency Medicine, 26*(9), 982–993. https://doi.org/10.1111/acem.13677 (free copy: https://pmc.ncbi.nlm.nih.gov/articles/PMC6732033/)
-
-Developed for this course. If you want to learn more, read the full article.
+(This is a short excerpt from a summary developed for this course. If you want to learn more, read the [full article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6732033/).)
 ]]></Markdown>
 </Hidden>
 

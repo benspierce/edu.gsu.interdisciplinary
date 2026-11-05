@@ -1,9 +1,3 @@
-This is a short summary of:
-
-Doran, K. M., Ran, Z., Castelblanco, D., Shelley, D., & Padgett, D. K. (2019). "It wasn't just one thing": A qualitative study of newly homeless emergency department patients. *Academic Emergency Medicine, 26*(9), 982–993. https://doi.org/10.1111/acem.13677 (free copy: https://pmc.ncbi.nlm.nih.gov/articles/PMC6732033/)
-
-Developed for this course. If you want to learn more, read the full article.
-
 **Title:** “It Wasn’t Just One Thing”: A Qualitative Study of Newly Homeless Emergency Department Patients  
 **Authors:** Kelly M. Doran, Ziwei Ran, Donna Castelblanco, Donna Shelley, & Deborah K. Padgett  
 **Journal:** Academic Emergency Medicine  
@@ -49,3 +43,5 @@ The findings suggest that homelessness is produced through the interaction of pe
 #### Conclusion
 
 Homelessness pathways are complex, cumulative, and socially interconnected. Qualitative interviews reveal how relationships, support systems, employment, housing conditions, health, and structural barriers combine to shape people's experiences of homelessness. Understanding these interacting social pathways can help researchers and policymakers develop more comprehensive responses to housing instability.
+
+(This is a short summary developed for this course. If you want to learn more, read the [full article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6732033/).)

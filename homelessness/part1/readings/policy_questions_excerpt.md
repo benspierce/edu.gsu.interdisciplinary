@@ -1,9 +1,3 @@
-This is a short excerpt from a summary of:
-
-Parolin, Z. (2021). Income support policies and the rise of student and family homelessness. *The ANNALS of the American Academy of Political and Social Science, 693*(1), 46–63. https://doi.org/10.1177/0002716220981847
-
-Developed for this course. If you want to learn more, read the full article.
-
 *The sentences Ty and Lacy point to are shown in bold.*
 
 **Title:** Income Support Policies and the Rise of Student and Family Homelessness  
@@ -28,3 +22,5 @@ Family homelessness has increased in the U.S. in recent years, as indicated by D
 The U.S. welfare state includes multiple income support programs intended to raise economic resources for low-income families. Temporary Assistance for Needy Families (TANF) provides direct cash assistance, whereas the Supplemental Nutrition Assistance Program (SNAP) offers food support, and the Earned Income Tax Credit (EITC) provides wage subsidies for certain working families. **Prior research suggests that income support reduces economic hardship, but less is known about how variation in policy generosity and access affects homelessness specifically.**
 
 …
+
+(This is a short excerpt from a summary developed for this course. If you want to learn more, read the [full article](https://doi.org/10.1177/0002716220981847).)

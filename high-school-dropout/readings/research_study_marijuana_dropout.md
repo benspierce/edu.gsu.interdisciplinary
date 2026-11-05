@@ -1,11 +1,5 @@
 # Marijuana Use and High School Dropout: The Influence of Unobservables
 
-This is a short summary of:
-
-McCaffrey, D. F., Pacula, R. L., Han, B., & Ellickson, P. (2010). Marijuana use and high school dropout: The influence of unobservables. *Health Economics, 19*(11), 1281–1299. https://doi.org/10.1002/hec.1561 (free copy: https://www.nber.org/papers/w14102)
-
-Developed for this course. If you want to learn more, read the full article.
-
 ## Metadata
 
 **Authors:** Daniel F. McCaffrey, Rosalie Liccardo Pacula, Bing Han, Phyllis Ellickson
@@ -51,3 +45,5 @@ The study highlights the importance of considering selection bias and time-varyi
 ## Conclusion
 
 The association between marijuana use and high school dropout is largely explained by pre-existing differences and other factors such as peer influences. The study provides insights into the mechanisms underlying this relationship and suggests directions for future research and interventions.
+
+(This is a short summary developed for this course. If you want to learn more, read the [full article](https://www.nber.org/papers/w14102).)

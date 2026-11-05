@@ -1,11 +1,5 @@
 ### Trends in High School Dropout and Completion Rates in the United States: 2019
 
-This is a short summary of:
-
-McFarland, J., Cui, J., Holmes, J., & Wang, X. (2020). *Trends in high school dropout and completion rates in the United States: 2019* (NCES 2020-117). National Center for Education Statistics, Institute of Education Sciences, U.S. Department of Education. https://nces.ed.gov/pubs2020/2020117.pdf
-
-Developed for this course. If you want to learn more, read the full report.
-
 ## Metadata
 
 **URL**: https://nces.ed.gov/pubsearch
@@ -33,3 +27,5 @@ Strengthening collaborations between schools, families, and community organizati
 
 ## Conclusion
 Although dropout rates have declined, they remain a critical issue requiring ongoing attention. Continued efforts from educators, policymakers, and community stakeholders are necessary to ensure equitable access to education and long-term success for all students. Addressing the root causes of high school dropout will enhance individual opportunities, strengthen societal structures, and boost the national economy.
+
+(This is a short summary developed for this course. If you want to learn more, read the [full report](https://nces.ed.gov/pubs2020/2020117.pdf).)
