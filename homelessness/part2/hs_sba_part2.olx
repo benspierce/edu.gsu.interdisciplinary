@@ -1,0 +1,45 @@
+<!--
+---
+description: "Homelessness SBA, Part 2 — Integrating Disciplinary Insights. Back at Comm360, the student and fellow interns Ty, Peggy, and Lacy (with supervisor Lianne Park) recall the six disciplinary insights from Part 1, then integrate them: they learn conceptual mapping from Repko's crime example and build a concept map of housing insecurity, choosing solid, dashed, or question-mark arrows by how strongly the evidence supports each connection; interpret a draft exhibit film that uses a storm-battered ship as a metaphor for housing instability; revise it to represent structural racial inequality; and write a poem that communicates the relationships the map revealed. Built from the Oct 13 storyboard, slides 203-311."
+category: homelessness
+index: 82
+lang: en-Latn-US
+---
+-->
+
+<!--
+  Homelessness SBA, Part 2 (slides 203-311 of "Homelessness SBA Storyboard_2
+  (v Oct 13).pptx"). Same layout as Part 1 (../part1/hs_sba_part1.olx):
+
+    Discussion   the scripted conversation (hs_dialogue_part2.chatpeg) on the
+                 left; the activity pane (UseHistory hs2_main) on the right,
+                 driven by target embeds that leave labelled buttons in the
+                 transcript.
+    Team         the Comm360 team directory.
+
+  Every screen and question is in hs_activities_part2.olx. The study summaries
+  (readings/*_full.md) and the cast (characters.cast, images/) are copies of
+  Part 1's, so this folder is self-contained.
+-->
+
+<Tabs id="hs_sba_part2" title="Homelessness SBA, Part 2 — Integrating Disciplinary Insights" launchable="true">
+
+  <Vertical id="hs2_tab_main" title="Discussion">
+    <SplitPanel id="hs2_split" sizes="40, 60">
+      <StartPane>
+        <Chat id="hs2_chat"
+              src="hs_dialogue_part2.chatpeg"
+              cast="characters.cast"
+              height="560px" />
+      </StartPane>
+      <EndPane>
+        <UseHistory id="hs2_main" initial="hs2_welcome" />
+      </EndPane>
+    </SplitPanel>
+  </Vertical>
+
+  <Vertical id="hs2_tab_team" title="Team">
+    <TeamDirectory id="hs2_team_tab_directory" cast="characters.cast" title="Comm360 Team" />
+  </Vertical>
+
+</Tabs>

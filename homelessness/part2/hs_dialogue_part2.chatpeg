@@ -1,0 +1,1007 @@
+title: "Homelessness SBA — Part 2: Integrating Disciplinary Insights"
+authors: 'Omer Ari, Ben Pierce, Lia Haddadian, and Piotr Mitros'
+description: 'Part 2 of a three-part interdisciplinary-reasoning SBA. The Comm360 intern team (Ty, Peggy, Lacy, with supervisor Lianne Park) integrates the six disciplinary insights from Part 1: they build a concept map whose arrows show how strongly the evidence supports each connection, interpret an exhibit film that uses a ship as a metaphor for housing instability, revise the film to represent structural inequality, and write a poem that communicates the relationships the map revealed.'
+~~~~
+
+Welcome to Part 2 [id=hs2_welcome_sec]
+--------------------------------------
+
+Instructor: Welcome to Part 2 Module of the **Interdisciplinary Research Process (IRP) Scenario-based Activity**.
+
+  Part 2 should take around 1 to 2 hours, and you can break it up over several days if you'd like. It is due November 22, 2026.
+
+  In this module, you’ll apply what you know about interdisciplinary research process. The module contains everything you need to complete the project.
+
+  There are instructions on the screen to help you navigate and give your answers. There are also a few links embedded in the text. You can use them for additional information, but that’s optional.
+
+  Remember that I will be seeing these results, so please take it seriously and do your best work. I think you'll enjoy it.
+
+  Click the Continue button to start.
+
+Reviewing Our Sources [id=hs2_review]
+-------------------------------------
+
+Lianne: If you recall, in Part 1, we brainstormed and learned about causes of housing insecurity. That helped us understand this is a complex problem with multiple parts, which makes it suitable for interdisciplinary study. We then located sources from different disciplines shedding light and insight on those causes.
+
+  In this part, we will see how the disciplinary insights can be integrated for a more comprehensive understanding of this problem. But first let’s review the sources we consulted.
+
+::hs2_recall_screen [display=target:hs2_main label="What do you remember?"]
+
+Lianne: Before we begin integrating the disciplinary perspectives, let’s see what you remember from Part 1. On the right is the comparison table we built as we reviewed the six studies, but a few pieces are missing.
+
+  **Fill in the missing cells as best you can from memory. You don’t need to remember the exact wording—just capture the main idea.**
+
+::hs2_recall_q
+
+--- wait @hs2_recall1.value && @hs2_recall2.value && @hs2_recall3.value && @hs2_recall4.value && @hs2_recall5.value && @hs2_recall6.value ---
+
+hs2_recall1.readonly <- true
+
+hs2_recall2.readonly <- true
+
+hs2_recall3.readonly <- true
+
+hs2_recall4.readonly <- true
+
+hs2_recall5.readonly <- true
+
+hs2_recall6.readonly <- true
+
+Lianne: Nice work. Here is our completed table from Part 1. Take a moment to compare it with what you remembered, paying particular attention to the **main insights**. We’ll need those as we begin integrating the disciplinary perspectives.
+
+::hs2_table_screen [display=target:hs2_main label="Comparison table"]
+
+Integrating Disciplinary Insights [id=hs2_integration]
+------------------------------------------------------
+
+Lianne: Integration is one of the most challenging parts of interdisciplinary work. We cannot simply list the insights we gathered from our sources. We need to find a way to integrate them into a broader understanding of homelessness and housing instability.
+
+  According to Nissani (1995), this is the crux of interdisciplinary work. Rich interdisciplinarity requires drawing on insights from multiple disciplines and blending them well. The more insights we bring together—and the more effectively we integrate them—the richer our interdisciplinary understanding becomes.
+
+  In fact, Nissani uses a metaphor to describe this idea. Which of these do you think best represents rich interdisciplinarity?
+
+::hs2_metaphor_q
+
+--- wait @hs2_metaphor.value ---
+
+Lianne: You chose the following option. Why did you select that one?
+
+::hs2_metaphor_why_q
+
+--- wait @hs2_metaphor_why.value ---
+
+hs2_metaphor_why.readonly <- true
+
+Lianne: Exactly. Nissani uses the metaphor of a fancy smoothie. The disciplinary perspectives aren't simply placed next to one another. Their insights are combined and integrated to create a new understanding that no single perspective provides on its own.
+
+Ty: So integration isn't like a fruit salad or flower bouquet, where all the ingredients are together but still separate. We have to figure out how the disciplinary insights connect and interact.
+
+Lacy: Yeah. Earlier we separated the problem into parts so we could study it from different disciplinary perspectives.
+
+  Now we need to bring those parts back together into a more complete understanding.
+
+Peggy: And some of the sources already started pointing toward that.
+
+  Especially the qualitative study — people’s housing instability pathways involved multiple problems building on one another over time.
+
+Ty: I also noticed that some causes can make other causes worse. For example: unstable work can increase stress; stress can affect mental health; mental health challenges can affect employment; and in turn financial instability can limit housing options.
+
+  So the causes are connected, not isolated.
+
+Lacy: And different disciplines helped explain different parts of those pathways.
+
+  Economics helped explain employment and opportunity. Public Policy focused on assistance programs. Psychology examined mental health. Sociology focused on structural inequality. And the ethnographic study helped show how people actually experienced those pressures in their daily lives.
+
+Peggy: Maybe integration means understanding how those different systems and experiences interact within one person’s life instead of treating them as separate problems.
+
+Lianne: Exactly.
+
+  Interdisciplinary integration is not just collecting multiple perspectives. It involves connecting and synthesizing them into a broader and more comprehensive understanding of the problem.
+
+  That is what we will begin doing next.
+
+Ty: How can we actually do that, though? We can’t really make a smoothie out of disciplinary insights.
+
+Lacy: That is funny, Ty! Yeah. How do interdisciplinary researchers actually combine all those different perspectives into one broader understanding?
+
+Peggy: Maybe there are different ways to integrate ideas depending on the kind of problem you’re studying.
+
+Conceptual Mapping [id=hs2_mapping]
+-----------------------------------
+
+Lianne: Exactly.
+
+  Interdisciplinary researchers have developed several ways to integrate disciplinary insights into broader understandings of complex problems.
+
+  One common approach comes from Repko and colleagues. They sometimes use **conceptual mapping** to visually connect disciplinary insights and show how different causes, systems, and experiences interact with one another.
+
+  For example, for their discussion of criminal behavior they provide this map.
+
+  The three boxes at the top of the map represent insights from disciplines. We can tell that the “Psychological attitudes toward crime” box is informed by the discipline of Psychology. How about the others? Can you tell?
+
+::hs2_crime_map [display=target:hs2_main label="Repko's concept map"]
+
+::hs2_crime_disc_q
+
+--- wait Object.keys(@hs2_crime_disc.value).length >= 2 ---
+
+Lianne: You chose the following options.
+
+::hs2_crime_disc_why_q
+
+--- wait @hs2_crime_disc_why.value ---
+
+hs2_crime_disc_why.readonly <- true
+
+Ty: This is how I answered these.
+
+  | **Focus in the Concept Map** | **Discipline** |
+  |---|---|
+  | Calculating benefits minus costs of committing crime | **Economics** |
+  | Peer pressure to commit crime | **Sociology** |
+  | Psychological attitudes toward crime | **Psychology** |
+
+Lacy: Me too!
+
+Lianne: As the map shows, each discipline explains only part of the phenomenon of crime.
+
+Peggy: But the map also shows that these causes are not isolated. They interact with one another and may reinforce or shape one another over time.
+
+  For example, economic decision-making (calculating benefits minus costs of committing crime) may be shaped by both peer influences and psychological attitudes toward crime.
+
+Lacy: So, that means a person who believes crime is wrong may still decide to commit crime if they experience strong peer pressure, economic desperation, or believe the potential benefits outweigh the risks of getting caught or going to jail.
+
+Lianne: Exactly! And that is a more nuanced understanding of motivation to commit crime than provided solely by accounts of peer pressure or attitudes.
+
+Lianne: Notice the double-arrowed connection between **peer pressure to commit crime** and **psychological attitudes toward crime**. A double arrow suggests that these two factors may influence one another rather than operate independently.
+
+::hs2_reciprocal_q
+
+--- wait @hs2_reciprocal.value ---
+
+Lianne: You chose the following option.
+
+::hs2_reciprocal_why_q
+
+--- wait @hs2_reciprocal_why.value ---
+
+hs2_reciprocal_why.readonly <- true
+
+Ty: That makes sense. Peer pressure may shape a person’s attitudes toward crime, while those attitudes may also influence the peer groups they choose to associate with. The influence can work in both directions.
+
+Peggy: This is very cool. The double arrow helps us see that explanations from different disciplinary perspectives can interact and reinforce one another.
+
+Lacy: Mapping these connections helps us move beyond separate disciplinary explanations toward a more integrated understanding of the problem.
+
+Lianne: We may be able to use this same interdisciplinary mapping approach to explore how different disciplinary insights about housing instability connect to one another over time.
+
+Mapping Housing Insecurity [id=hs2_housing_map]
+-----------------------------------------------
+
+Lacy: Let’s do it. I feel like we should center Doran et al. (2019) because it focuses on interacting pathways into homelessness over time.
+
+  The study discussed how social, health-related, and structural pressures may accumulate and interact within a person’s pathway toward housing instability.
+
+Peggy: Great. I started our map by connecting Doran et al. (2019) with Parolin’s (2021) insight about cash assistance and support programs.
+
+::hs2_map01 [display=target:hs2_main label="Our concept map"]
+
+Lianne: Yes, exactly. The connection makes conceptual sense, but the relationship was not directly examined in the Doran et al. study itself. They did not directly study public assistance programs but social support structures like families and community.
+
+  That means this type of connection is probably better represented with a **dashed arrow** rather than a solid one.
+
+::hs2_map02 [display=target:hs2_main label="Our concept map"]
+
+Ty: So the arrow style helps communicate how strongly the relationship is supported by the evidence?
+
+Lianne: Right. As we continue building our interdisciplinary map, we need to be careful about how strongly the evidence supports the connections we make. We’ll use three types of arrows:
+
+  - **Solid arrow — Supported:** The relationship is directly supported by findings or evidence in one or more of the studies we reviewed.
+  - **Dashed arrow — Inferred:** The studies did not directly examine the relationship, but their findings give us a reasonable basis for connecting the two factors.
+  - **Question-mark arrow — Uncertain:** We can imagine that the factors might be related, but the studies we reviewed do not give us enough evidence to explain or support the connection. More research is needed.
+
+Peggy: So interdisciplinary reasoning is not just about connecting ideas. It also involves evaluating how confident we are in the connections we make.
+
+Lianne: Exactly.
+
+Lacy: I think the Fowle study may connect to the Doran et al. study because Doran and colleagues discussed how homelessness pathways are shaped by larger structural barriers over time.
+
+  The Fowle study seems to provide one possible explanation for what some of those structural barriers may look like in housing systems.
+
+Ty: So would that be a solid arrow or a dashed arrow?
+
+Lianne: A **dashed arrow**. The studies did not directly examine this relationship, so we can't call it directly supported. But their findings give us a reasonable basis for making the connection: Doran et al identify structural barriers as part of pathways into homelessness, while Fowle shows how structural racism and institutional inequality can shape housing vulnerability.
+
+  So this is an inference grounded in the studies, rather than an uncertain connection.
+
+Lacy: Great! I updated our map.
+
+::hs2_map03 [display=target:hs2_main label="Our concept map"]
+
+Ty: It looks like there could be a connection between the Fowle study and the Parolin study. They both seem to explore structural and institutional causes.
+
+::hs2_arrow_fowle_parolin_screen [display=target:hs2_main label="Which arrow?"]
+
+Lianne: Yes. What kind of arrow should connect those two?
+
+  - **Solid arrow — Supported:** The relationship is directly supported by findings or evidence in one or more of the studies we reviewed.
+  - **Dashed arrow — Inferred:** The studies did not directly examine the relationship, but their findings give us a reasonable basis for connecting the two factors.
+  - **Question-mark arrow — Uncertain:** We can imagine that the factors might be related, but the studies we reviewed do not give us enough evidence to explain or support the connection. More research is needed.
+
+  The study summaries are in the panel on the right if you need to review them again.
+
+::hs2_arrow_fowle_parolin_q
+
+--- wait @hs2_arrow_fowle_parolin.value ---
+
+Lianne: You chose the following option.
+
+::hs2_arrow_fowle_parolin_why_q
+
+--- wait @hs2_arrow_fowle_parolin_why.value ---
+
+hs2_arrow_fowle_parolin_why.readonly <- true
+
+Lianne: Interesting. This relationship may actually be closer to a **solid arrow**.
+
+  The Parolin study did not simply discuss cash assistance programs in general. It specifically found that access to programs like TANF appeared especially important in reducing homelessness within Black and Native American school districts.
+
+  That means the study directly engaged issues connected to racialized disparities and unequal structural conditions — themes that also appear centrally in the Fowle study.
+
+  So while the two studies examined somewhat different questions, the relationship between them appears to be directly supported by evidence discussed within the studies themselves.
+
+::hs2_map04 [display=target:hs2_main label="Our concept map"]
+
+Ty: Great! Let’s move on to the next source. How do you think we can connect the Cebula and Saunoris (2021) insight of labor markets and economic opportunity?
+
+::hs2_map05 [display=target:hs2_main label="Our concept map"]
+
+Peggy: I think we can connect this source to the Doran et al. (2019) study with a **dashed arrow**.
+
+  The Doran study showed how homelessness can emerge through interacting structural and social pressures over time, while Cebula and Saunoris focused more specifically on labor markets and economic opportunity.
+
+  Neither study directly examined the relationship between economic opportunity and these broader pathways into homelessness, but their findings give us a reasonable basis for connecting them. Limited economic opportunity may become one part of a broader pathway into housing instability.
+
+::hs2_arrow_cebula_fowle_screen [display=target:hs2_main label="Which arrow?"]
+
+Lianne: Great! I updated the map. How about the connection between Cebula and Saunoris (2021) and Fowle (2022)?
+
+  - **Solid arrow — Supported:** The relationship is directly supported by findings or evidence in one or more of the studies we reviewed.
+  - **Dashed arrow — Inferred:** The studies did not directly examine the relationship, but their findings give us a reasonable basis for connecting the two factors.
+  - **Question-mark arrow — Uncertain:** We can imagine that the factors might be related, but the studies we reviewed do not give us enough evidence to explain or support the connection. More research is needed.
+
+  The study summaries are in the panel on the right if you need to review them again.
+
+::hs2_arrow_cebula_fowle_q
+
+--- wait @hs2_arrow_cebula_fowle.value ---
+
+Lianne: You chose the following option.
+
+::hs2_arrow_cebula_fowle_why_q
+
+--- wait @hs2_arrow_cebula_fowle_why.value ---
+
+hs2_arrow_cebula_fowle_why.readonly <- true
+
+Lianne: I think this relationship is best represented with a **question-mark arrow** for now.
+
+  The connection seems plausible: labor market conditions may contribute to racial disparities in housing stability.
+
+  However, the studies we reviewed do not provide enough evidence to explain or support this connection confidently. We would need additional research before representing it with a solid or dashed arrow.
+
+::hs2_map07 [display=target:hs2_main label="Our concept map"]
+
+Ty: That sounds great, but I wonder if the direction of the arrow should go the other way.
+
+Peggy: What do you mean?
+
+Ty: Right now, the arrow suggests that labor market opportunity may shape structural racial inequality in housing. That seems theoretically possible, but I do not remember either study directly supporting that relationship.
+
+  I think the stronger conceptual direction may actually go the other way:
+
+  The Fowle study discussed how racialized structural barriers can shape access to housing, wealth-building opportunities, and broader economic conditions. Those kinds of inequalities could also influence access to entrepreneurship and labor market opportunities discussed in the Cebula and Saunoris study.
+
+  So the relationship seems possible, but still uncertain based on the evidence we reviewed, which is why I think the question-mark arrow still makes sense.
+
+Lianne: That is a great point, Ty! I updated the direction of the question mark arrow based on your feedback.
+
+::hs2_map08 [display=target:hs2_main label="Our concept map"]
+
+Ty: Great! Where do the Contat et al (2024) insights of extreme weather and environmental risks go on this map?
+
+Peggy: I think this connects to Doran et al. (2019) but I would probably use a dashed arrow. The Contat et al study discusses displacement, housing instability, financial strain, and increasing vulnerability after environmental disasters, which connects conceptually to Doran’s idea that homelessness develops through interacting pressures over time. However, Doran did not specifically study climate risk, and Contat et al did not explicitly use a pathways framework, so the relationship seems strongly inferential rather than directly evidenced.
+
+::hs2_map09 [display=target:hs2_main label="Our concept map"]
+
+::hs2_arrow_contat_parolin_screen [display=target:hs2_main label="Which arrow?"]
+
+Lianne: Great. Thank you Peggy. It looks like it might also connect to the Parolin (2021) and Fowle (2022) studies. Let’s consider the Parolin study first. What kind of arrow should we use to connect them?
+
+  - **Solid arrow — Supported:** The relationship is directly supported by findings or evidence in one or more of the studies we reviewed.
+  - **Dashed arrow — Inferred:** The studies did not directly examine the relationship, but their findings give us a reasonable basis for connecting the two factors.
+  - **Question-mark arrow — Uncertain:** We can imagine that the factors might be related, but the studies we reviewed do not give us enough evidence to explain or support the connection. More research is needed.
+
+  The study summaries are in the panel on the right if you need to review them again.
+
+::hs2_arrow_contat_parolin_q
+
+--- wait @hs2_arrow_contat_parolin.value ---
+
+Lianne: You chose the following option.
+
+::hs2_arrow_contat_parolin_why_q
+
+--- wait @hs2_arrow_contat_parolin_why.value ---
+
+hs2_arrow_contat_parolin_why.readonly <- true
+
+Lianne: I agree that the connection between the Contat et al and Parolin studies should probably use a dashed arrow. The Contat et al study shows how environmental disasters can increase housing instability, displacement, and financial strain, which could increase reliance on cash assistance, emergency aid, and other support programs discussed in the Parolin study. However, neither study directly examined the other variable, so the relationship seems conceptually strong but still inferential.
+
+::hs2_map10 [display=target:hs2_main label="Our concept map"]
+
+::hs2_arrow_contat_fowle_screen [display=target:hs2_main label="Which arrow?"]
+
+Lianne: How about the Contat et al (2024) and Fowle (2022) studies. What kind of arrow should we use to connect them?
+
+  - **Solid arrow — Supported:** The relationship is directly supported by findings or evidence in one or more of the studies we reviewed.
+  - **Dashed arrow — Inferred:** The studies did not directly examine the relationship, but their findings give us a reasonable basis for connecting the two factors.
+  - **Question-mark arrow — Uncertain:** We can imagine that the factors might be related, but the studies we reviewed do not give us enough evidence to explain or support the connection. More research is needed.
+
+  The study summaries are in the panel on the right if you need to review them again.
+
+::hs2_arrow_contat_fowle_q
+
+--- wait @hs2_arrow_contat_fowle.value ---
+
+Lianne: You chose the following option.
+
+::hs2_arrow_contat_fowle_why_q
+
+--- wait @hs2_arrow_contat_fowle_why.value ---
+
+hs2_arrow_contat_fowle_why.readonly <- true
+
+Peggy: The connection between the Contat et al and Fowle studies may be better represented with a **question-mark arrow**. The Contat et al study discussed how climate-related housing instability can disproportionately affect economically vulnerable populations, which may overlap with the structural inequalities discussed in the Fowle study. However, Contat et al did not focus specifically on racial inequality in housing systems, and Fowle did not directly examine climate-related environmental risks, so the relationship seems possible but still uncertain based on the evidence we reviewed.
+
+::hs2_map11 [display=target:hs2_main label="Our concept map"]
+
+Lacy: Our map is taking shape. That leaves us with our final source from Barry et al. (2024).
+
+  I think this connects to our Doran et al (2019) source with a solid arrow. The Barry et al. study directly examined the high prevalence of mental health disorders and substance use among people experiencing homelessness, while the Doran study identified interacting social and health-related problems — including mental health and substance abuse — as important parts of homelessness pathways described in the interviews.
+
+  Even though the studies used different methods, both directly discussed the relationship between mental health challenges and homelessness, so the connection seems directly supported by the evidence across the studies.
+
+::hs2_map12 [display=target:hs2_main label="Our concept map"]
+
+::hs2_arrow_contat_barry_screen [display=target:hs2_main label="Which arrow?"]
+
+Lianne: Great. Thank you Lacy. I see other connections worth considering here. One connection is the one between the Contat et al. and Barry et al studies. It makes sense that extreme weather and environmental risks would have mental health and substance abuse implications. Let’s take a look.
+
+  - **Solid arrow — Supported:** The relationship is directly supported by findings or evidence in one or more of the studies we reviewed.
+  - **Dashed arrow — Inferred:** The studies did not directly examine the relationship, but their findings give us a reasonable basis for connecting the two factors.
+  - **Question-mark arrow — Uncertain:** We can imagine that the factors might be related, but the studies we reviewed do not give us enough evidence to explain or support the connection. More research is needed.
+
+  The study summaries are in the panel on the right if you need to review them again.
+
+::hs2_arrow_contat_barry_q
+
+--- wait @hs2_arrow_contat_barry.value ---
+
+Lianne: You chose the following option.
+
+::hs2_arrow_contat_barry_why_q
+
+--- wait @hs2_arrow_contat_barry_why.value ---
+
+hs2_arrow_contat_barry_why.readonly <- true
+
+Lianne: I think the connection between the Contat et al. and Barry studies is best represented with a **dashed arrow**. Environmental instability and displacement may contribute to stress, trauma, and mental health challenges. However, neither study directly examined this relationship, so the connection is a reasonable inference rather than directly supported.
+
+::hs2_map13 [display=target:hs2_main label="Our concept map"]
+
+::hs2_arrow_barry_parolin_screen [display=target:hs2_main label="Which arrow?"]
+
+Lianne: Lastly we will consider the connection between the Barry et al study and the Parolin study. What do you think? What type of arrow should we use to connect them in our map?
+
+  - **Solid arrow — Supported:** The relationship is directly supported by findings or evidence in one or more of the studies we reviewed.
+  - **Dashed arrow — Inferred:** The studies did not directly examine the relationship, but their findings give us a reasonable basis for connecting the two factors.
+  - **Question-mark arrow — Uncertain:** We can imagine that the factors might be related, but the studies we reviewed do not give us enough evidence to explain or support the connection. More research is needed.
+
+  The study summaries are in the panel on the right if you need to review them again.
+
+::hs2_arrow_barry_parolin_q
+
+--- wait @hs2_arrow_barry_parolin.value ---
+
+Lianne: You chose the following option.
+
+::hs2_arrow_barry_parolin_why_q
+
+--- wait @hs2_arrow_barry_parolin_why.value ---
+
+hs2_arrow_barry_parolin_why.readonly <- true
+
+Ty: I do think these two studies are connected strongly enough to include in our map, but the relationship is probably best represented with **dashed arrows** because the connection is inferential rather than directly tested across the studies.
+
+  The Parolin study showed that limited access to cash assistance and institutional support programs may increase housing instability and homelessness vulnerability, particularly among economically vulnerable communities. The Barry et al study found very high rates of mental health disorders, substance use disorders, trauma, and psychiatric instability among people experiencing homelessness and argued that homelessness responses should integrate housing and mental health support services.
+
+  Taken together, the studies suggest a meaningful relationship between institutional support systems and mental health-related homelessness vulnerability, even though neither study directly examined the other variable.
+
+Lianne: What do you think about the direction of the relationship between these two study insights?
+
+::hs2_direction_q
+
+--- wait @hs2_direction.value ---
+
+Lianne: You chose the following option.
+
+::hs2_direction_why_q
+
+--- wait @hs2_direction_why.value ---
+
+hs2_direction_why.readonly <- true
+
+Peggy: I think this relationship may work in both directions. Limited access to support programs may worsen stress and housing instability, while severe mental health challenges may also increase the need for coordinated housing and support services. Since the relationship seems conceptually strong but was not directly examined across the studies, a double dashed arrow may work best here.
+
+::hs2_map14 [display=target:hs2_main label="Our completed concept map"]
+
+Lianne: Thank you Peggy. This concludes our map of interdisciplinary connections on housing insecurity as examined by studies we reviewed.
+
+Brain Break [id=hs2_bb1_sec]
+----------------------------
+
+Lianne: We've covered a lot of ground so far. Before we continue, let's take a quick brain break and reflect on what the team has been doing.
+
+::hs2_bb1_q
+
+--- wait @hs2_bb11.value && @hs2_bb12.value && @hs2_bb13.value ---
+
+hs2_bb11.readonly <- true
+
+hs2_bb12.readonly <- true
+
+hs2_bb13.readonly <- true
+
+Integration Beyond Diagrams [id=hs2_memorial_sec]
+-------------------------------------------------
+
+Lacy: Nicely done, Team!
+
+  But a chart or diagram may not always help audiences emotionally or symbolically understand how instability develops over time.
+
+Lianne: That is true.
+
+  Conceptual mapping is not the only way integration can happen.
+
+  Sometimes interdisciplinary understanding can also be communicated through symbolic representations, visual design, narratives, memorials, or other experiences that help people understand how systems and pressures interact over time.
+
+  One important example comes from Maya Lin’s Vietnam Veterans Memorial.
+
+::hs2_memorial [display=target:hs2_main label="Vietnam Veterans Memorial"]
+
+Lianne: Take a look at the memorial in the panel on the right. There's a short video of it there too.
+
+Lianne: Have any of you seen it?
+
+Ty: I have. It is very powerful.
+
+Lianne: What did you notice about the memorial, Ty?
+
+Ty: When I visited, people were touching the wall, tracing names with their fingers, leaving flowers, photographs, and letters. Some people were quiet. Others were emotional.
+
+  The memorial did not explain the war through statistics or diagrams, but somehow it still communicated loss, memory, sacrifice, and collective experience in a very powerful way.
+
+Lianne: That is a really important observation, Ty.
+
+  Rather than explaining the Vietnam War through a chart or concept map, Maya Lin designed the memorial to help visitors experience relationships among history, memory, loss, identity, and human experience.
+
+  Importantly, it also shows us that interdisciplinary integration does not always happen only through diagrams or explanatory models.
+
+  Sometimes integration happens through symbolism, visual design, narrative, metaphor, and public representation that help people understand how larger systems and experiences connect together.
+
+Ty: That sounds great! Should we do something like Maya Lin’s Vietnam Veterans Memorial?
+
+Lacy: Definitely, yes. Maya Lin’s memorial did not center one individual person the way many traditional war memorials often do.
+
+  Instead, the memorial focused on the broader human experience of the Vietnam War and the collective memory, loss, grief, sacrifice, and connection shared across the country.
+
+  The memorial invites visitors to reflect on relationships among history, identity, memory, and those who were affected by the war rather than focusing on only one personal narrative.
+
+Peggy: And Maya Lin was very intentional about how she communicated those ideas.
+
+  The memorial drew from historical knowledge, public memory, interviews, emotional experiences, and the perspectives of many different stakeholders connected to the war.
+
+  She also communicated meaning symbolically through physical materials and architectural design choices such as the black granite, the reflective surface, and the way the granite walls descend gradually into the ground before rising back upward again.
+
+  Those design choices help create an emotional and reflective experience that connects visitors to memory, loss, history, and human experience in a way that diagrams or statistics alone often cannot.
+
+Lianne: Exactly.
+
+  While lived experiences are important, we do not want to reduce housing insecurity to a single personal story or encourage visitors to view it only through an individual lens.
+
+  The nonprofit leadership team has asked our committee to design a gallery for a special exhibition called **Interwoven: Community, Society, and Nature**. Our gallery will be **Gallery 7**, **At the Shore**.
+
+  Our goal is to help visitors understand how larger systems, environments, policies, and pressures interact over time.
+
+  To communicate these interdisciplinary relationships, our gallery will feature a short interpretive film that uses metaphor, symbolism, and visual storytelling rather than focusing on one person's experience.
+
+::hs2_gallery [display=target:hs2_main label="Gallery 7: At the Shore"]
+
+Ty: This is very interesting! I can’t wait.
+
+The Exhibit Film [id=hs2_film_sec]
+----------------------------------
+
+Lianne: Here is an early draft of the interpretive film the exhibit team is considering.
+
+::hs2_film [display=target:hs2_main label="Film draft"]
+
+Lianne: I see a ship exposed to powerful storms and waves.
+
+  What other elements do you see?
+
+::hs2_film_obs_q
+
+--- wait @hs2_film_obs.value ---
+
+hs2_film_obs.readonly <- true
+
+Lianne: Here are the elements we all said we saw.
+
+::hs2_film_obs_list_q
+
+Lianne: Great! Now think about what these elements might represent if the ship is a metaphor for housing instability.
+
+::hs2_film_idea_q
+
+--- wait @hs2_film_idea.value ---
+
+Lianne: You chose the following option.
+
+::hs2_film_idea_why_q
+
+--- wait @hs2_film_idea_why.value ---
+
+hs2_film_idea_why.readonly <- true
+
+Ty: I see the ship as a person or family trying to remain stable while facing pressures that become harder to manage over time.
+
+Lacy: And the storms and waves could represent outside pressures, while the weakening ropes and accumulating damage show how supports can weaken over time.
+
+Peggy: Exactly. The important idea is that **several pressures can interact and accumulate rather than one event causing the instability.**
+
+Lianne: The film gives us a way to visualize housing instability as a system of interacting pressures and supports. But those different elements may also remind us of the disciplinary insights we reviewed.
+
+  Let’s see how different studies might help us interpret different parts of the metaphor.
+
+  Here is a list of some of the important elements of the movie.
+
+  **Exhibit short movie elements:**
+
+  - isolated ship exposed to violent storms and crashing waves near the shoreline
+  - weakening ropes and strained anchors along with rust buildup and erosion of the ship’s structure
+  - rising water entering the ship and darkening interior spaces within the ship
+
+Lianne: What do you think about this one? Check the disciplinary insight(s) that may help explain this symbolic element in the film?
+
+  Remember that some movie elements may connect to more than one disciplinary insight or none.
+
+  Part of interdisciplinary integration involves recognizing how multiple systems and pressures can overlap and interact within the same experience or condition.
+
+::hs2_elem1_q
+
+--- wait @hs2_elem1.value.length > 0 ---
+
+Lianne: You chose the following disciplinary insight(s) for this element.
+
+::hs2_elem1_why_q
+
+--- wait @hs2_elem1_why.value ---
+
+hs2_elem1_why.readonly <- true
+
+Peggy: I think the disciplinary insight that best explains this element is **environmental and climate-related risks** (Contat et al., 2024) because storms and waves directly symbolize environmental pressures and instability. I can also see **gradual accumulation of interacting pressures over time** (Doran et al., 2019) because the repeated battering of the ship symbolizes pressures accumulating rather than one isolated event.
+
+Ty: This is a stretch but I mentioned in my response that we could also make an argument for **unstable labor conditions and limited economic opportunity** (Cebula & Saunoris, 2021) if we interpret the storms more broadly as economic instability and external pressures threatening stability.
+
+Lianne: Thanks, Ty! I can see that.
+
+Lianne: What do you think about this one? Check the disciplinary insight(s) that may help explain this symbolic element in the film?
+
+  Remember that some movie elements may connect to more than one disciplinary insight or none.
+
+::hs2_elem2_q
+
+--- wait @hs2_elem2.value.length > 0 ---
+
+Lianne: You chose the following disciplinary insight(s) for this element.
+
+::hs2_elem2_why_q
+
+--- wait @hs2_elem2_why.value ---
+
+hs2_elem2_why.readonly <- true
+
+Lianne: We again see the gradual accumulation of pressures on the ship here, which connects closely to the qualitative findings discussed by Doran et al. (2019).
+
+Ty: I also think the ropes and anchors have symbolic significance here.
+
+  They may represent social and support structures that are becoming strained over time. Those supports could include family members, friends, community networks, or assistance programs like TANF that may be difficult to access or unavailable when people need them most.
+
+Peggy: That makes sense.
+
+  Sometimes people can rely on family or friends for support for a while, but those relationships can also become strained over time, especially when financial stress keeps building.
+
+  When my mom lost her job for a period of time, we stayed with my aunt for a while. She wanted to help us, but eventually the situation became stressful for everyone.
+
+Lacy: Like Ty said, that idea seems closely connected to the insight about limited access to income support and assistance programs (Parolin, 2021).
+
+  When support systems become strained or unavailable, it can become much harder for people to maintain housing stability.
+
+Peggy: Yes, and if you recall, the Parolin study also noted that access to support programs can be especially important for families living in racially and economically vulnerable communities.
+
+Ty: We still cannot say for certain exactly which supports these movie elements represent. But the symbolism helps communicate how social supports, institutional assistance, and stabilizing structures can gradually weaken under accumulating pressures.
+
+Lianne: Great discussion! How about this one? Check the disciplinary insight(s) that may help explain this symbolic element in the film?
+
+  Remember that some movie elements may connect to more than one disciplinary insight or none.
+
+::hs2_elem3_q
+
+--- wait @hs2_elem3.value.length > 0 ---
+
+Lianne: You chose the following disciplinary insight(s) for this element.
+
+::hs2_elem3_why_q
+
+--- wait @hs2_elem3_why.value ---
+
+hs2_elem3_why.readonly <- true
+
+Lianne: As you all noted in your responses, rising water entering the ship may literally represent **environmental and climate-related risks** (Contat et al., 2024) such as flooding and environmental instability.
+
+  Together with the darkening interior spaces, it may also symbolize the **worsening mental health challenges, chronic stress, and emotional strain** experienced by individuals facing housing insecurity (Barry et al., 2024).
+
+Lianne: What this discussion shows is that many of the symbolic elements in the exhibit can be interpreted through multiple disciplinary insights at the same time. Here is another way to look at those connections.
+
+::hs2_matrix [display=target:hs2_main label="Film elements and insights"]
+
+Ty: This looks great! Thank you Lianne for creating this matrix.
+
+Lacy: Yeah, thank you! Some of the study insights were more strongly represented than the others.
+
+Peggy: I agree. There were only faint hints of unstable labor conditions and limited economic opportunity (Cebula & Saunoris, 2021).
+
+Ty: You could make inferences to the unstable labor conditions and limited economic opportunity (Cebula & Saunoris, 2021) but it was hard to see any implication of structural racial inequality in housing systems (Fowle, 2022). That is problematic because it is such an important aspect of housing insecurity problem.
+
+Representing Structural Inequality [id=hs2_revise]
+--------------------------------------------------
+
+Lianne: You are right, Ty. According to some of the studies reviewed by Fowle (2022), Black Americans make up approximately 13% of the U.S. population but nearly 40% of the homeless population nationally. Furthermore, Black individuals are more likely to experience unsheltered homelessness and longer durations of homelessness than White individuals.
+
+  This insight should be more strongly integrated into the movie.
+
+Ty: Can we revise the movie and add elements that represent the insight around structural racial inequality in housing systems from Fowle (2022)?
+
+Lacy: Yes, can we?
+
+Peggy: We should be able to; that is what interdisciplinarity requires in the first place.
+
+Lianne: Exactly! We can use the exhibit itself to help communicate how structural inequality may contribute to housing instability.
+
+  Let’s revisit our earlier insight from the Fowle (2022) study. Let’s refresh our memory about the larger insights from this study. Here were the options we considered for this study. Do you remember which one was the most accurate insight of this study?
+
+::hs2_fowle_recall_q
+
+--- wait @hs2_fowle_recall.value ---
+
+Ty: This is helpful. Thank you for retrieving this from our earlier discussion, Lianne.
+
+  I remember that this was the most accurate insight statement of the Fowle (2022) study.
+
+  **Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness**
+
+Lacy: Yes, the article kept connecting homelessness to things like housing discrimination, segregation, and racial inequality across institutions.
+
+Peggy: It also suggested that historical and structural disadvantages can make housing instability much more likely for some communities, including unequal housing opportunities, discriminatory policies, and exclusion from wealth-building housing systems.
+
+Lianne: That is a really important point.
+
+  If structural inequality affects housing stability before crises even begin, then the exhibit may need to show unequal conditions surrounding the ships themselves.
+
+Peggy: For example, perhaps some parts of the harbor could have stronger protections while other areas remain more exposed to storms and damage.
+
+Lianne: Exactly.
+
+  That kind of symbolic change could help represent how unequal structural conditions may shape vulnerability and housing instability before crises even begin.
+
+Lianne: Let’s think about the exhibit.
+
+  How else might the movie symbolically represent structural racial inequality in housing systems?
+
+::hs2_harbor_idea_q
+
+--- wait @hs2_harbor_idea.value ---
+
+hs2_harbor_idea.readonly <- true
+
+Lianne: Here are a few symbolic possibilities our team suggested.
+
+  Which one should we go with?
+
+::hs2_harbor_q
+
+--- wait @hs2_harbor.value ---
+
+Lianne: You chose the following option.
+
+::hs2_harbor_why_q
+
+--- wait @hs2_harbor_why.value ---
+
+hs2_harbor_why.readonly <- true
+
+Lianne: Good work. I think the strongest symbolic representation is this sentence: “Some parts of the harbor could have stronger protections while others remain more exposed.”
+
+  This option is most closely aligned with the Fowle (2022) insight about structural racial inequality embedded within housing systems.
+
+Ty: Older ropes or weaker anchors could represent vulnerability, but they might make it seem like the problem is a weakness in the ship itself. Fowle focuses instead on unequal systems and conditions surrounding people.
+
+Lacy: Ships farther from safe harbor could represent isolation or lack of access to resources, but it doesn't clearly show why some groups face those disadvantages because of structural inequality.
+
+Peggy: And some ships receiving repairs faster than others does show unequal access to support. But it focuses on what happens after damage occurs, rather than the unequal protections and conditions that create vulnerability in the first place.
+
+Lianne: Exactly. That's why unequal harbor protections are the strongest fit: they represent how systems can provide different levels of protection and vulnerability to different groups.
+
+Lianne: Here is our revised movie scene.
+
+  Notice how the film now represents the Fowle (2022) insight through the contrast between the featured ship docked in a deteriorating section of the harbor and nearby ships located in more protected and well-maintained harbor spaces.
+
+  This symbolic contrast suggests that some ships begin with greater structural protections and resources than others. In the same way, Fowle argued that unequal housing, economic, and political systems can create different levels of vulnerability long before a housing crisis occurs.
+
+::hs2_film_revised [display=target:hs2_main label="Revised film scene"]
+
+Brain Break [id=hs2_bb2_sec]
+----------------------------
+
+Lianne: We’ve done a lot of thinking since our last brain break! Before we move on, take a few minutes to pause and reflect on the ship metaphor we created together.
+
+::hs2_bb2_q
+
+--- wait @hs2_bb21.value && @hs2_bb22.value && @hs2_bb23.value ---
+
+hs2_bb21.readonly <- true
+
+hs2_bb22.readonly <- true
+
+Writing a Poem [id=hs2_poem_sec]
+--------------------------------
+
+Ty: The movie does a good job representing many of the individual study insights through symbols and imagery. But some of the relationships we identified in the map are much harder to see.
+
+  For example, viewers might notice the storms, the deteriorating ship, or the unequal harbor protections. But they may not immediately recognize how those ideas connect to one another.
+
+Peggy: I agree.
+
+  The map makes the relationships explicit because it uses arrows to show how different factors interact over time. The movie is different. It communicates through images and symbolism, which can be powerful emotionally, but some of the interdisciplinary connections may be harder for viewers to notice.
+
+Lacy: So maybe the question is not whether the movie needs more symbols.
+
+  Maybe the question is how we can help viewers understand the relationships among the symbols that are already there.
+
+Ty: What if we added a poem?
+
+  The movie could continue providing the metaphor and imagery, while the poem helps communicate the connections among the study insights.
+
+  As the scenes unfold, the poem could guide viewers toward the larger story of how these forces interact over time.
+
+Lianne: I like that idea.
+
+  The interdisciplinary map helped us see relationships among the studies. A poem could help translate those relationships into language that works alongside the symbolism in the film.
+
+  In a way, **the movie would provide the metaphor, while the poem would provide the integration**.
+
+Ty: The movie already communicates many of the individual study insights.
+
+  What it doesn't always communicate are the relationships among those insights.
+
+  For example, the map shows how environmental risks, support systems, mental health challenges, and structural inequalities may influence one another over time.
+
+Peggy: Right.
+
+  The map helped us see connections among the studies that are harder to communicate through images alone.
+
+  Maybe the poem should focus less on individual study findings and more on those relationships.
+
+Lianne: I agree.
+
+  If the poem is going to provide integration, we should identify the most important relationships revealed by our map.
+
+::hs2_poem_rel0 [display=target:hs2_main label="Poem: relationship 1"]
+
+Lianne: Let’s start with this relationship.
+
+  The movie shows unequal harbor protections and supports, but the relationship is mostly implied.
+
+  The poem could make it explicit with a line like this.
+
+  > *Some ships rest behind stronger walls,*\
+  > *where help arrives before the storm.*
+
+Ty: I like that line. It integrates both the Fowle and Parolin insights. Rather than describing structural inequality or support systems separately, it suggests a relationship between them. The line implies that some people receive protection and assistance before a crisis occurs, which connects unequal structural conditions with access to supports and opportunities.
+
+Lacy: Exactly. The line doesn't just identify two separate factors. It helps explain how they may interact. That is the kind of interdisciplinary relationship we want our poem to communicate.
+
+::hs2_poem_rel1 [display=target:hs2_main label="Poem: relationship 2"]
+
+Lianne: How about this next one?
+
+  The movie shows storms and supports such as the anchor, ropes, and harbor separately.
+
+  The poem can connect them.
+
+  Why don’t we each write a line for the poem that illustrates the relationship here.
+
+::hs2_line1_write_q
+
+--- wait @hs2_line1_write.value ---
+
+hs2_line1_write.readonly <- true
+
+Peggy: Here are the lines we each wrote.
+
+  Which one should we go with?
+
+::hs2_line1_choice_q
+
+--- wait @hs2_line1_choice.value ---
+
+Lianne: You chose the following option.
+
+::hs2_line1_choice_why_q
+
+--- wait @hs2_line1_choice_why.value ---
+
+hs2_line1_choice_why.readonly <- true
+
+Ty: I think this is the strongest option. The first line reflects the environmental risks discussed in the Contat et al study, while the second line shows how those risks can increase the need for shelter, assistance, and other supports emphasized in the Parolin study. The line communicates the relationship rather than either study by itself.
+
+::hs2_poem_rel2 [display=target:hs2_main label="Poem: relationship 3"]
+
+Lianne: How about this next one?
+
+  The movie shows storms, flooding, and environmental instability. It also shows dark, deteriorating spaces inside the ship that may symbolize emotional strain and vulnerability.
+
+  Why don’t we each write a line?
+
+::hs2_line2_write_q
+
+--- wait @hs2_line2_write.value ---
+
+hs2_line2_write.readonly <- true
+
+Peggy: Here are the lines we each wrote.
+
+  Which one should we go with?
+
+::hs2_line2_choice_q
+
+--- wait @hs2_line2_choice.value ---
+
+Lianne: You chose the following option.
+
+::hs2_line2_choice_why_q
+
+--- wait @hs2_line2_choice_why.value ---
+
+hs2_line2_choice_why.readonly <- true
+
+Lacy: I like this one. This line connects the environmental pressures represented by storms and instability to the emotional and psychological strain discussed in the Barry study. It suggests that difficult conditions can affect not only physical surroundings but also people's well-being over time.
+
+::hs2_poem_rel3 [display=target:hs2_main label="Poem: relationship 4"]
+
+Lianne: How about this next one?
+
+  The movie has dark interiors and support symbols, but the relationship is weakly represented.
+
+  The poem can connect them. Let’s each write a line.
+
+::hs2_line3_write_q
+
+--- wait @hs2_line3_write.value ---
+
+hs2_line3_write.readonly <- true
+
+Peggy: Here are the lines we each wrote.
+
+  Which one should we pick?
+
+::hs2_line3_choice_q
+
+--- wait @hs2_line3_choice.value ---
+
+Lianne: You chose the following option.
+
+::hs2_line3_choice_why_q
+
+--- wait @hs2_line3_choice_why.value ---
+
+hs2_line3_choice_why.readonly <- true
+
+Ty: I am going with this one. This line connects the Barry et al. study emphasis on mental health and substance-use challenges with the Parolin's emphasis on support systems. It suggests that assistance programs may help stabilize people when personal challenges make housing insecurity more likely.
+
+::hs2_poem_rel4 [display=target:hs2_main label="Poem: relationship 5"]
+
+Lianne: Lastly, we should have a line about the Doran et al study insight of homelessness emerges through multiple interacting factors accumulating over time, rather than a single event.
+
+  Why don’t we each write a line?
+
+::hs2_line4_write_q
+
+--- wait @hs2_line4_write.value ---
+
+hs2_line4_write.readonly <- true
+
+Peggy: Here are the lines we each wrote.
+
+  Which one should we pick?
+
+::hs2_line4_choice_q
+
+--- wait @hs2_line4_choice.value ---
+
+Lianne: You chose the following option.
+
+::hs2_line4_choice_why_q
+
+--- wait @hs2_line4_choice_why.value ---
+
+hs2_line4_choice_why.readonly <- true
+
+Lacy: **I like this one the best.** It reflects the Doran et al. insight that housing insecurity often develops through the accumulation of multiple challenges over time. Rather than pointing to one cause, it emphasizes how economic, social, environmental, and personal pressures can interact and gradually increase vulnerability.
+
+::hs2_poem [display=target:hs2_main label="Our poem"]
+
+Lianne: Excellent. Here is the poem we’ve created from the interdisciplinary relationships identified across our studies:
+
+  > Some ships rest behind stronger walls,\
+  > where help arrives before the storm.
+  >
+  > As waters rise and shorelines break,\
+  > the need for shelter grows.
+  >
+  > Long seasons of wind and uncertainty\
+  > wear more than wood and steel.
+  >
+  > When strength begins to falter,\
+  > support can steady what remains.
+  >
+  > No single wave breaks the vessel.\
+  > The damage gathers slowly,\
+  > storm by storm,\
+  > season by season.
+
+  This poem does not simply summarize the studies one at a time. Instead, it attempts to communicate the relationships among the disciplinary insights that emerged from our interdisciplinary map.
+
+Brain Break [id=hs2_bb3_sec]
+----------------------------
+
+Lianne: We've covered a lot of ground so far. Before we continue, let's take a quick brain break and reflect.
+
+::hs2_bb3_q
+
+--- wait @hs2_bb31.value && @hs2_bb32.value && @hs2_bb33.value ---
+
+hs2_bb31.readonly <- true
+
+hs2_bb32.readonly <- true
+
+Wrap-Up: End of Part 2 [id=hs2_wrapup]
+--------------------------------------
+
+::hs2_final [display=target:hs2_main label="At the Shore"]
+
+Lianne: Here is our finalized movie with the poem.
+
+  This concludes our work for Part 2.

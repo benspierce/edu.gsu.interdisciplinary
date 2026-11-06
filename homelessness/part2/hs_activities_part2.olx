@@ -1,0 +1,1026 @@
+<!--
+---
+description: "Activity bank for the Homelessness SBA, Part 2 (integrating disciplinary insights): every screen the conversation parks in the right-hand pane (the comparison table, concept maps, the exhibit film, the poem) and every question embedded in the chat. Launchable so it can be previewed on its own."
+category: homelessness
+index: 83
+lang: en-Latn-US
+---
+-->
+
+<!--
+  Homelessness SBA, Part 2 — activity bank. GENERATED from the Oct 13 storyboard
+  (slides 203-311) by a one-off script, then hand-maintained: edit freely.
+
+  Same conventions as Part 1 (../part1/hs_activities_part1.olx): PANE screens are opened
+  in the right-hand UseHistory (hs2_main) by target embeds; CHAT embeds end in _q.
+  Readbacks are Markdown {{...}} templates; choice option values ARE the option
+  text; the student's own written option is valued "own". Storyboard answer keys
+  (bold) are <Key> options and [Col] marks; no grader is shown to students.
+-->
+
+<Vertical id="hs_activities_part2" title="Homelessness SBA Part 2 — Activities" launchable="true">
+
+<!-- ===== Welcome back and recall (slides 203-206) ===== -->
+<Vertical id="hs2_welcome" title="Welcome to Part 2">
+<Markdown><![CDATA[
+## Interdisciplinary Reasoning
+### Part 2: Integrating Disciplinary Insights
+]]></Markdown>
+<Image id="hs2_welcome_img" src="images/nonprofit_sign.jpg" alt="A road sign reading Nonprofit" />
+</Vertical>
+
+<Vertical id="hs2_recall_screen" title="What do you remember?">
+<Markdown><![CDATA[
+## What do you remember from Part 1?
+
+A few cells of our comparison table are missing (marked **[ 1 ]** to **[ 6 ]**). Fill them in, in the conversation on the left.
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs2_recall_table" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry (Barry et al., 2024)** | **Real Estate Economics (Contat et al., 2024)** | **Political Science (Fowle, 2022)** | **Sociology (Doran et al., 2019)** |
+|---|---|---|---|---|---|---|
+| **Phenomena studied** | **[ 1 ]** | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement | Structural racism, institutional inequality, housing systems, and homelessness | Social relationships, support systems, structural conditions, and pathways into homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | How do climate risks influence housing markets and housing stability? | **[ 2 ]** | How do social relationships and structural conditions interact to shape pathways into homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | Housing market data, climate-risk maps, insurance, mortgage, and migration data | Historical housing policies, demographic data, segregation, discrimination, and homelessness research | Qualitative interviews and participants' lived experiences |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | **[ 3 ]** | Literature review synthesizing quantitative and qualitative research | Literature review synthesizing historical and contemporary research | Semi-structured interviews and thematic qualitative analysis |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | **[ 4 ]** | Social outcomes are shaped by systems of power, institutions, and historical inequalities | People's lives and experiences are shaped by their relationships with others and the social structures in which they live. |
+| **Main insight** | Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment. | **[ 5 ]** | Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services. | Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations. | Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness. | **[ 6 ]** |
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs2_recall_q">
+<Markdown><![CDATA[
+**Fill in the missing cells as best you can from memory.** You don't need to remember the exact wording — just capture the main idea.
+]]></Markdown>
+<Markdown><![CDATA[
+**[ 1 ]** Economics (Cebula & Saunoris, 2021) — *Phenomena studied*
+]]></Markdown>
+<TextArea id="hs2_recall1" rows="2" placeholder="From memory…" />
+<Markdown><![CDATA[
+**[ 2 ]** Political Science (Fowle, 2022) — *Questions asked*
+]]></Markdown>
+<TextArea id="hs2_recall2" rows="2" placeholder="From memory…" />
+<Markdown><![CDATA[
+**[ 3 ]** Psychology / Psychiatry (Barry et al., 2024) — *Methods*
+]]></Markdown>
+<TextArea id="hs2_recall3" rows="2" placeholder="From memory…" />
+<Markdown><![CDATA[
+**[ 4 ]** Real Estate Economics (Contat et al., 2024) — *Underlying Assumptions*
+]]></Markdown>
+<TextArea id="hs2_recall4" rows="2" placeholder="From memory…" />
+<Markdown><![CDATA[
+**[ 5 ]** Public Policy (Parolin, 2021) — *Main insight*
+]]></Markdown>
+<TextArea id="hs2_recall5" rows="2" placeholder="From memory…" />
+<Markdown><![CDATA[
+**[ 6 ]** Sociology (Doran et al., 2019) — *Main insight*
+]]></Markdown>
+<TextArea id="hs2_recall6" rows="2" placeholder="From memory…" />
+</Vertical>
+
+<Vertical id="hs2_table_screen" title="Comparison table">
+<Markdown><![CDATA[
+## Disciplinary Perspective Comparison Table
+
+Compare this with what you remembered, paying particular attention to the **main insights**.
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs2_table_md" popout="fullscreen"><![CDATA[
+| **Element of Disciplinary Perspective** | **Economics (Cebula & Saunoris, 2021)** | **Public Policy (Parolin, 2021)** | **Psychology / Psychiatry (Barry et al., 2024)** | **Real Estate Economics (Contat et al., 2024)** | **Political Science (Fowle, 2022)** | **Sociology (Doran et al., 2019)** |
+|---|---|---|---|---|---|---|
+| **Phenomena studied** | Labor markets, entrepreneurship, economic opportunity, employment | Income support policies, public assistance programs, housing stability | Mental health disorders, substance use disorders, psychiatric conditions among individuals experiencing homelessness | Climate risks, housing markets, property values, affordability, and displacement | Structural racism, institutional inequality, housing systems, and homelessness | Social relationships, support systems, structural conditions, and pathways into homelessness |
+| **Questions asked** | How do economic conditions influence housing insecurity? | How do income support policies influence family homelessness? | What role do mental health disorders play in understanding homelessness? | How do climate risks influence housing markets and housing stability? | How do structural racism and public institutions shape racial disparities in homelessness? | How do social relationships and structural conditions interact to shape pathways into homelessness? |
+| **Evidence used** | State-level economic indicators, labor market data, entrepreneurship measures, homelessness rates | Administrative data on student homelessness and state policy data | Published studies reporting mental health diagnoses among homeless populations (85 studies; 48,414 participants) | Housing market data, climate-risk maps, insurance, mortgage, and migration data | Historical housing policies, demographic data, segregation, discrimination, and homelessness research | Qualitative interviews and participants' lived experiences |
+| **Methods** | Econometric analysis of state-level panel data | Statistical analysis of administrative and policy data. | Systematic review and meta-analysis | Literature review synthesizing quantitative and qualitative research | Literature review synthesizing historical and contemporary research | Semi-structured interviews and thematic qualitative analysis |
+| **Underlying Assumptions** | Economic systems, incentives, and institutional conditions influence human behavior and social outcomes. | Government policies and institutions shape social conditions and people's opportunities. | Human thoughts, emotions, behaviors, and mental processes influence people's experiences and life outcomes. | Housing systems are shaped by interactions among market forces, the built environment, and the natural environment. | Social outcomes are shaped by systems of power, institutions, and historical inequalities | People's lives and experiences are shaped by their relationships with others and the social structures in which they live. |
+| **Main insight** | **Higher levels of entrepreneurial activity and labor market freedom may reduce homelessness by expanding economic opportunity and reducing barriers to employment.** | **Public policy design, particularly access to direct cash assistance, can play an important role in reducing family homelessness.** | **Mental health disorders are highly prevalent among individuals experiencing homelessness, highlighting the need for coordinated housing, mental health, and substance use services.** | **Climate-related environmental risks can influence housing markets, property values, housing affordability, and displacement patterns, disproportionately affecting economically vulnerable populations.** | **Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.** | **Homelessness often develops through multiple interacting personal, social, economic, health, and structural challenges that accumulate over time rather than through one isolated cause.** |
+]]></Markdown>
+</Vertical>
+
+<!-- ===== What integration means (slides 207-211) ===== -->
+<Vertical id="hs2_metaphor_q">
+<ChoiceInput id="hs2_metaphor">
+<Markdown><![CDATA[
+**Which metaphor best represents rich interdisciplinarity?**
+]]></Markdown>
+  <Distractor value="Flower bouquet">Flower bouquet</Distractor>
+  <Distractor value="Fruit salad">Fruit salad</Distractor>
+  <Key value="Fancy smoothie">Fancy smoothie</Key>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_metaphor_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{@hs2_metaphor.value}}</Markdown>
+<Markdown><![CDATA[
+Why did you select that one? Type your answer below.
+]]></Markdown>
+<TextArea id="hs2_metaphor_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<!-- ===== Conceptual mapping: Repko's crime example (slides 212-219) ===== -->
+<Vertical id="hs2_crime_map" title="Repko's concept map">
+<Markdown><![CDATA[
+## Mapping the Influences on Criminal Behavior
+
+*A conceptual map from Repko and colleagues.*
+]]></Markdown>
+<Image id="hs2_crime_map_img" src="images/repko_crime_map.jpg" alt="Concept map: peer pressure, psychological attitudes, and calculating benefits minus costs each point to incidence of crime; peer pressure and attitudes connect with a double arrow" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_crime_disc_q">
+<Markdown><![CDATA[
+**Which discipline informs each box?** (We already identified *Psychological attitudes toward crime* as Psychology.)
+]]></Markdown>
+<TabularMCQ id="hs2_crime_disc">
+cols: Sociology, Economics, Anthropology, Political Science
+rows:
+  - "Calculating benefits minus costs of committing crime|box1[Economics]"
+  - "Peer pressure to commit crime|box2[Sociology]"
+</TabularMCQ>
+</Vertical>
+
+<Vertical id="hs2_crime_disc_why_q">
+<Markdown><![CDATA[
+**Your Choices:**
+]]></Markdown>
+<Markdown>
+| Focus in the Concept Map | Your answer |
+|---|---|
+| Calculating benefits minus costs of committing crime | {{(@hs2_crime_disc.value.box1 === 0 ? "Sociology" : (@hs2_crime_disc.value.box1 === 1 ? "Economics" : (@hs2_crime_disc.value.box1 === 2 ? "Anthropology" : (@hs2_crime_disc.value.box1 === 3 ? "Political Science" : "—"))))}} |
+| Peer pressure to commit crime | {{(@hs2_crime_disc.value.box2 === 0 ? "Sociology" : (@hs2_crime_disc.value.box2 === 1 ? "Economics" : (@hs2_crime_disc.value.box2 === 2 ? "Anthropology" : (@hs2_crime_disc.value.box2 === 3 ? "Political Science" : "—"))))}} |
+| Psychological attitudes toward crime | Psychology |
+</Markdown>
+<Markdown><![CDATA[
+Why did you select these disciplines? Explain your reasoning below.
+]]></Markdown>
+<TextArea id="hs2_crime_disc_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_reciprocal_q">
+<ChoiceInput id="hs2_reciprocal">
+<Markdown><![CDATA[
+**Which statement best explains this reciprocal relationship?**
+]]></Markdown>
+  <Key value="Peer pressure may shape a person’s attitudes toward crime, while those attitudes may also influence the peer groups they choose to associate with.">Peer pressure may shape a person’s attitudes toward crime, while those attitudes may also influence the peer groups they choose to associate with.</Key>
+  <Distractor value="Peer pressure may shape a person’s attitudes toward crime, but a person’s attitudes do not influence their social relationships.">Peer pressure may shape a person’s attitudes toward crime, but a person’s attitudes do not influence their social relationships.</Distractor>
+  <Distractor value="A person’s attitudes toward crime may determine which peer groups they associate with, but peer groups do not influence those attitudes.">A person’s attitudes toward crime may determine which peer groups they associate with, but peer groups do not influence those attitudes.</Distractor>
+  <Distractor value="Peer pressure and attitudes toward crime may both influence criminal behavior, but they do not influence one another.">Peer pressure and attitudes toward crime may both influence criminal behavior, but they do not influence one another.</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_reciprocal_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{@hs2_reciprocal.value}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this option? Explain your reasoning below.
+]]></Markdown>
+<TextArea id="hs2_reciprocal_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<!-- ===== Building our concept map of housing insecurity (slides 220-251) ===== -->
+<Vertical id="hs2_map01" title="Our concept map">
+<Markdown><![CDATA[
+## Our concept map
+]]></Markdown>
+<Image id="hs2_map01_img" src="images/map01_parolin_doran_solid.png" alt="Cash assistance and support programs (Parolin) points to Interacting pathways into housing insecurity (Doran)" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_map02" title="Our concept map">
+<Markdown><![CDATA[
+## Our concept map
+]]></Markdown>
+<Image id="hs2_map02_img" src="images/map02_parolin_doran_dashed.png" alt="The Parolin to Doran arrow is now dashed" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_map03" title="Our concept map">
+<Markdown><![CDATA[
+## Our concept map
+]]></Markdown>
+<Image id="hs2_map03_img" src="images/map03_fowle_doran.png" alt="Structural racial inequality in housing (Fowle) added, with a dashed arrow to Doran" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_map04" title="Our concept map">
+<Markdown><![CDATA[
+## Our concept map
+]]></Markdown>
+<Image id="hs2_map04_img" src="images/map04_fowle_parolin.png" alt="A solid arrow now connects Fowle to Parolin" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_map05" title="Our concept map">
+<Markdown><![CDATA[
+## Our concept map
+]]></Markdown>
+<Image id="hs2_map05_img" src="images/map05_before_cebula.png" alt="Labor markets and economic opportunity (Cebula &amp; Saunoris) added, not yet connected" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_map06" title="Our concept map">
+<Markdown><![CDATA[
+## Our concept map
+]]></Markdown>
+<Image id="hs2_map06_img" src="images/map06_cebula_doran.png" alt="A dashed arrow connects Cebula &amp; Saunoris to Doran" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_map07" title="Our concept map">
+<Markdown><![CDATA[
+## Our concept map
+]]></Markdown>
+<Image id="hs2_map07_img" src="images/map07_cebula_fowle_question.png" alt="A question-mark arrow from Cebula &amp; Saunoris to Fowle" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_map08" title="Our concept map">
+<Markdown><![CDATA[
+## Our concept map
+]]></Markdown>
+<Image id="hs2_map08_img" src="images/map08_fowle_cebula_question.png" alt="The question-mark arrow now points from Fowle to Cebula &amp; Saunoris" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_map09" title="Our concept map">
+<Markdown><![CDATA[
+## Our concept map
+]]></Markdown>
+<Image id="hs2_map09_img" src="images/map09_contat_doran.png" alt="Extreme weather and environmental risks (Contat) added, with a dashed arrow to Doran" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_map10" title="Our concept map">
+<Markdown><![CDATA[
+## Our concept map
+]]></Markdown>
+<Image id="hs2_map10_img" src="images/map10_contat_parolin.png" alt="A dashed arrow connects Contat to Parolin" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_map11" title="Our concept map">
+<Markdown><![CDATA[
+## Our concept map
+]]></Markdown>
+<Image id="hs2_map11_img" src="images/map11_contat_fowle.png" alt="A question-mark arrow connects Contat to Fowle" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_map12" title="Our concept map">
+<Markdown><![CDATA[
+## Our concept map
+]]></Markdown>
+<Image id="hs2_map12_img" src="images/map12_barry_doran.png" alt="Mental health and substance use (Barry) added, with a solid arrow to Doran" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_map13" title="Our concept map">
+<Markdown><![CDATA[
+## Our concept map
+]]></Markdown>
+<Image id="hs2_map13_img" src="images/map13_contat_barry.png" alt="A dashed arrow connects Contat to Barry" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_map14" title="Our completed concept map">
+<Markdown><![CDATA[
+## Our completed concept map
+]]></Markdown>
+<Image id="hs2_map14_img" src="images/map14_final.png" alt="Completed map, with a double dashed arrow between Parolin and Barry" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_arrow_fowle_parolin_screen" title="Connecting Fowle (2022) and Parolin (2021) studies">
+<Markdown><![CDATA[
+## Connecting Fowle (2022) and Parolin (2021) studies
+
+*Which kind of arrow should connect them? Answer in the conversation on the left.*
+]]></Markdown>
+<Image id="hs2_arrow_fowle_parolin_screen_img" src="images/map03_fowle_doran.png" alt="Structural racial inequality in housing (Fowle) added, with a dashed arrow to Doran" popout="fullscreen" />
+<Markdown><![CDATA[
+#### Study summaries
+
+*Open a summary if you need to review it again.*
+]]></Markdown>
+<Collapsible id="hs2_arrow_fowle_parolin_screen_sum_fowle" title="Fowle (2022)">
+<Markdown src="readings/polisci_full.md" />
+</Collapsible>
+<Collapsible id="hs2_arrow_fowle_parolin_screen_sum_parolin" title="Parolin (2021)">
+<Markdown src="readings/policy_full.md" />
+</Collapsible>
+</Vertical>
+
+<Vertical id="hs2_arrow_fowle_parolin_q">
+<ChoiceInput id="hs2_arrow_fowle_parolin">
+<Markdown><![CDATA[
+**What kind of arrow should connect the Fowle (2022) and Parolin (2021) studies?**
+]]></Markdown>
+  <Key value="Solid arrow — Supported">Solid arrow — Supported</Key>
+  <Distractor value="Dashed arrow — Inferred">Dashed arrow — Inferred</Distractor>
+  <Distractor value="Question-mark arrow — Uncertain">Question-mark arrow — Uncertain</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_arrow_fowle_parolin_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{@hs2_arrow_fowle_parolin.value}}</Markdown>
+<Markdown><![CDATA[
+Can you explain your reasoning below?
+]]></Markdown>
+<TextArea id="hs2_arrow_fowle_parolin_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_arrow_cebula_fowle_screen" title="Connecting Cebula and Saunoris (2021) and Fowle (2022)">
+<Markdown><![CDATA[
+## Connecting Cebula and Saunoris (2021) and Fowle (2022)
+
+*Which kind of arrow should connect them? Answer in the conversation on the left.*
+]]></Markdown>
+<Image id="hs2_arrow_cebula_fowle_screen_img" src="images/map06_cebula_doran.png" alt="A dashed arrow connects Cebula &amp; Saunoris to Doran" popout="fullscreen" />
+<Markdown><![CDATA[
+#### Study summaries
+
+*Open a summary if you need to review it again.*
+]]></Markdown>
+<Collapsible id="hs2_arrow_cebula_fowle_screen_sum_cebula" title="Cebula &amp; Saunoris (2021)">
+<Markdown src="readings/econ_full.md" />
+</Collapsible>
+<Collapsible id="hs2_arrow_cebula_fowle_screen_sum_fowle" title="Fowle (2022)">
+<Markdown src="readings/polisci_full.md" />
+</Collapsible>
+</Vertical>
+
+<Vertical id="hs2_arrow_cebula_fowle_q">
+<ChoiceInput id="hs2_arrow_cebula_fowle">
+<Markdown><![CDATA[
+**What kind of arrow should connect Cebula and Saunoris (2021) and Fowle (2022)?**
+]]></Markdown>
+  <Distractor value="Solid arrow — Supported">Solid arrow — Supported</Distractor>
+  <Distractor value="Dashed arrow — Inferred">Dashed arrow — Inferred</Distractor>
+  <Key value="Question-mark arrow — Uncertain">Question-mark arrow — Uncertain</Key>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_arrow_cebula_fowle_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{@hs2_arrow_cebula_fowle.value}}</Markdown>
+<Markdown><![CDATA[
+Can you explain your reasoning below?
+]]></Markdown>
+<TextArea id="hs2_arrow_cebula_fowle_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_arrow_contat_parolin_screen" title="Connecting Contat et al. (2024) and Parolin (2021) studies">
+<Markdown><![CDATA[
+## Connecting Contat et al. (2024) and Parolin (2021) studies
+
+*Which kind of arrow should connect them? Answer in the conversation on the left.*
+]]></Markdown>
+<Image id="hs2_arrow_contat_parolin_screen_img" src="images/map09_contat_doran.png" alt="Extreme weather and environmental risks (Contat) added, with a dashed arrow to Doran" popout="fullscreen" />
+<Markdown><![CDATA[
+#### Study summaries
+
+*Open a summary if you need to review it again.*
+]]></Markdown>
+<Collapsible id="hs2_arrow_contat_parolin_screen_sum_contat" title="Contat et al. (2024)">
+<Markdown src="readings/estate_full.md" />
+</Collapsible>
+<Collapsible id="hs2_arrow_contat_parolin_screen_sum_parolin" title="Parolin (2021)">
+<Markdown src="readings/policy_full.md" />
+</Collapsible>
+</Vertical>
+
+<Vertical id="hs2_arrow_contat_parolin_q">
+<ChoiceInput id="hs2_arrow_contat_parolin">
+<Markdown><![CDATA[
+**What kind of arrow should connect the Contat et al. (2024) and Parolin (2021) studies?**
+]]></Markdown>
+  <Distractor value="Solid arrow — Supported">Solid arrow — Supported</Distractor>
+  <Key value="Dashed arrow — Inferred">Dashed arrow — Inferred</Key>
+  <Distractor value="Question-mark arrow — Uncertain">Question-mark arrow — Uncertain</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_arrow_contat_parolin_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{@hs2_arrow_contat_parolin.value}}</Markdown>
+<Markdown><![CDATA[
+Can you explain your reasoning below?
+]]></Markdown>
+<TextArea id="hs2_arrow_contat_parolin_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_arrow_contat_fowle_screen" title="Connecting Contat et al. (2024) and Fowle (2022) studies">
+<Markdown><![CDATA[
+## Connecting Contat et al. (2024) and Fowle (2022) studies
+
+*Which kind of arrow should connect them? Answer in the conversation on the left.*
+]]></Markdown>
+<Image id="hs2_arrow_contat_fowle_screen_img" src="images/map10_contat_parolin.png" alt="A dashed arrow connects Contat to Parolin" popout="fullscreen" />
+<Markdown><![CDATA[
+#### Study summaries
+
+*Open a summary if you need to review it again.*
+]]></Markdown>
+<Collapsible id="hs2_arrow_contat_fowle_screen_sum_contat" title="Contat et al. (2024)">
+<Markdown src="readings/estate_full.md" />
+</Collapsible>
+<Collapsible id="hs2_arrow_contat_fowle_screen_sum_fowle" title="Fowle (2022)">
+<Markdown src="readings/polisci_full.md" />
+</Collapsible>
+</Vertical>
+
+<Vertical id="hs2_arrow_contat_fowle_q">
+<ChoiceInput id="hs2_arrow_contat_fowle">
+<Markdown><![CDATA[
+**What kind of arrow should connect the Contat et al. (2024) and Fowle (2022) studies?**
+]]></Markdown>
+  <Distractor value="Solid arrow — Supported">Solid arrow — Supported</Distractor>
+  <Distractor value="Dashed arrow — Inferred">Dashed arrow — Inferred</Distractor>
+  <Key value="Question-mark arrow — Uncertain">Question-mark arrow — Uncertain</Key>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_arrow_contat_fowle_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{@hs2_arrow_contat_fowle.value}}</Markdown>
+<Markdown><![CDATA[
+Can you explain your reasoning below?
+]]></Markdown>
+<TextArea id="hs2_arrow_contat_fowle_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_arrow_contat_barry_screen" title="Connecting Contat et al. (2024) and Barry et al. (2024) studies">
+<Markdown><![CDATA[
+## Connecting Contat et al. (2024) and Barry et al. (2024) studies
+
+*Which kind of arrow should connect them? Answer in the conversation on the left.*
+]]></Markdown>
+<Image id="hs2_arrow_contat_barry_screen_img" src="images/map12_barry_doran.png" alt="Mental health and substance use (Barry) added, with a solid arrow to Doran" popout="fullscreen" />
+<Markdown><![CDATA[
+#### Study summaries
+
+*Open a summary if you need to review it again.*
+]]></Markdown>
+<Collapsible id="hs2_arrow_contat_barry_screen_sum_contat" title="Contat et al. (2024)">
+<Markdown src="readings/estate_full.md" />
+</Collapsible>
+<Collapsible id="hs2_arrow_contat_barry_screen_sum_barry" title="Barry et al. (2024)">
+<Markdown src="readings/psych_full.md" />
+</Collapsible>
+</Vertical>
+
+<Vertical id="hs2_arrow_contat_barry_q">
+<ChoiceInput id="hs2_arrow_contat_barry">
+<Markdown><![CDATA[
+**What kind of arrow should connect the Contat et al. (2024) and Barry et al. (2024) studies?**
+]]></Markdown>
+  <Distractor value="Solid arrow — Supported">Solid arrow — Supported</Distractor>
+  <Key value="Dashed arrow — Inferred">Dashed arrow — Inferred</Key>
+  <Distractor value="Question-mark arrow — Uncertain">Question-mark arrow — Uncertain</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_arrow_contat_barry_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{@hs2_arrow_contat_barry.value}}</Markdown>
+<Markdown><![CDATA[
+Can you explain your reasoning below?
+]]></Markdown>
+<TextArea id="hs2_arrow_contat_barry_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_arrow_barry_parolin_screen" title="Connecting Barry et al. (2024) and Parolin (2021) studies">
+<Markdown><![CDATA[
+## Connecting Barry et al. (2024) and Parolin (2021) studies
+
+*Which kind of arrow should connect them? Answer in the conversation on the left.*
+]]></Markdown>
+<Image id="hs2_arrow_barry_parolin_screen_img" src="images/map13_contat_barry.png" alt="A dashed arrow connects Contat to Barry" popout="fullscreen" />
+<Markdown><![CDATA[
+#### Study summaries
+
+*Open a summary if you need to review it again.*
+]]></Markdown>
+<Collapsible id="hs2_arrow_barry_parolin_screen_sum_barry" title="Barry et al. (2024)">
+<Markdown src="readings/psych_full.md" />
+</Collapsible>
+<Collapsible id="hs2_arrow_barry_parolin_screen_sum_parolin" title="Parolin (2021)">
+<Markdown src="readings/policy_full.md" />
+</Collapsible>
+</Vertical>
+
+<Vertical id="hs2_arrow_barry_parolin_q">
+<ChoiceInput id="hs2_arrow_barry_parolin">
+<Markdown><![CDATA[
+**What kind of arrow should connect the Barry et al. (2024) and Parolin (2021) studies?**
+]]></Markdown>
+  <Distractor value="Solid arrow — Supported">Solid arrow — Supported</Distractor>
+  <Key value="Dashed arrow — Inferred">Dashed arrow — Inferred</Key>
+  <Distractor value="Question-mark arrow — Uncertain">Question-mark arrow — Uncertain</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_arrow_barry_parolin_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{@hs2_arrow_barry_parolin.value}}</Markdown>
+<Markdown><![CDATA[
+Can you explain your reasoning below?
+]]></Markdown>
+<TextArea id="hs2_arrow_barry_parolin_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_direction_q">
+<ChoiceInput id="hs2_direction">
+<Markdown><![CDATA[
+**What do you think about the direction of the relationship between these two study insights?**
+]]></Markdown>
+  <Distractor value="The relationship should primarily move from institutional supports toward mental health vulnerability."><Markdown><![CDATA[
+The relationship should primarily move from institutional supports toward mental health vulnerability.
+]]></Markdown><Image src="images/direction_supports_to_mental_health.png" alt="Dashed arrow from Parolin to Barry" /></Distractor>
+  <Distractor value="The relationship should primarily move from mental health challenges toward increased dependence on support systems."><Markdown><![CDATA[
+The relationship should primarily move from mental health challenges toward increased dependence on support systems.
+]]></Markdown><Image src="images/direction_mental_health_to_supports.png" alt="Dashed arrow from Barry to Parolin" /></Distractor>
+  <Key value="The relationship should be reciprocal working in both directions."><Markdown><![CDATA[
+The relationship should be reciprocal working in both directions.
+]]></Markdown><Image src="images/direction_reciprocal.png" alt="Double dashed arrow between Parolin and Barry" /></Key>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_direction_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{@hs2_direction.value}}</Markdown>
+<Markdown><![CDATA[
+Can you explain your reasoning below?
+]]></Markdown>
+<TextArea id="hs2_direction_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_bb1_q">
+<Markdown><![CDATA[
+**Brain Break Check-in**
+]]></Markdown>
+<Markdown><![CDATA[
+**1. What did the concept map help you see about housing insecurity that was harder to see when the studies were considered separately?**
+]]></Markdown>
+<TextArea id="hs2_bb11" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**2. Which connection on the map did you find most convincing? What made that connection convincing?**
+]]></Markdown>
+<TextArea id="hs2_bb12" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**3. What is one connection on the map that you think needs more evidence or research? Why?**
+]]></Markdown>
+<TextArea id="hs2_bb13" rows="3" placeholder="Type your answer here…" />
+</Vertical>
+
+<!-- ===== Integration through symbolism: the Vietnam Veterans Memorial (slides 253-258) ===== -->
+<Vertical id="hs2_memorial" title="Vietnam Veterans Memorial">
+<Markdown><![CDATA[
+## Maya Lin's Vietnam Veterans Memorial
+
+[▶ Watch a video of the memorial on YouTube](https://www.youtube.com/watch?v=wuxjTxxQUTs&t=42s)
+
+*Tip: Cmd-click (Mac) or Ctrl-click (Windows) the link to open it in a new tab, so this activity stays open.*
+]]></Markdown>
+<Image id="hs2_memorial_img" src="images/vietnam_memorial.jpg" alt="Visitors at the black granite wall of the Vietnam Veterans Memorial" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_gallery" title="Gallery 7: At the Shore">
+<Markdown><![CDATA[
+## Interwoven: Community, Society, and Nature
+
+### Gallery 7: *At the Shore*
+
+Our gallery will feature a short interpretive film that uses metaphor, symbolism, and visual storytelling to help visitors understand how larger systems, environments, policies, and pressures interact over time.
+]]></Markdown>
+</Vertical>
+
+<!-- ===== The interpretive film: a ship as a metaphor (slides 259-276) ===== -->
+<Vertical id="hs2_film" title="Film draft: At the Shore">
+<Markdown><![CDATA[
+## *At the Shore* — early draft
+
+*A film about strength, support, and what we lose over time.* These are stills from the draft film.
+]]></Markdown>
+<Image id="hs2_film_img" src="images/film_draft.jpg" alt="Twelve stills from the draft film At the Shore: a rusting ship at a dock, storms and waves, fraying ropes, strained anchor chains, water entering the dark interior, and a calm sunset" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_film_obs_q">
+<Markdown><![CDATA[
+**What other elements do you see? Write your observations below.**
+]]></Markdown>
+<TextArea id="hs2_film_obs" rows="3" placeholder="I see…" />
+</Vertical>
+
+<Vertical id="hs2_film_obs_list_q">
+<Markdown><![CDATA[
+**Elements we all said we saw:**
+
+- a ship exposed to powerful storms and waves
+- ropes and anchors becoming strained or weakened
+- rust and gradual deterioration of the ship
+- water entering the ship
+- damage building gradually rather than happening all at once
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">*Your observations:* {{@hs2_film_obs.value}}</Markdown>
+</Vertical>
+
+<Vertical id="hs2_film_idea_q">
+<ChoiceInput id="hs2_film_idea">
+<Markdown><![CDATA[
+**What overall idea does the film seem to communicate?**
+]]></Markdown>
+  <Key value="Housing instability can develop as multiple pressures interact, supports weaken, and problems accumulate over time.">Housing instability can develop as multiple pressures interact, supports weaken, and problems accumulate over time.</Key>
+  <Distractor value="Housing instability usually results from one major event that suddenly overwhelms a household.">Housing instability usually results from one major event that suddenly overwhelms a household.</Distractor>
+  <Distractor value="Housing instability occurs mainly when people lack the ability to respond effectively to unexpected problems.">Housing instability occurs mainly when people lack the ability to respond effectively to unexpected problems.</Distractor>
+  <Distractor value="Housing instability develops independently of the larger economic, social, and environmental conditions surrounding people.">Housing instability develops independently of the larger economic, social, and environmental conditions surrounding people.</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_film_idea_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{@hs2_film_idea.value}}</Markdown>
+<Markdown><![CDATA[
+Can you explain your reasoning below?
+]]></Markdown>
+<TextArea id="hs2_film_idea_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_elem1_q">
+<CheckboxInput id="hs2_elem1">
+<Markdown><![CDATA[
+**Exhibit short movie element:** *isolated ship exposed to violent storms and crashing waves near the shoreline*
+
+Check the disciplinary insight(s) that may help explain this symbolic element in the film.
+]]></Markdown>
+  <Key value="unstable labor conditions and limited economic opportunity (Cebula &amp; Saunoris, 2021)">unstable labor conditions and limited economic opportunity (Cebula &amp; Saunoris, 2021)</Key>
+  <Distractor value="limited access to income support and assistance programs (Parolin, 2021)">limited access to income support and assistance programs (Parolin, 2021)</Distractor>
+  <Distractor value="trauma, mental health challenges, and chronic stress (Barry et al., 2024)">trauma, mental health challenges, and chronic stress (Barry et al., 2024)</Distractor>
+  <Key value="environmental and climate-related risks (Contat et al., 2024)">environmental and climate-related risks (Contat et al., 2024)</Key>
+  <Distractor value="structural racial inequality in housing systems (Fowle, 2022)">structural racial inequality in housing systems (Fowle, 2022)</Distractor>
+  <Key value="the gradual accumulation of interacting pressures over time (Doran et al., 2019)">the gradual accumulation of interacting pressures over time (Doran et al., 2019)</Key>
+  <Distractor value="None of these insights">None of these insights</Distractor>
+</CheckboxInput>
+</Vertical>
+
+<Vertical id="hs2_elem1_why_q">
+<Markdown><![CDATA[
+**Your Choice(s):**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs2_elem1.value.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this insight(s)? Type your answer below.
+]]></Markdown>
+<TextArea id="hs2_elem1_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_elem2_q">
+<CheckboxInput id="hs2_elem2">
+<Markdown><![CDATA[
+**Exhibit short movie element:** *weakening ropes and strained anchors along with rust buildup and erosion of the ship’s structure*
+
+Check the disciplinary insight(s) that may help explain this symbolic element in the film.
+]]></Markdown>
+  <Distractor value="unstable labor conditions and limited economic opportunity (Cebula &amp; Saunoris, 2021)">unstable labor conditions and limited economic opportunity (Cebula &amp; Saunoris, 2021)</Distractor>
+  <Key value="limited access to income support and assistance programs (Parolin, 2021)">limited access to income support and assistance programs (Parolin, 2021)</Key>
+  <Key value="trauma, mental health challenges, and chronic stress (Barry et al., 2024)">trauma, mental health challenges, and chronic stress (Barry et al., 2024)</Key>
+  <Distractor value="environmental and climate-related risks (Contat et al., 2024)">environmental and climate-related risks (Contat et al., 2024)</Distractor>
+  <Distractor value="structural racial inequality in housing systems (Fowle, 2022)">structural racial inequality in housing systems (Fowle, 2022)</Distractor>
+  <Key value="the gradual accumulation of interacting pressures over time (Doran et al., 2019)">the gradual accumulation of interacting pressures over time (Doran et al., 2019)</Key>
+  <Distractor value="None of these insights">None of these insights</Distractor>
+</CheckboxInput>
+</Vertical>
+
+<Vertical id="hs2_elem2_why_q">
+<Markdown><![CDATA[
+**Your Choice(s):**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs2_elem2.value.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this insight(s)? Type your answer below.
+]]></Markdown>
+<TextArea id="hs2_elem2_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_elem3_q">
+<CheckboxInput id="hs2_elem3">
+<Markdown><![CDATA[
+**Exhibit short movie element:** *rising water entering the ship and darkening interior spaces within the ship*
+
+Check the disciplinary insight(s) that may help explain this symbolic element in the film.
+]]></Markdown>
+  <Distractor value="unstable labor conditions and limited economic opportunity (Cebula &amp; Saunoris, 2021)">unstable labor conditions and limited economic opportunity (Cebula &amp; Saunoris, 2021)</Distractor>
+  <Distractor value="limited access to income support and assistance programs (Parolin, 2021)">limited access to income support and assistance programs (Parolin, 2021)</Distractor>
+  <Key value="trauma, mental health challenges, and chronic stress (Barry et al., 2024)">trauma, mental health challenges, and chronic stress (Barry et al., 2024)</Key>
+  <Key value="environmental and climate-related risks (Contat et al., 2024)">environmental and climate-related risks (Contat et al., 2024)</Key>
+  <Distractor value="structural racial inequality in housing systems (Fowle, 2022)">structural racial inequality in housing systems (Fowle, 2022)</Distractor>
+  <Key value="the gradual accumulation of interacting pressures over time (Doran et al., 2019)">the gradual accumulation of interacting pressures over time (Doran et al., 2019)</Key>
+  <Distractor value="None of these insights">None of these insights</Distractor>
+</CheckboxInput>
+</Vertical>
+
+<Vertical id="hs2_elem3_why_q">
+<Markdown><![CDATA[
+**Your Choice(s):**
+]]></Markdown>
+<Markdown class="whitespace-pre-wrap">{{@hs2_elem3.value.map(t =&gt; "• " + t).join("&#10;")}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this insight(s)? Type your answer below.
+]]></Markdown>
+<TextArea id="hs2_elem3_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_matrix" title="Film elements and insights">
+<Markdown><![CDATA[
+## Film elements and disciplinary insights
+
+*Tip: use the full-screen button to see the whole table.*
+]]></Markdown>
+<Markdown id="hs2_matrix_md" popout="fullscreen"><![CDATA[
+| **Exhibit short movie elements** | **unstable labor conditions and limited economic opportunity (Cebula & Saunoris, 2021)** | **limited access to income support and assistance programs (Parolin, 2021)** | **trauma, mental health challenges, and chronic stress (Barry et al., 2024)** | **environmental and climate-related risks (Contat et al., 2024)** | **structural racial inequality in housing systems (Fowle, 2022)** | **the gradual accumulation of interacting pressures over time (Doran et al., 2019)** |
+|---|---|---|---|---|---|---|
+| isolated ship exposed to violent storms and crashing waves near the shoreline | X |   |   | X |   | X |
+| weakening ropes and strained anchors along with rust buildup and erosion of the ship’s structure |   | X | X |   |   | X |
+| rising water entering the ship and darkening interior spaces within the ship |   |   | X | X |   | X |
+]]></Markdown>
+</Vertical>
+
+<!-- ===== Revising the film to represent structural inequality (slides 278-287) ===== -->
+<Vertical id="hs2_fowle_recall_q">
+<ChoiceInput id="hs2_fowle_recall">
+<Markdown><![CDATA[
+**Which was the most accurate insight statement for the Fowle (2022) study?**
+]]></Markdown>
+  <Distractor value="Poverty and housing affordability challenges are the primary explanations for racial disparities in homelessness in the United States.">Poverty and housing affordability challenges are the primary explanations for racial disparities in homelessness in the United States.</Distractor>
+  <Distractor value="Historical housing discrimination and segregation have contributed to higher rates of homelessness among Black, Latinx, and Native American populations.">Historical housing discrimination and segregation have contributed to higher rates of homelessness among Black, Latinx, and Native American populations.</Distractor>
+  <Key value="Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.">Homelessness in the United States is shaped by structural racism embedded in housing, economic, and political systems, leading to persistent racial disparities in homelessness.</Key>
+  <Distractor value="Expanding access to emergency shelters and homelessness services is the most effective way to reduce racial disparities in homelessness.">Expanding access to emergency shelters and homelessness services is the most effective way to reduce racial disparities in homelessness.</Distractor>
+  <Distractor value="Mental health conditions and substance use disorders are the major causes of racial disparities in homelessness across communities.">Mental health conditions and substance use disorders are the major causes of racial disparities in homelessness across communities.</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_harbor_idea_q">
+<Markdown><![CDATA[
+**How else might the movie symbolically represent structural racial inequality in housing systems? Write your suggestion below.**
+]]></Markdown>
+<TextArea id="hs2_harbor_idea" rows="3" placeholder="Maybe the film could…" />
+</Vertical>
+
+<Vertical id="hs2_harbor_q">
+<ChoiceInput id="hs2_harbor">
+<Markdown><![CDATA[
+**Which symbolic possibility should we go with?**
+]]></Markdown>
+  <Distractor value="Maybe some ships could already have older ropes or weaker anchors before the storms even begin.">Maybe some ships could already have older ropes or weaker anchors before the storms even begin.</Distractor>
+  <Distractor value="Some ships could appear farther from safe harbor or emergency assistance than others.">Some ships could appear farther from safe harbor or emergency assistance than others.</Distractor>
+  <Distractor value="Some ships could receive repairs or reinforcement more quickly while others remain exposed longer.">Some ships could receive repairs or reinforcement more quickly while others remain exposed longer.</Distractor>
+  <Key value="Perhaps some parts of the harbor could have stronger protections while others remain more exposed.">Perhaps some parts of the harbor could have stronger protections while others remain more exposed.</Key>
+  <Distractor value="own"><Ref target="hs2_harbor_idea" format="text" /></Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_harbor_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs2_harbor.value === 'own' ? @hs2_harbor_idea.value : @hs2_harbor.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this option? Explain how it may symbolically represent structural inequality in housing systems.
+]]></Markdown>
+<TextArea id="hs2_harbor_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_film_revised" title="Revised film scene">
+<Markdown><![CDATA[
+## *At the Shore* — revised scene
+
+The featured ship is now docked in a deteriorating section of the harbor, while nearby ships sit in more protected, well-maintained harbor spaces.
+]]></Markdown>
+<Image id="hs2_film_revised_img" src="images/film_revised.jpg" alt="Revised stills from At the Shore: the rusting ship docked beside well-maintained yachts in a protected part of the harbor, then storms, fraying ropes, and flooding" popout="fullscreen" />
+</Vertical>
+
+<Vertical id="hs2_bb2_q">
+<Markdown><![CDATA[
+**Brain Break Check-in**
+]]></Markdown>
+<Markdown><![CDATA[
+**1. What did building the ship metaphor help you see or understand about housing insecurity?**
+]]></Markdown>
+<TextArea id="hs2_bb21" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**2. Which part of the metaphor stands out most to you?**
+
+*The storms and waves? The weakening ship? The harbor protections? Something else?*
+]]></Markdown>
+<TextArea id="hs2_bb22" rows="3" placeholder="Type your answer here…" />
+<ChoiceInput id="hs2_bb23">
+<Markdown><![CDATA[
+**3. How are you feeling about integration at this point?**
+]]></Markdown>
+  <Distractor value="It’s making more sense">It’s making more sense</Distractor>
+  <Distractor value="I’m getting there">I’m getting there</Distractor>
+  <Distractor value="I’m still a little unsure">I’m still a little unsure</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<!-- ===== Writing the poem: integrating relationships (slides 288-311) ===== -->
+<Vertical id="hs2_poem_rel0" title="Poem: first relationship">
+<Markdown><![CDATA[
+## Relationship 1
+
+Some ships rest behind stronger walls,\
+where help arrives before the storm.
+]]></Markdown>
+<Image src="images/poem_fowle_parolin.png" alt="Solid arrow from Fowle (structural racial inequality in housing) to Parolin (cash assistance and support programs)" />
+</Vertical>
+
+<Vertical id="hs2_poem_rel1" title="Poem: relationship 2">
+<Markdown><![CDATA[
+## Relationship 2
+]]></Markdown>
+<Image src="images/poem_contat_parolin.png" alt="Dashed arrow from Contat (extreme weather and environmental risks) to Parolin (cash assistance and support programs)" />
+</Vertical>
+
+<Vertical id="hs2_line1_write_q">
+<Markdown><![CDATA[
+**Write your line for the poem.**
+]]></Markdown>
+<TextArea id="hs2_line1_write" rows="2" placeholder="Your line…" />
+</Vertical>
+
+<Vertical id="hs2_line1_choice_q">
+<ChoiceInput id="hs2_line1_choice">
+<Markdown><![CDATA[
+**Which line should we go with?**
+]]></Markdown>
+  <Distractor value="Strong ropes hold against the tide, when support remains in place.">Strong ropes hold against the tide, when support remains in place.</Distractor>
+  <Distractor value="Ships weather many difficult seasons, and some remain afloat.">Ships weather many difficult seasons, and some remain afloat.</Distractor>
+  <Key value="As waters rise and shorelines break, the need for shelter grows.">As waters rise and shorelines break, the need for shelter grows.</Key>
+  <Distractor value="The waves grow higher each season, and the shoreline slowly fades.">The waves grow higher each season, and the shoreline slowly fades.</Distractor>
+  <Distractor value="own"><Ref target="hs2_line1_write" format="text" /></Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_line1_choice_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs2_line1_choice.value === 'own' ? @hs2_line1_write.value : @hs2_line1_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this option? Explain your reasoning.
+]]></Markdown>
+<TextArea id="hs2_line1_choice_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_poem_rel2" title="Poem: relationship 3">
+<Markdown><![CDATA[
+## Relationship 3
+]]></Markdown>
+<Image src="images/poem_contat_barry.png" alt="Dashed arrow from Contat (extreme weather and environmental risks) to Barry (mental health and substance use)" />
+</Vertical>
+
+<Vertical id="hs2_line2_write_q">
+<Markdown><![CDATA[
+**Write your line for the poem.**
+]]></Markdown>
+<TextArea id="hs2_line2_write" rows="2" placeholder="Your line…" />
+</Vertical>
+
+<Vertical id="hs2_line2_choice_q">
+<ChoiceInput id="hs2_line2_choice">
+<Markdown><![CDATA[
+**Which line should we go with?**
+]]></Markdown>
+  <Distractor value="The harbor was never equally protected, and some ships faced rougher waters from the start.">The harbor was never equally protected, and some ships faced rougher waters from the start.</Distractor>
+  <Distractor value="One broken rope rarely sinks a ship; many small strains can pull together.">One broken rope rarely sinks a ship; many small strains can pull together.</Distractor>
+  <Distractor value="The sea remembers every storm, even after the waves grow calm.">The sea remembers every storm, even after the waves grow calm.</Distractor>
+  <Key value="Long seasons of wind and uncertainty wear more than wood and steel.">Long seasons of wind and uncertainty wear more than wood and steel.</Key>
+  <Distractor value="own"><Ref target="hs2_line2_write" format="text" /></Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_line2_choice_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs2_line2_choice.value === 'own' ? @hs2_line2_write.value : @hs2_line2_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this option? Explain your reasoning.
+]]></Markdown>
+<TextArea id="hs2_line2_choice_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_poem_rel3" title="Poem: relationship 4">
+<Markdown><![CDATA[
+## Relationship 4
+]]></Markdown>
+<Image src="images/poem_parolin_barry.png" alt="Double dashed arrow between Parolin (cash assistance and support programs) and Barry (mental health and substance use)" />
+</Vertical>
+
+<Vertical id="hs2_line3_write_q">
+<Markdown><![CDATA[
+**Write your line for the poem.**
+]]></Markdown>
+<TextArea id="hs2_line3_write" rows="2" placeholder="Your line…" />
+</Vertical>
+
+<Vertical id="hs2_line3_choice_q">
+<ChoiceInput id="hs2_line3_choice">
+<Markdown><![CDATA[
+**Which line should we go with?**
+]]></Markdown>
+  <Key value="When strength begins to falter, support can steady what remains.">When strength begins to falter, support can steady what remains.</Key>
+  <Distractor value="The harbor stands through every storm, guiding ships safely home.">The harbor stands through every storm, guiding ships safely home.</Distractor>
+  <Distractor value="The deepest cracks are often hidden, far below the waterline.">The deepest cracks are often hidden, far below the waterline.</Distractor>
+  <Distractor value="The tide may rise from many directions, testing every line that holds.">The tide may rise from many directions, testing every line that holds.</Distractor>
+  <Distractor value="own"><Ref target="hs2_line3_write" format="text" /></Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_line3_choice_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs2_line3_choice.value === 'own' ? @hs2_line3_write.value : @hs2_line3_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this option? Explain your reasoning.
+]]></Markdown>
+<TextArea id="hs2_line3_choice_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_poem_rel4" title="Poem: relationship 5">
+<Markdown><![CDATA[
+## Relationship 5
+]]></Markdown>
+<Image src="images/map14_final.png" alt="Our completed concept map, centered on interacting pathways into housing insecurity (Doran et al., 2019)" />
+</Vertical>
+
+<Vertical id="hs2_line4_write_q">
+<Markdown><![CDATA[
+**Write your line for the poem.**
+]]></Markdown>
+<TextArea id="hs2_line4_write" rows="2" placeholder="Your line…" />
+</Vertical>
+
+<Vertical id="hs2_line4_choice_q">
+<ChoiceInput id="hs2_line4_choice">
+<Markdown><![CDATA[
+**Which line should we go with?**
+]]></Markdown>
+  <Key value="No single wave breaks the vessel. / The damage gathers slowly, / storm by storm, / season by season.">No single wave breaks the vessel. / The damage gathers slowly, / storm by storm, / season by season.</Key>
+  <Distractor value="The harbor cannot calm the sea, / but it can offer shelter.">The harbor cannot calm the sea, / but it can offer shelter.</Distractor>
+  <Distractor value="Some ships begin their voyage / with fewer protections than others.">Some ships begin their voyage / with fewer protections than others.</Distractor>
+  <Distractor value="When the winds change direction, / even strong vessels must adapt.">When the winds change direction, / even strong vessels must adapt.</Distractor>
+  <Distractor value="own"><Ref target="hs2_line4_write" format="text" /></Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_line4_choice_why_q">
+<Markdown class="whitespace-pre-wrap">**Your Choice:**&#10;&#10;{{(@hs2_line4_choice.value === 'own' ? @hs2_line4_write.value : @hs2_line4_choice.value)}}</Markdown>
+<Markdown><![CDATA[
+Why did you select this option? Explain your reasoning.
+]]></Markdown>
+<TextArea id="hs2_line4_choice_why" rows="4" placeholder="Type your answer here…" />
+</Vertical>
+
+<Vertical id="hs2_poem" title="Our poem">
+<Markdown><![CDATA[
+## At the Shore
+
+Some ships rest behind stronger walls,\
+where help arrives before the storm.
+
+As waters rise and shorelines break,\
+the need for shelter grows.
+
+Long seasons of wind and uncertainty\
+wear more than wood and steel.
+
+When strength begins to falter,\
+support can steady what remains.
+
+No single wave breaks the vessel.\
+The damage gathers slowly,\
+storm by storm,\
+season by season.
+]]></Markdown>
+</Vertical>
+
+<Vertical id="hs2_bb3_q">
+<Markdown><![CDATA[
+**Brain Break Check-in**
+]]></Markdown>
+<Markdown><![CDATA[
+**1. Which integration activity helped you understand housing insecurity best—the concept map, the film metaphor, or the poem? Why?**
+]]></Markdown>
+<TextArea id="hs2_bb31" rows="3" placeholder="Type your answer here…" />
+<Markdown><![CDATA[
+**2. What is one thing you understand about housing insecurity now that you did not see as clearly when we looked at the disciplinary studies separately?**
+]]></Markdown>
+<TextArea id="hs2_bb32" rows="3" placeholder="Type your answer here…" />
+<ChoiceInput id="hs2_bb33">
+<Markdown><![CDATA[
+**3. How are you feeling about integrating disciplinary insights at this point?**
+]]></Markdown>
+  <Distractor value="It makes sense to me">It makes sense to me</Distractor>
+  <Distractor value="I’m getting there">I’m getting there</Distractor>
+  <Distractor value="I’m still a little unsure">I’m still a little unsure</Distractor>
+</ChoiceInput>
+</Vertical>
+
+<Vertical id="hs2_final" title="At the Shore: film and poem">
+<Markdown><![CDATA[
+## *At the Shore*
+
+Our finalized film, with the poem.
+]]></Markdown>
+<Image id="hs2_final_img" src="images/film_revised.jpg" alt="Stills from the revised film At the Shore" popout="fullscreen" />
+<Markdown><![CDATA[
+Some ships rest behind stronger walls,\
+where help arrives before the storm.
+
+As waters rise and shorelines break,\
+the need for shelter grows.
+
+Long seasons of wind and uncertainty\
+wear more than wood and steel.
+
+When strength begins to falter,\
+support can steady what remains.
+
+No single wave breaks the vessel.\
+The damage gathers slowly,\
+storm by storm,\
+season by season.
+]]></Markdown>
+</Vertical>
+
+</Vertical>
